@@ -1,0 +1,94 @@
+1. Pregunta 1: Define brevemente los siguientes conceptos en el contexto de la programación orientada a objetos:
+   
+   a. Clase
+
+        Es una plantilla que se definira con unas caracteristicas o cualidades , es decir un molde de da paso a la creacion de objetos de la misma forma, pero con 
+        datos internos diferentes
+
+   b. Objeto
+
+        Es la instancia de una clase , es decir es lo que sale del molde de la clase y posee metodos y caracteristicas de la misma 
+
+   c. Herencia
+
+        Es la caracteristica que se define por la habilidad e heredar las cualidades de una clase padre a si clase hija de manera que la clase hija tendra las 
+        caracteristicas de la clase padre y las suyas mismas.
+
+   d. Polimorfismo
+
+        Es la capacidad para que con un mismo nombre se puedan realizar acciones diferentes, como por ejemplo crear dos construcctores con el mismo nombre que uno no recibe 
+        ningun dato, pero el segundo recibe dso variables.
+
+   e. Encapsulamiento
+
+        Es la manera de mantener el codigo seguro , ocultando y manteniendo las variables y metodos privados de manera que solo puedan ser utilizados por los que sean 
+        autorizados. 
+
+
+2. Pregunta 2: Escribe un ejemplo de una clase en Java que represente un "Coche" con al menos tres atributos y dos métodos.
+
+    public class coche{
+
+        private integer cilindrada;
+        private integer ruedas;
+        private boolean electrico;
+
+        public getcilindrada(){
+            return this.cilindrada;
+        } 
+
+        public setcilindrada(integer cilindrada){
+            this.cilindrada = cilindrada;
+        } 
+
+        public void esElectrico(){
+
+            System.out.println(this.electrico);
+
+        }
+
+
+
+    }
+
+
+
+Parte 2: Patrón Modelo-Vista-Controlador (MVC) (20 minutos)
+
+3. Pregunta 3:Explica en tus propias palabras qué es el patrón MVC y por qué es importante en el desarrollo de aplicaciones.
+
+
+
+4. Pregunta 4: Enumera y describe brevemente las responsabilidades de cada una de las partes del patrón MVC: Modelo, Vista y Controlador.
+
+
+
+5. Pregunta 5: Proporciona un ejemplo de una situación en la que sería beneficioso utilizar el patrón MVC en el desarrollo de una aplicación.
+
+
+
+
+Parte 3: Programación Asíncrona (20 minutos)
+
+6. Pregunta 6: Explica qué significa programación asíncrona y por qué es útil en el desarrollo de aplicaciones web.
+
+    
+
+
+7. Pregunta 7: En JavaScript, ¿qué es una promesa (Promise)? ¿Cuál es su propósito principal y cómo se utiliza?
+
+    
+
+
+8. Pregunta 8: Escribe un código JavaScript que demuestre cómo realizar una solicitud AJAX utilizando el método `fetch()` para obtener datos de una API externa y mostrarlos en una página web.
+
+
+
+Pregunta 9: Imagina que estás desarrollando una aplicación de lista de tareas pendientes. Debes escribir un algoritmo en Java o JavaScript que permita al usuario agregar nuevas tareas a la lista y marcar las tareas como completadas. El algoritmo debe incluir lo siguiente:
+
+a. Una estructura de datos para almacenar la lista de tareas. 
+b. Funciones para agregar una nueva tarea a la lista. 
+c. Funciones para marcar una tarea como completada. 
+d. Un ejemplo de cómo se utilizaría este algoritmo en un programa principal.
+
+Puedes elegir implementar este algoritmo en Java o JavaScript, pero asegúrate de que esté claro y bien comentado.
