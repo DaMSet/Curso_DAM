@@ -8,12 +8,12 @@ public class Persona {
 	private Pais pais;
 	private Zona zona;
 	private String nombre;
-	private Integer minusvalia; 
-	//Este puede ser de distintas formas de comprovar el tipo de minusvalia ,comuun enum o numerica 
+	private Boolean minusvalia; 
+	//Este puede ser de distintas formas de comprovar el tipo de minusvalia ,como enum o numerica o boolean
 	//Lo hago numerica para hecerlo diferente de mi compañero
 	private Date fecha;
 	
-	public Persona(String DNI,Pais pais,Zona zona,String nombre, Integer minusvalia, Date fecha) {
+	public Persona(String DNI,Pais pais,Zona zona,String nombre, Boolean minusvalia, Date fecha) {
 		
 		this.DNI = DNI;
 		this.pais = pais;
@@ -65,12 +65,12 @@ public class Persona {
 	}
 
 
-	public Integer getMinusvalia() {
+	public Boolean getMinusvalia() {
 		return minusvalia;
 	}
 
 
-	public void setMinusvalia(Integer minusvalia) {
+	public void setMinusvalia(Boolean minusvalia) {
 		this.minusvalia = minusvalia;
 	}
 
