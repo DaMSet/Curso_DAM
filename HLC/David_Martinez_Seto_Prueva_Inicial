@@ -33,6 +33,14 @@
         private integer ruedas;
         private boolean electrico;
 
+        coche(integer cilindrada,integer ruedas,boolean electrico){
+
+            this.cilindrada = cilindrada;
+            this.ruedas = ruedas;
+            this.electrico = electrico;
+
+        }
+
         public getcilindrada(){
             return this.cilindrada;
         } 
@@ -66,7 +74,11 @@ Parte 2: Patrón Modelo-Vista-Controlador (MVC) (20 minutos)
 
 4. Pregunta 4: Enumera y describe brevemente las responsabilidades de cada una de las partes del patrón MVC: Modelo, Vista y Controlador.
 
+    Modelo; Se encarga del codigo , de la logica de nuestra aplicacion y es el que nos permite modificar la informacion y acceder a esta misma.
 
+    Vista; es el encargado del apartado visual , lo que se le muestra al usuario
+
+    Controlador; Esel encargado de enlazar el modelo con la vista
 
 5. Pregunta 5: Proporciona un ejemplo de una situación en la que sería beneficioso utilizar el patrón MVC en el desarrollo de una aplicación.
 
@@ -77,12 +89,14 @@ Parte 3: Programación Asíncrona (20 minutos)
 
 6. Pregunta 6: Explica qué significa programación asíncrona y por qué es útil en el desarrollo de aplicaciones web.
 
-    
+    La programacion asincrona es aquella que se realiza , sin la necesidad de esperar a que termine un proceso anterior , es decir que no depende de que se acabe el 
+    proceso anterior para poder hacer este mismo , lo cual le permite realizar cambios mientras ocurren otros , en resumidas cuentas , es la posibilidad para hacer varias
+    operaciones en un mismo momento.
 
 
 7. Pregunta 7: En JavaScript, ¿qué es una promesa (Promise)? ¿Cuál es su propósito principal y cómo se utiliza?
 
-
+    Es un tipo de implementacion de la asincronia , mediante la creacion de una nueva clase promesa, 
 
 
 8. Pregunta 8: Escribe un código JavaScript que demuestre cómo realizar una solicitud AJAX utilizando el método `fetch()` para obtener datos de una API externa y mostrarlos en una página web.
@@ -97,3 +111,7 @@ c. Funciones para marcar una tarea como completada.
 d. Un ejemplo de cómo se utilizaría este algoritmo en un programa principal.
 
 Puedes elegir implementar este algoritmo en Java o JavaScript, pero asegúrate de que esté claro y bien comentado.
+
+
+
+
