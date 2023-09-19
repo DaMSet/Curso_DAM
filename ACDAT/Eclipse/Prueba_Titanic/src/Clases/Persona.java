@@ -5,20 +5,22 @@ import java.util.Date;
 public class Persona {
 
 	private	String DNI;
-	private String pais;
+	private Pais pais;
 	private Zona zona;
 	private String nombre;
-	private Integer Minusvalia; 
+	private Integer minusvalia; 
 	//Este puede ser de distintas formas de comprovar el tipo de minusvalia ,comuun enum o numerica 
 	//Lo hago numerica para hecerlo diferente de mi compañero
 	private Date fecha;
 	
-	public Persona(String DNI,String pais,Zona zona) {
+	public Persona(String DNI,Pais pais,Zona zona,String nombre, Integer minusvalia, Date fecha) {
 		
 		this.DNI = DNI;
 		this.pais = pais;
 		this.zona = zona;
-		
+		this.nombre = nombre;
+		this.minusvalia = minusvalia;
+		this.fecha = fecha;		
 		
 	}
 
@@ -33,12 +35,12 @@ public class Persona {
 	}
 
 
-	public String getPais() {
+	public Pais getPais() {
 		return pais;
 	}
 
 
-	public void setPais(String pais) {
+	public void setPais(Pais pais) {
 		this.pais = pais;
 	}
 
@@ -50,6 +52,36 @@ public class Persona {
 
 	public void setZona(Zona zona) {
 		this.zona = zona;
+	}
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+	public Integer getMinusvalia() {
+		return minusvalia;
+	}
+
+
+	public void setMinusvalia(Integer minusvalia) {
+		this.minusvalia = minusvalia;
+	}
+
+
+	public Date getFecha() {
+		return fecha;
+	}
+
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
 	}
 	
 	
