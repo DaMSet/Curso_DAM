@@ -23,6 +23,9 @@
 
         Es la manera de mantener el codigo seguro , ocultando y manteniendo las variables y metodos privados de manera que solo puedan ser utilizados por los que sean 
         autorizados. 
+         Tiene la cualidad de logran que 
+
+
 
 
 2. Pregunta 2: Escribe un ejemplo de una clase en Java que represente un "Coche" con al menos tres atributos y dos métodos.
@@ -70,7 +73,8 @@ Parte 2: Patrón Modelo-Vista-Controlador (MVC) (20 minutos)
 
 3. Pregunta 3:Explica en tus propias palabras qué es el patrón MVC y por qué es importante en el desarrollo de aplicaciones.
 
-
+     Es un tipo d metodologia en la que se divide una aplicacion en partesw especificas para organizarse y que se tenga un codigo mas ordenado y comprensible , ademas de 
+     mejorar el enccapsulamiento funcionando todas las partes sin necesidad de saber como funcinan las anteriores.
 
 4. Pregunta 4: Enumera y describe brevemente las responsabilidades de cada una de las partes del patrón MVC: Modelo, Vista y Controlador.
 
@@ -114,4 +118,54 @@ Puedes elegir implementar este algoritmo en Java o JavaScript, pero asegúrate d
 
 
 
+public class Tarea(){
+    private String tarea;
+    private boolean completa = false;
 
+    public Tarea(){
+        this.tarea = tarea;
+    }
+
+    public getTarea(){
+        return tarea;
+    }
+
+    public getcompleta(){
+        return completa;
+    };
+
+    public setTarea(String tarea){
+        this.tarea = tarea;
+    }
+
+    public setcompleta(){
+        this.completa = true;
+    };
+}
+
+
+public class modelo(){
+
+    private ArrayList<Tarea> listaDeTareas;
+
+    public getListaTareas(){
+        return listaDeTareas;
+    }
+
+    public setTarea(String tarea){
+        listaDeTareas.add(new Tarea(tarea));
+    }
+
+}
+
+public class vista(){
+
+
+}
+
+
+public class controlador(){
+
+
+
+}
