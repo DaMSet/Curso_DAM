@@ -1,0 +1,13 @@
+diferencia entre compilar y interpretar
+compilar : 
+interpretar :
+
+que es un framework?
+-Es conjunto grande de librerias
+
+-la filosofia de los frameworks era la mejora y la facilidad del codigo
+pero ahora buscan convertir la programacion web como si fuera la 
+programacion nativa.
+
+
+
