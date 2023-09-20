@@ -1,0 +1,16 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\bin\Debug\net6.0-windows\Calculadora.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\bin\Debug\net6.0-windows\Calculadora.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\bin\Debug\net6.0-windows\Calculadora.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\bin\Debug\net6.0-windows\Calculadora.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\bin\Debug\net6.0-windows\Calculadora.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.Form1.resources
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\refint\Calculadora.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\Calculadora.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\WinFormsApp1\Calculadora\obj\Debug\net6.0-windows\ref\Calculadora.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ejemplo2_Formulario/1.0.0": {
+        "runtime": {
+          "Ejemplo2_Formulario.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejemplo2_Formulario/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
