@@ -232,3 +232,5 @@ public class Controlador(){
 }
 
 
+para utilizar este programa utilizaremos en nuestro main la clase controlador y esta hara de puente entre 
+el modelo y la vista , sin la necesidar de saber como esta echo las otras dos.
