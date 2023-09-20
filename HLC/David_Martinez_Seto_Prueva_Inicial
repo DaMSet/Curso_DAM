@@ -116,7 +116,7 @@ d. Un ejemplo de cómo se utilizaría este algoritmo en un programa principal.
 
 Puedes elegir implementar este algoritmo en Java o JavaScript, pero asegúrate de que esté claro y bien comentado.
 
-
+//Clase tarea por defecto sin estar completa la tarea hasta que se cambie
 
 public class Tarea(){
     private String tarea;
@@ -144,7 +144,7 @@ public class Tarea(){
 }
 
 
-public class modelo(){
+public class Modelo(){
 
     private ArrayList<Tarea> listaDeTareas;
 
@@ -156,16 +156,79 @@ public class modelo(){
         listaDeTareas.add(new Tarea(tarea));
     }
 
-}
-
-public class vista(){
 
 
 }
 
+public class Vista(){
 
-public class controlador(){
+    public mostrarTarea(String Nombre_tarea){
+
+        System.out.println(Nombre_tarea);
+
+    }
+
+    public esCompleta(boolean completo){
+
+        if(completo){
+            System.out.println("se completo la tarea");
+        }
+        else{
+            System.out.println("no se completo la tarea");
+        }
+
+    }
+
+}
+
+
+public class Controlador(){
+
+    Modelo modelo = new Modelo();
+    Vista vista = new vista();
+
+    private ArrayList<Tarea> listaDeTareas = modelo.getListaTareas();
+
+    public Controlador(){
+
+        
+    }
+
+
+    public mostrarTareas(){
+
+        for(int i = 0; i < listaDeTareas.size();i++){
+
+            vista.mostrarTarea(listaDeTareas.get(i).getTarea());
+
+            vista.esCompleta(listaDeTareas.get(i).getcompleta());
+
+        }
+
+    }
+
+
+    public añadirTarea(String tarea){
+
+        modelo.setTarea(tarea);
+        listaDeTareas = modelo.getListaTareas();
+
+    }
+
+    public terminarTarea(String tarea){
+
+        for(int i = 0; i < listaDeTareas.size(); i++){
+
+        if(tarea == listaDeTareas.get(i).getTarea())
+
+            listaDeTareas.get(i).setcompleta();
+
+        }
+
+    }
 
 
 
 }
+
+
