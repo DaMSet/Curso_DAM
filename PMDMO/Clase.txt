@@ -36,4 +36,11 @@ ng --help
 ng new Proyecto1
 
 
+ng serve
+
+hay que poner la politica unextricted
+
+en el power shel ponemos esto, Set-ExecutionPolicy Unrestricted
+
+
 
