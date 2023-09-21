@@ -14,6 +14,16 @@ public class Pasajero extends Persona{
 		
 	}
 
+	public int getNumeroHabitacion() {
+		return numeroHabitacion;
+	}
+
+	public void setNumeroHabitacion(int numeroHabitacion) {
+		this.numeroHabitacion = numeroHabitacion;
+	}
+
+	
+	
 	
 	
 	

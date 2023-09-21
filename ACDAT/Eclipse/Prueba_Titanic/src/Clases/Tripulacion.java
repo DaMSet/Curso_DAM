@@ -12,6 +12,15 @@ public class Tripulacion extends Persona{
 		this.responsabilidad = responsabilidad;
 		
 	}
+
+	public Responsabilidad getResponsabilidad() {
+		return responsabilidad;
+	}
+
+	public void setResponsabilidad(Responsabilidad responsabilidad) {
+		this.responsabilidad = responsabilidad;
+	}
+	
 	
 	
 
