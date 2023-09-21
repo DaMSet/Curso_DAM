@@ -37,7 +37,7 @@ public enum Zona {
 		
 		
         // Generar un número aleatorio entre los tres números
-        int numeroAleatorio = random.nextInt(3); // Genera un número entre 0 (inclusive) y 3 (exclusivo)
+        int numeroAleatorio = random.nextInt(lista.size()); // Genera un número entre 0 (inclusive) y 3 (exclusivo)
 
         // Sumar el número aleatorio al primer número para obtener un número entre los tres
         int resultado =lista.get(numeroAleatorio);
