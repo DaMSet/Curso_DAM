@@ -11,3 +11,29 @@ programacion nativa.
 
 
 
+----------
+
+
+se utiliza http para la union entre el front y el backend 
+por medio de una API
+
+front : javascrit ,
+
+back : js ,  java, pyton , php
+
+
+ANGULAR en typescript
+
+usa un traductor para usarse en front
+
+
+Descargar node js.
+
+npm install -g @angular/cli
+
+ng --help
+
+ng new Proyecto1
+
+
+
