@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\bin\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\bin\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\bin\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\bin\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\bin\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\refint\EjercicioDeC#2_Media_4Numeros.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\EjercicioDeC#2_Media_4Numeros.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioDeC#2_Media_4Numeros\obj\Debug\net6.0\ref\EjercicioDeC#2_Media_4Numeros.dll

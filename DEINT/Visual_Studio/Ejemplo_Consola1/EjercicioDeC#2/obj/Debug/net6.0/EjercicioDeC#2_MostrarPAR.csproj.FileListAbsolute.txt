@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\bin\Debug\net6.0\EjercicioDeC#2_MostrarPAR.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\bin\Debug\net6.0\EjercicioDeC#2_MostrarPAR.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\bin\Debug\net6.0\EjercicioDeC#2_MostrarPAR.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\bin\Debug\net6.0\EjercicioDeC#2_MostrarPAR.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\bin\Debug\net6.0\EjercicioDeC#2_MostrarPAR.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\EjercicioDeC#2_MostrarPAR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\EjercicioDeC#2_MostrarPAR.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\EjercicioDeC#2_MostrarPAR.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\EjercicioDeC#2_MostrarPAR.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\EjercicioDeC#2_MostrarPAR.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\refint\EjercicioDeC#2_MostrarPAR.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\EjercicioDeC#2_MostrarPAR.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\EjercicioDeC#2_MostrarPAR.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2\obj\Debug\net6.0\ref\EjercicioDeC#2_MostrarPAR.dll

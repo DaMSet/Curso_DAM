@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\bin\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\bin\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\bin\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\bin\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\bin\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\refint\EjercicioDeC#2_Entradapantalla_Dato.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\EjercicioDeC#2_Entradapantalla_Dato.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\EjercicioDeC#2_Entradapantalla_Dato\obj\Debug\net6.0\ref\EjercicioDeC#2_Entradapantalla_Dato.dll
