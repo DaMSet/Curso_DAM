@@ -14,78 +14,122 @@ namespace Ejercicio2DeC__Monedas
              programa debe de solicitar por teclado la cantidad introducida.
              */
 
-            bool salir = false;
+            
 
-            List<double> monedas = new List<double>();
+            int monedas2 = 0;
+            int monedas1 = 0;
+            int monedas50 = 0;
+            int monedas20 = 0;
+            int monedas10 = 0;
+            int monedas5 = 0;
+
+
 
             double aDevolver = 0;
 
             const double PRECIO = 0.45;
 
-            while (salir)
-            {
+            Console.WriteLine("Por favor, ingresa una moneda o billete:");
 
-                Console.WriteLine("Por favor, ingresa una moneda o billete:");
-                
-                string texto = Console.ReadLine();
+            string texto = Console.ReadLine();
 
-                aDevolver = Convert.ToDouble(texto);
+            aDevolver = Convert.ToDouble(texto);
 
-                aDevolver -= PRECIO;
-            
-            
+            aDevolver -= PRECIO;
 
-                if (aDevolver % 2 != 0 && aDevolver % 2 > 0 || aDevolver % 2 == 0) {
+
+
+                while (aDevolver % 2 != 0 && aDevolver % 2 > 0 || aDevolver % 2 == 0)
+                {
+
+                    if (aDevolver % 2 != 0 && aDevolver % 2 > 0 || aDevolver % 2 == 0) {
 
                     aDevolver -= 2;
 
-                    monedas.Add(2);
-                }
-                
+                    monedas2++;
 
-                else if (aDevolver -1 >0 ||  aDevolver - 1 == 0)
+                }
+
+                while (aDevolver - 1 > 0 || aDevolver - 1 == 0)
                 {
+                    if (aDevolver - 1 > 0 || aDevolver - 1 == 0)
+                    {
 
-                    aDevolver -= 1;
+                        aDevolver -= 1;
 
-                    monedas.Add(1);
+                        monedas1++;
+                    }
                 }
-                else if (aDevolver - 0.50 > 0 || aDevolver - 0.50 == 0)
+
+                while (aDevolver - 0.50 > 0 || aDevolver - 0.50 == 0)
                 {
+                    if (aDevolver - 0.50 > 0 || aDevolver - 0.50 == 0)
+                    {
 
-                    aDevolver -= 0.50;
+                        aDevolver -= 0.50;
 
-                    monedas.Add(0.50);
+                        monedas50++;
+                    }
                 }
-                else if (aDevolver - 0.20 > 0 || aDevolver - 0.20 == 0)
+
+                while (aDevolver - 0.50 > 0 || aDevolver - 0.50 == 0)
                 {
+                    if (aDevolver - 0.50 > 0 || aDevolver - 0.50 == 0)
+                    {
 
-                    aDevolver -= 0.20;
+                        aDevolver -= 0.50;
 
-                    monedas.Add(0.20);
+                        monedas50++;
+                    }
                 }
-                else if (aDevolver - 0.10 > 0 || aDevolver - 0.10 == 0)
+
+                while (aDevolver - 0.20 > 0 || aDevolver - 0.20 == 0)
                 {
+                    if (aDevolver - 0.20 > 0 || aDevolver - 0.20 == 0)
+                    {
 
-                    aDevolver -= 0.10;
+                        aDevolver -= 0.20;
 
-                    monedas.Add(0.10);
+                        monedas20++;
+                    }
                 }
-                else if (aDevolver - 0.05 > 0 || aDevolver - 0.05 == 0)
+
+                while (aDevolver - 0.10 > 0 || aDevolver - 0.10 == 0)
                 {
+                    if (aDevolver - 0.10 > 0 || aDevolver - 0.10 == 0)
+                    {
 
-                    aDevolver -= 0.05;
+                        aDevolver -= 0.10;
 
-                    monedas.Add(0.05);
+                        monedas10++;
+                    }
                 }
 
 
+                while (aDevolver - 0.05 > 0 || aDevolver - 0.05 == 0)
+                {
+                    if (aDevolver - 0.05 > 0 || aDevolver - 0.05 == 0)
+                    {
 
-               
+                        aDevolver -= 0.05;
+
+                        monedas5++;
+                    }
+                }
+
+
+                Console.WriteLine("Monedas de 2 $: "+monedas2);
+
+                Console.WriteLine("Monedas de 1 &: " + monedas2);
+
+                Console.WriteLine("Monedas de 50 ctm: " + monedas2);
+
+                Console.WriteLine("Monedas de 20 ctm: " + monedas2);
+
+                Console.WriteLine("Monedas de 10 ctm: " + monedas2);
+
+                Console.WriteLine("Monedas de 5 ctm: " + monedas2);
 
             }
-
-
-        }
     }
 }

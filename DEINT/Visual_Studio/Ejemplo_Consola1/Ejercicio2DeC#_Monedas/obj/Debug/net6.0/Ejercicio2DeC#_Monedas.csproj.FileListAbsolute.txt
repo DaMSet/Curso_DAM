@@ -1,0 +1,4 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.csproj.CoreCompileInputs.cache
