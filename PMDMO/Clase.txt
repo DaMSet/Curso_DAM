@@ -27,6 +27,8 @@ ANGULAR en typescript
 usa un traductor para usarse en front
 
 
+PASOS PARA PONER ANGULAR
+
 Descargar node js.
 
 npm install -g @angular/cli
@@ -41,6 +43,97 @@ ng serve
 hay que poner la politica unextricted
 
 en el power shel ponemos esto, Set-ExecutionPolicy Unrestricted
+
+
+----------------------
+
+TYPESCRIPT  + ANGULAR
+
+SPA - Basado en componentes
+
+
+
+Clases
+ instancio
+	Objetos
+
+componente es una clase que lleva asociado una parte visual, va asociado a la vista y el controlador
+
+las paginas con angular se van a vercomo si solo fueran una pagina web
+
+
+puede haber clases sin necesidad de ser un componente
+
+Un componente se escribe 
+
+Class JokeComponent{
+
+}
+
+la vista son archivos html y css.
+
+El codigo sera en Typescrypt .ts 
+
+
+--DECORADOR , elemento automatizado que da angular para dar funcion y personaliza el uso del componente
+     |
+     V	
+@Component({
+
+	selector: 'joke' //Es el nombre Extraoficial del componente
+	
+})
+class JokeComponent{
+
+}
+
+
+La parte superior los que te permite es crear etiquetas que el navegador podra leer y tendra las caracteristicas que le pongamos.
+
+
+
+
+--IMPORTS
+antes de usar un componente tendremos que añadirlo asi:
+
+import { Component } from '@angular/core';
+
+--TEMPLATE
+Es donde se pondra su aspecto visual 
+
+-
+<body>
+<joke></joke>
+</body>
+-
+
+@Component({
+selector: 'joke',
+
+template: '<h1>What did the cheese say when it looked in the mirror?</h1><p>Halloumi
+
+(hello me)</p>'
+
+})
+
+
+
+
+
+--ESTYLE
+Es donde se pondra todo el CSS
+
+
+
+CON EL COMANDO : ng generate component NOMBRECOMPONENTE 
+
+crearemos componentes directamente 
+
+
+
+
+
+
 
 
 
