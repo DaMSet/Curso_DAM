@@ -16,46 +16,59 @@ namespace Ejercicio2DeC__Monedas
 
             
 
-            int monedas2 = 0;
-            int monedas1 = 0;
-            int monedas50 = 0;
-            int monedas20 = 0;
-            int monedas10 = 0;
-            int monedas5 = 0;
-
+           
 
 
             double aDevolver = 0;
 
             const double PRECIO = 0.45;
 
-            Console.WriteLine("Por favor, ingresa una moneda o billete:");
+            Boolean salir = true;
 
-            string texto = Console.ReadLine();
+            
 
-            aDevolver = Convert.ToDouble(texto);
+            while (salir) 
+            {
 
-            aDevolver -= PRECIO;
+                int monedas2 = 0;
+                int monedas1 = 0;
+                int monedas50 = 0;
+                int monedas20 = 0;
+                int monedas10 = 0;
+                int monedas5 = 0;
+
+
+                Console.WriteLine("Por favor, ingresa una moneda o billete:");
+
+                string texto = Console.ReadLine();
+
+                aDevolver = Convert.ToDouble(texto);
+
+                aDevolver -= PRECIO;
+
+                Console.WriteLine(aDevolver);
 
 
 
-                while (aDevolver % 2 != 0 && aDevolver % 2 > 0 || aDevolver % 2 == 0)
+                while (aDevolver - 2 > 0 || aDevolver - 2 == 0)
                 {
 
-                    if (aDevolver % 2 != 0 && aDevolver % 2 > 0 || aDevolver % 2 == 0) {
+                    if (aDevolver - 2 > 0 || aDevolver - 2 == 0)
+                    {
 
-                    aDevolver -= 2;
+                        aDevolver -= 2.0;
 
-                    monedas2++;
+                        monedas2++;
 
+                    }
                 }
-
+                
                 while (aDevolver - 1 > 0 || aDevolver - 1 == 0)
                 {
                     if (aDevolver - 1 > 0 || aDevolver - 1 == 0)
                     {
 
-                        aDevolver -= 1;
+                        aDevolver -= 1.0;
 
                         monedas1++;
                     }
@@ -118,18 +131,26 @@ namespace Ejercicio2DeC__Monedas
                 }
 
 
-                Console.WriteLine("Monedas de 2 $: "+monedas2);
+                    Console.WriteLine("Monedas de 2 $: " + monedas2.ToString());
 
-                Console.WriteLine("Monedas de 1 &: " + monedas2);
+                    Console.WriteLine("Monedas de 1 $: " + monedas1.ToString());
 
-                Console.WriteLine("Monedas de 50 ctm: " + monedas2);
+                    Console.WriteLine("Monedas de 50 ctm: " + monedas50.ToString());
 
-                Console.WriteLine("Monedas de 20 ctm: " + monedas2);
+                    Console.WriteLine("Monedas de 20 ctm: " + monedas20.ToString());
 
-                Console.WriteLine("Monedas de 10 ctm: " + monedas2);
+                    Console.WriteLine("Monedas de 10 ctm: " + monedas10.ToString());
 
-                Console.WriteLine("Monedas de 5 ctm: " + monedas2);
+                    Console.WriteLine("Monedas de 5 ctm: " + monedas5.ToString());
 
-            }
+
+                Console.WriteLine("¿Quieres seguir? Y/N");
+
+                string salida = Console.ReadLine();
+
+                if (salida == "N" || salida == "n") salir = false;
+
+
+            }   }  
     }
 }

@@ -2,3 +2,13 @@ C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejerci
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.AssemblyInfoInputs.cache
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.AssemblyInfo.cs
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\bin\Debug\net6.0\Ejercicio2DeC#_Monedas.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\bin\Debug\net6.0\Ejercicio2DeC#_Monedas.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\bin\Debug\net6.0\Ejercicio2DeC#_Monedas.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\bin\Debug\net6.0\Ejercicio2DeC#_Monedas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\bin\Debug\net6.0\Ejercicio2DeC#_Monedas.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\refint\Ejercicio2DeC#_Monedas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\Ejercicio2DeC#_Monedas.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ejemplo_Consola1\Ejercicio2DeC#_Monedas\obj\Debug\net6.0\ref\Ejercicio2DeC#_Monedas.dll
