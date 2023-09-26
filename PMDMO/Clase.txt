@@ -38,7 +38,7 @@ ng --help
 ng new Proyecto1
 
 
-ng serve
+ng serve -o 
 
 hay que poner la politica unextricted
 
@@ -125,14 +125,67 @@ Es donde se pondra todo el CSS
 
 
 
-CON EL COMANDO : ng generate component NOMBRECOMPONENTE 
+CON EL COMANDO : 
+
+ng generate component NOMBRECOMPONENTE 
+ng g c hijo2    
+
 
 crearemos componentes directamente 
 
 
 
+--MODULOS EN ANGULAR
+
+que es un modulo , es una caja donde voy a meter componentes, parecido a una libreria
+es un conjunto de componentes
+
+se ve de esta manera:
+
+@NgModule({
+  imports: [BrowserModule],      //
+  declarations: [JokeComponent], //Es donde estan todos los componentes
+  bootstrap: [JokeComponent]     //Arranque inicial, componente raiz
+})
+export class AppModule {
+}
 
 
+-packaje.json : es el archivo donde  se guardan las librerias usadas en el proyecto
+
+----------------------------
+PASOS PARA PONER ANGULAR
+
+Descargar node js.
+
+npm install -g @angular/cli
+
+ng --help
+
+ng new Proyecto1
+
+
+ng serve -o 
+
+hay que poner la politica unextricted
+
+en el power shel ponemos esto, Set-ExecutionPolicy Unrestricted
+
+
+CON EL COMANDO : 
+
+ng generate component NOMBRECOMPONENTE 
+ng g c hijo2    
+
+
+crearemos componentes directamente 
+
+
+cada vez que habramos un proyecto de nuevo deberemos ejecutar ng serve
+
+usaremos -npm install : para instalar las librerias necesarias del proyecto
+
+----------------------------
 
 
 
