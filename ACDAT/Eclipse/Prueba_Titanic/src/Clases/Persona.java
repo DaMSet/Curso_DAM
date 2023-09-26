@@ -1,8 +1,9 @@
 package Clases;
 
+import java.time.LocalDate;
 import java.util.Date;
 
-public class Persona {
+public class Persona implements Comparable<Persona>{
 
 	private	String DNI;
 	private Pais pais;
@@ -11,9 +12,9 @@ public class Persona {
 	private Boolean minusvalia; 
 	//Este puede ser de distintas formas de comprovar el tipo de minusvalia ,como enum o numerica o boolean
 	//Lo hago numerica para hecerlo diferente de mi compañero
-	private Date fecha;
+	private LocalDate fecha;
 	
-	public Persona(String DNI,Pais pais,Zona zona,String nombre, Boolean minusvalia, Date fecha) {
+	public Persona(String DNI,Pais pais,Zona zona,String nombre, Boolean minusvalia, LocalDate fecha) {
 		
 		this.DNI = DNI;
 		this.pais = pais;
@@ -75,16 +76,43 @@ public class Persona {
 	}
 
 
-	public Date getFecha() {
+	public LocalDate getFecha() {
 		return fecha;
 	}
 
 
-	public void setFecha(Date fecha) {
+	public void setFecha(LocalDate fecha) {
 		this.fecha = fecha;
 	}
+
+
+	
+	@Override
+	public int compareTo(Persona persona2) {
+		
+	
+			// Comparar primero por país
+	        int comparacionPorPais = this.pais.compareTo(persona2.pais);
+	        
+	        if (comparacionPorPais != 0) {
+	        	return comparacionPorPais;
+	        } else {
+	            // Si el país es el mismo, compara por nombre dentro del mismo país
+	            return this.nombre.compareTo(persona2.nombre);
+	        }
+	        
+	        
+			
+		}
+	
+		
+		
+	
+	}
+	
+
 	
 	
 	
 	
-}
+
