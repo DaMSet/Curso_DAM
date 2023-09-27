@@ -188,5 +188,11 @@ usaremos -npm install : para instalar las librerias necesarias del proyecto
 ----------------------------
 
 
+si se escribe codigo entre {{ -- }} este se ejecutara en el html con angular
+
+los eventos se colocan con () = "MetodoEntre comillas()" por ejemplo: <a class="btn btn-warning" (click)="joke.toggle()">Tell Me</a>
+
+
+
 
 
