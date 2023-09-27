@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\bin\Debug\net6.0\Punto_De_Silla.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\bin\Debug\net6.0\Punto_De_Silla.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\bin\Debug\net6.0\Punto_De_Silla.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\bin\Debug\net6.0\Punto_De_Silla.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\bin\Debug\net6.0\Punto_De_Silla.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\Punto_De_Silla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\Punto_De_Silla.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\Punto_De_Silla.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\Punto_De_Silla.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\Punto_De_Silla.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\refint\Punto_De_Silla.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\Punto_De_Silla.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\Punto_De_Silla.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Punto_De_Silla\Punto_De_Silla\obj\Debug\net6.0\ref\Punto_De_Silla.dll

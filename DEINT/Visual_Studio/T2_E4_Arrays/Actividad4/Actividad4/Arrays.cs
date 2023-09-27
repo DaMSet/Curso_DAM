@@ -109,12 +109,12 @@ namespace Actividad4
             int maxFrecuencia = 0;
 
             // Encontrar el elemento con la frecuencia máxima
-            foreach (var kvp in frecuencias)
+            foreach (var numero in frecuencias)
             {
-                if (kvp.Value > maxFrecuencia)
+                if (numero.Value > maxFrecuencia)
                 {
-                    moda = kvp.Key;
-                    maxFrecuencia = kvp.Value;
+                    moda = numero.Key;
+                    maxFrecuencia = numero.Value;
                 }
             }
 
