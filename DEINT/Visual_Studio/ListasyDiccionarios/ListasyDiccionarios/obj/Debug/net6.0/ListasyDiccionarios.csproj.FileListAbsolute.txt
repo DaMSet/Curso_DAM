@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\bin\Debug\net6.0\ListasyDiccionarios.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\bin\Debug\net6.0\ListasyDiccionarios.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\bin\Debug\net6.0\ListasyDiccionarios.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\bin\Debug\net6.0\ListasyDiccionarios.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\bin\Debug\net6.0\ListasyDiccionarios.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\ListasyDiccionarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\ListasyDiccionarios.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\ListasyDiccionarios.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\ListasyDiccionarios.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\ListasyDiccionarios.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\refint\ListasyDiccionarios.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\ListasyDiccionarios.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\ListasyDiccionarios.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\ListasyDiccionarios\ListasyDiccionarios\obj\Debug\net6.0\ref\ListasyDiccionarios.dll
