@@ -194,5 +194,31 @@ los eventos se colocan con () = "MetodoEntre comillas()" por ejemplo: <a class="
 
 
 
+-------------
+
+
+{{}} = string interp
+[] = input, pasar del padre al hijo
+() = output , pasar del hijo al padre 
+
+
+Componente.Padre
+----
+<p[id] = "var " >
+   <hijo [propiedad] = "valor">
+   <hijo ("click") = "accion">
+
+-direcctivas, introduccen un poco de algoritmo a nuestro codigo, son dinamicas , si la expresion cambia los datos y lo que se muestra cambia
+  <div *ngfor = ""> - para mostrar varias etiquetas en bucle
+  <div *ngif = ""> - para mostrar si se cumple la condicion
+
+g
+----
+
+componente.hijo
+
+Input propiedad
+
+output 
 
 

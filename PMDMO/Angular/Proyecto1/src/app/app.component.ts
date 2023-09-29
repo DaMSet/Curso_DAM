@@ -12,7 +12,22 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title:String = 'Titulo';
 
+  array:any[];
 
+  mostrarParrafo: boolean = true;
+
+  constructor(){
+
+    this.array = [
+
+      {nombre: "pepe"},
+      {nombre: "paco"},
+      {nombre: "pepa"},
+      {nombre: "manolo"}
+
+    ];
+
+  }
 
 
   pulsaBoton(){
@@ -22,7 +37,7 @@ export class AppComponent {
 
 
   nuevaSuma(){
-    this.miParrafo.nativeElement.textContent = 'Nuevo contenido';
+    //this.miParrafo.nativeElement.textContent = 'Nuevo contenido';
   }
 
 }
