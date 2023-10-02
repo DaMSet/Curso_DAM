@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\bin\Debug\net6.0\PilasyColas.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\bin\Debug\net6.0\PilasyColas.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\bin\Debug\net6.0\PilasyColas.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\bin\Debug\net6.0\PilasyColas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\bin\Debug\net6.0\PilasyColas.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\PilasyColas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\PilasyColas.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\PilasyColas.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\PilasyColas.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\PilasyColas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\refint\PilasyColas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\PilasyColas.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\PilasyColas.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\PilasyColas\obj\Debug\net6.0\ref\PilasyColas.dll

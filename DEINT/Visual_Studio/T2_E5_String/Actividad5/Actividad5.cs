@@ -138,10 +138,23 @@ namespace Actividad5
         public static int contarPalabras(string entrada)
         {
             //TODO
+            int cantidad = 0;
+
+            foreach (char car in entrada) 
+            {
+
+                if (car == ' ')
+                {
+                    cantidad++;
+                }
+
+                
+            }
+
+            if (cantidad > 0) cantidad++;
 
 
-
-            throw new NotImplementedException();
+            return cantidad;
         }
 
         public static int contarCaracteres(string entrada)

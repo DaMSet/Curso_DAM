@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\bin\Debug\net6.0\Ejercicio1_PilasYColas.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\bin\Debug\net6.0\Ejercicio1_PilasYColas.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\bin\Debug\net6.0\Ejercicio1_PilasYColas.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\bin\Debug\net6.0\Ejercicio1_PilasYColas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\bin\Debug\net6.0\Ejercicio1_PilasYColas.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\Ejercicio1_PilasYColas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\Ejercicio1_PilasYColas.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\Ejercicio1_PilasYColas.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\Ejercicio1_PilasYColas.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\Ejercicio1_PilasYColas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\refint\Ejercicio1_PilasYColas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\Ejercicio1_PilasYColas.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\Ejercicio1_PilasYColas.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\PilasyColas\Ejercicio1_PilasYColas\obj\Debug\net6.0\ref\Ejercicio1_PilasYColas.dll
