@@ -42,11 +42,19 @@
                 } else if (caracteres[i].Equals(")") || caracteres[i].Equals("]") || caracteres[i].Equals("}")) 
                 {
 
-                    if (pila.Peek().Equals(caracteres[i]))
+                    if (caracteres[i].Equals(")"))
                     {
-                        pila.Pop();
+                        if (pila.Peek().Equals("(")) { pila.Pop(); } 
+                    } 
+                    else if (caracteres[i].Equals("]")) 
+                    {
+                        if (pila.Peek().Equals("[")) { pila.Pop(); }
                     }
-                    else 
+                    else if (caracteres[i].Equals("}"))
+                    {
+                        if (pila.Peek().Equals("{")) { pila.Pop(); }
+                    }
+                    else
                     {
                         correcto = false;
                     }

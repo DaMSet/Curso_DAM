@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">HolaMundo3</string>
     <string name="strSaludo">Hola y adios</string>
+    <string name="strBtnSaludar" />
+    <string name="botonSaludar">Saludar</string>
+    <string name="strBtnDespedir">adios</string>
 </resources>
