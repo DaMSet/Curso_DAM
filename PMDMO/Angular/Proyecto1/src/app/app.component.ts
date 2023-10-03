@@ -16,6 +16,8 @@ export class AppComponent {
 
   mostrarParrafo: boolean = true;
 
+  
+
   constructor(){
 
     this.array = [

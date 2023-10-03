@@ -9,7 +9,9 @@
 
 <ul>
 
-    <li *ngFor="let a of array"> {{a.nombre}}</li>
+    <li *ngFor="let a of array"> {{a.nombre}} <b *ngIf="a.nombre == 'paco'"> Se llama paco</b></li>
     <p *ngIf="mostrarParrafo">Este párrafo se mostrará si mostrarParrafo es verdadero.</p>
     
+    
+
 </ul>
