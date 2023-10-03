@@ -232,7 +232,7 @@ IMPUT  <p [propiedad] = "valor"> ...    ETIQUETA P / propiedad = "valor"
 OUTPUT <a (evento) = "accion"> ...    	ETIQUETA A / Evento JS
 
 
-
+--ng generate class
 
 
 

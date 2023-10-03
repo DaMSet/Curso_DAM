@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\bin\Debug\net6.0\Pruebas_Unitarias.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\bin\Debug\net6.0\Pruebas_Unitarias.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\bin\Debug\net6.0\Pruebas_Unitarias.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\bin\Debug\net6.0\Pruebas_Unitarias.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\bin\Debug\net6.0\Pruebas_Unitarias.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\Pruebas_Unitarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\Pruebas_Unitarias.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\Pruebas_Unitarias.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\Pruebas_Unitarias.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\Pruebas_Unitarias.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\refint\Pruebas_Unitarias.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\Pruebas_Unitarias.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\Pruebas_Unitarias.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Pruebas_Unitarias\Pruebas_Unitarias\obj\Debug\net6.0\ref\Pruebas_Unitarias.dll
