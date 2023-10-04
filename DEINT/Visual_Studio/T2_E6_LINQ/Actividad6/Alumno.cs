@@ -29,37 +29,40 @@ namespace Actividad6
 
         public static Alumno getPrimerAlumno(List<Alumno> alumnos)
         {
-            return alumnos.FirstOrDefault(alumno => alumno.Nombre == getNombres);
+            return alumnos.FirstOrDefault();
         }
 
         public static Alumno getUltimoAlumno(List<Alumno> alumnos)
         {
-            return null;
+            return alumnos.LastOrDefault();
         }
 
         public static int getSumaNota(List<Alumno> alumnos)
         {
-            throw new NotImplementedException();
+            return alumnos.Sum(p => p.Nota);
         }
 
         public static int getNotaMaxima(List<Alumno> alumnos)
         {
-            throw new NotImplementedException();
+            return alumnos.Max(p => p.Nota);
         }
 
         public static int getNotaMinima(List<Alumno> alumnos)
         {
-            throw new NotImplementedException();
+            return alumnos.Min(p => p.Nota);
         }
 
         public static int getNotaPorNombre(List<Alumno> alumnos, string v)
         {
-            throw new NotImplementedException();
+
+            var alumno = alumnos.FirstOrDefault(alumno => alumno.Nombre == v);
+
+            return alumno.Nota;
         }
 
         public static double getNotaMedia(List<Alumno> alumnos)
         {
-            throw new NotImplementedException();
+           return  Math.Round(alumnos.Average(p => p.Nota),2);
         }
     }
 }

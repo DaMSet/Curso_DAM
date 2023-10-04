@@ -13,7 +13,7 @@
         android:theme="@style/Theme.HolaMundo3"
         tools:targetApi="34">
         <activity
-            android:name=".MainActivity"
+            android:name=".TestEjemplos_2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
