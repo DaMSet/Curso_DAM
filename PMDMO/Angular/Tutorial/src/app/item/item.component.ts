@@ -12,3 +12,4 @@ export class ItemComponent {
     @Input('item')  datos!: Joke;
 
 }
+ 
