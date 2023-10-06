@@ -234,5 +234,12 @@ OUTPUT <a (evento) = "accion"> ...    	ETIQUETA A / Evento JS
 
 --ng generate class
 
+------------------
+
+podemos hacer referencias a las etiquetas con # 
+
+<input type= "text"  #value>
+
+
 
 

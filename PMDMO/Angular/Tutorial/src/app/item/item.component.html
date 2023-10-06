@@ -1,0 +1,8 @@
+<div class="card card-block">
+    <h4 class="card-title">{{datos.getBroma()}}</h4>
+
+    <p class="card-text"    [hidden]="datos.getOculto()">{{datos.getRespuestaBroma()}}</p>
+
+    <a (click)="datos.ocultar()"  class="btn btn-warning">Mostrar
+    </a>
+</div>
