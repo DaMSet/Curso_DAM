@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\bin\Debug\net6.0\Dados.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\bin\Debug\net6.0\Dados.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\bin\Debug\net6.0\Dados.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\bin\Debug\net6.0\Dados.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\bin\Debug\net6.0\Dados.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\Dados.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\Dados.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\Dados.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\Dados.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\refint\Dados.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\Dados.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\Dados.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Dados\obj\Debug\net6.0\ref\Dados.dll

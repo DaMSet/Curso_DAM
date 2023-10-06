@@ -32,7 +32,7 @@ public class TestEjemplos extends ListActivity {
 
         try {
 
-            Class clazz = Class.forName("com.dam.luis." + testName);  //Hay que poner nuestra direccion
+            Class clazz = Class.forName("com.example.holamundo3." + testName);  //Hay que poner nuestra direccion
             Intent intent = new Intent(this, clazz);
             startActivity(intent);
 

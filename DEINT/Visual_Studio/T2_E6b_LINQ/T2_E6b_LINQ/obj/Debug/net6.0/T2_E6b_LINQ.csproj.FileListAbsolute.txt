@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\bin\Debug\net6.0\T2_E6b_LINQ.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\bin\Debug\net6.0\T2_E6b_LINQ.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\bin\Debug\net6.0\T2_E6b_LINQ.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\bin\Debug\net6.0\T2_E6b_LINQ.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\bin\Debug\net6.0\T2_E6b_LINQ.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\T2_E6b_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\T2_E6b_LINQ.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\T2_E6b_LINQ.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\T2_E6b_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\T2_E6b_LINQ.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\refint\T2_E6b_LINQ.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\T2_E6b_LINQ.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\T2_E6b_LINQ.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E6b_LINQ\T2_E6b_LINQ\obj\Debug\net6.0\ref\T2_E6b_LINQ.dll
