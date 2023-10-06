@@ -15,6 +15,7 @@ public class TestEjemplos extends ListActivity {
             "FullScreenTest", "WakeLockTest", "RenderViewTest", "ShapeTest", "BitmapTest",
             "FontTest", "SurfaceViewTest" };
 
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
