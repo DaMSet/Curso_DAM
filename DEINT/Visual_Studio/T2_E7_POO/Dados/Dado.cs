@@ -10,13 +10,15 @@ namespace Dados
     {
         Random random = new Random();
 
-       
+
         //random.Next(1, 6);
+
+       
 
         public int Valor { get; set; }
         public Dado() 
         {
-        
+            this.Valor = 0;
         }
 
         public void tirar() 
@@ -24,9 +26,11 @@ namespace Dados
 
             Valor = random.Next(1, 6);
 
-            Console.WriteLine(Valor);
+            this.Valor = Valor;
 
         }
 
     }
 }
+
+

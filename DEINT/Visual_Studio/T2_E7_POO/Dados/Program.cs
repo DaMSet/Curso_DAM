@@ -4,12 +4,14 @@
     {
         static void Main(string[] args)
         {
-          /*
-            Dado d = new Dado();
-            d.tirar();
-          */
+          
+
+            Juego juego = new Juego();
 
 
+            juego.tirar();
+
+            Console.WriteLine(juego.ganar());
             
 
         }

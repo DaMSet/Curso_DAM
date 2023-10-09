@@ -11,4 +11,6 @@ para acceptar la licencia pondremos  / flutter doctor --android-licenses
 
 nos moveremos a android studio para anadir el sdk 
 
+creamos un elemento de flucter con
+---flutter create prueba    
 

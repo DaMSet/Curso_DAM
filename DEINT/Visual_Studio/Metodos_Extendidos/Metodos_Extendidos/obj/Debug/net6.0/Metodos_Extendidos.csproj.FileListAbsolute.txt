@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\Metodos_Extendidos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\Metodos_Extendidos.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\Metodos_Extendidos.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\Metodos_Extendidos.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\bin\Debug\net6.0\Metodos_Extendidos.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\bin\Debug\net6.0\Metodos_Extendidos.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\bin\Debug\net6.0\Metodos_Extendidos.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\bin\Debug\net6.0\Metodos_Extendidos.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\bin\Debug\net6.0\Metodos_Extendidos.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\Metodos_Extendidos.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\refint\Metodos_Extendidos.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\Metodos_Extendidos.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\Metodos_Extendidos.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Metodos_Extendidos\Metodos_Extendidos\obj\Debug\net6.0\ref\Metodos_Extendidos.dll
