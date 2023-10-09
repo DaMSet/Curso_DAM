@@ -1,4 +1,4 @@
-package com.example.calculadora;
+package com.example.calculadora1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -32,30 +32,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-       @Override
-        public void onClick(View view) {
+    @Override
+    public void onClick(View view) {
 
-           texto = findViewById(R.id.texto);
+        texto = findViewById(R.id.texto);
 
-          if(R.id.boton1==view.getId())
-          {
+        if(R.id.boton1==view.getId())
+        {
             contador++;
-          }
-           if(R.id.boton2==view.getId())
-           {
+        }
+        if(R.id.boton2==view.getId())
+        {
             contador--;
-           }
-           if(R.id.boton3==view.getId())
-           {
+        }
+        if(R.id.boton3==view.getId())
+        {
             contador = 0;
-           }
-
-          texto.setText(""+contador);
-
         }
 
-
+        texto.setText(""+contador);
 
     }
 
 
+
+}
