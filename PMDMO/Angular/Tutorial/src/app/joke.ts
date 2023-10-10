@@ -36,6 +36,7 @@ export class Joke {
     {
         return this.oculto;
     } 
+    
     public setOculto(oculto:boolean)
     {
         this.oculto = oculto;

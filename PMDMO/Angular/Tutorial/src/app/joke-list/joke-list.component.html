@@ -1,2 +1,4 @@
 <Joke-form (CreadorDeBromas)="anadirBroma($event)"> </Joke-form>
-<item *ngFor="let b of bromas" [item]="b"> </item>
+<item *ngFor="let b of bromas" [item]="b"  (jokeDeleted)="borrarBroma($event)">
+    
+</item>

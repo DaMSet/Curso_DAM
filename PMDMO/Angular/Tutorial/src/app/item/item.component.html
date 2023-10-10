@@ -3,6 +3,9 @@
 
     <p class="card-text"    [hidden]="datos.getOculto()">{{datos.getRespuestaBroma()}}</p>
 
-    <a (click)="datos.ocultar()"  class="btn btn-warning">Mostrar
-    </a>
+    <a (click)="datos.ocultar()"  class="btn btn-warning">Mostrar</a>
+
+    <a (click)="borrarBroma()"  class="btn btn-warning">Borrar</a>
+
+    
 </div>

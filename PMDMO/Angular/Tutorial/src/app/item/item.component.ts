@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { outputAst } from '@angular/compiler';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Joke } from '../joke';
 
 @Component({
@@ -11,5 +12,14 @@ export class ItemComponent {
 
     @Input('item')  datos!: Joke;
 
+    @Output() jokeDeleted = new EventEmitter<Joke>();
+
+
+    borrarBroma()
+    {
+        this.jokeDeleted.emit(this.datos);
+    
+    }
 }
  
+

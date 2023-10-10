@@ -1,0 +1,4 @@
+meterse en la carpeta de res/values/themes y en el themes.xml
+cambiar la primera parte con esto:
+
+---parent="Theme.AppComgpat.Light.NoActionBar"

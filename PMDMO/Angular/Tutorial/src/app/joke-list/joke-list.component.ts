@@ -34,4 +34,16 @@ export class JokeListComponent {
 
     }
 
+
+    borrarBroma(broma :Joke)
+    {
+      const index = this.bromas.indexOf(broma); 
+      if(index !== -1 )
+      {
+        this.bromas.splice(index,1);
+      }
+
+    }
+  
+
 }
