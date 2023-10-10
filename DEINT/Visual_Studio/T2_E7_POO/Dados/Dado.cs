@@ -16,6 +16,7 @@ namespace Dados
        
 
         public int Valor { get; set; }
+
         public Dado() 
         {
             this.Valor = 0;

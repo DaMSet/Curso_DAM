@@ -9,24 +9,26 @@ namespace Dados
     internal class Juego
     {
 
-        internal Dado[] _dados = { };
+        internal Dado[] Dados = new Dado[3];
 
-        public Dado[] Dados { get; set; }
+        //public Dado[] Dados { get; set; }
 
         public Juego() 
         {
-
-            _dados[0] = new Dado();
-            _dados[1] = new Dado();
-            _dados[2] = new Dado();
+           
+            Dados[0] = new Dado();
+            Dados[1] = new Dado();
+            Dados[2] = new Dado();
+        
+           
 
         }
 
         public void tirar() {
 
-            for (int i = 0; i < _dados.Length; i++) 
+            for (int i = 0; i < Dados.Length; i++) 
             {
-                _dados[i].tirar();                
+                Dados[i].tirar();                
             }
 
         }
@@ -34,7 +36,7 @@ namespace Dados
         public Boolean ganar() 
         {
 
-            if (_dados[0] == _dados[1] && _dados[0] == _dados[2]) { return true; }
+            if (Dados[0] == Dados[1] && Dados[0] == Dados[2]) { return true; }
 
 
             return false;

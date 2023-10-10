@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
-        //texto = findViewById(R.id.texto);
+        /*
 
         boton1 = findViewById(R.id.boton1);
         boton1.setOnClickListener(this);
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         boton3 = findViewById(R.id.boton3);
         boton3.setOnClickListener(this);
+*/
 
     }
 
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         texto = findViewById(R.id.Texto);
 
+        /*
         if(R.id.boton1==view.getId())
         {
             contador++;
@@ -49,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         texto.setText(""+contador);
+        */
+
 
     }
 
