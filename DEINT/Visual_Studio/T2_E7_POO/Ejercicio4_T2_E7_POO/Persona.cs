@@ -21,7 +21,12 @@ namespace Ejercicio4_T2_E7_POO
 
         }
 
-        
+
+        public override string ToString()
+        {
+            return $"Nombre: {Nombre} , edad: {edad}";
+        }
+
 
     }
 }

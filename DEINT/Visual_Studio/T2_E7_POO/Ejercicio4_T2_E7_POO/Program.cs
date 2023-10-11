@@ -4,8 +4,15 @@
     {
         static void Main(string[] args)
         {
-            
 
+            Persona p = new Persona("pepe", 12);
+
+            Persona e = new Empleado("jose",23,100);
+
+
+            Console.WriteLine(p.ToString());
+
+            Console.WriteLine(e.ToString());
 
         }
     }

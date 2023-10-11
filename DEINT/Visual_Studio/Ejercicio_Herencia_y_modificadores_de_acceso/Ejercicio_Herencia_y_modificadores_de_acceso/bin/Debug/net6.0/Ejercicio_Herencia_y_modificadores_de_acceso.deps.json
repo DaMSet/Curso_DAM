@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ejercicio_Herencia_y_modificadores_de_acceso/1.0.0": {
+        "runtime": {
+          "Ejercicio_Herencia_y_modificadores_de_acceso.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio_Herencia_y_modificadores_de_acceso/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

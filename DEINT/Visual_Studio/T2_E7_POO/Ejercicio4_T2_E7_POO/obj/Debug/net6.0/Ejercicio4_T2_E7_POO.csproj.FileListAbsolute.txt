@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\bin\Debug\net6.0\Ejercicio4_T2_E7_POO.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\bin\Debug\net6.0\Ejercicio4_T2_E7_POO.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\bin\Debug\net6.0\Ejercicio4_T2_E7_POO.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\bin\Debug\net6.0\Ejercicio4_T2_E7_POO.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\bin\Debug\net6.0\Ejercicio4_T2_E7_POO.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\Ejercicio4_T2_E7_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\Ejercicio4_T2_E7_POO.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\Ejercicio4_T2_E7_POO.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\Ejercicio4_T2_E7_POO.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\Ejercicio4_T2_E7_POO.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\refint\Ejercicio4_T2_E7_POO.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\Ejercicio4_T2_E7_POO.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\Ejercicio4_T2_E7_POO.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E7_POO\Ejercicio4_T2_E7_POO\obj\Debug\net6.0\ref\Ejercicio4_T2_E7_POO.dll

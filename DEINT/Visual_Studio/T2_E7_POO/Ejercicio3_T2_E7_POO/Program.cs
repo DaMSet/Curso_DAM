@@ -4,16 +4,24 @@
     {
         static void Main(string[] args)
         {
-            
-            Cliente1 cliente = new Cliente1();
+            /* 
+             Cliente1 cliente = new Cliente1("123","pepe");
 
-            Console.WriteLine( cliente.comprobar());
+             Console.WriteLine( cliente.comprobar());
 
-            cliente.ingresar(33);
-            Console.WriteLine(cliente.comprobar());
+             cliente.ingresar(33);
+             Console.WriteLine(cliente.comprobar());
 
-            cliente.extraer(1000);
-            Console.WriteLine(cliente.comprobar());
+             cliente.extraer(1000);
+             Console.WriteLine(cliente.comprobar());
+            */
+
+            //Banco banco = new Banco();
+
+            Banco banco = new Banco();
+                
+                banco.mostrarMenu();
+
 
         }
     }

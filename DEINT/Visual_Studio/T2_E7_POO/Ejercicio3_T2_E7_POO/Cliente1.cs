@@ -8,15 +8,15 @@ namespace Ejercicio3_T2_E7_POO
 {
     internal class Cliente1
     {
-        private string DNI { get; set; }
-        private string Nombre { get; set; }
+        public string DNI { get; set; }
+        public string Nombre { get; set; }
 
         private int dinero { get; set; }
 
-        public Cliente1() 
+        public Cliente1(string dni, string nombre) 
         {
-            this.DNI = "Ejemplo";
-            this.Nombre = "Nombre ejemplo";
+            this.DNI = dni;
+            this.Nombre = nombre;
             this.dinero = 10000;
 
 
