@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T2_E7_POO", "T2_E7_POO\T2_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dados", "Dados\Dados.csproj", "{59CA3D05-77AA-44D9-9D79-66A6F48933C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3_T2_E7_POO", "Ejercicio3_T2_E7_POO\Ejercicio3_T2_E7_POO.csproj", "{652CFE54-807C-4830-978E-350F6F3847D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio3_T2_E7_POO", "Ejercicio3_T2_E7_POO\Ejercicio3_T2_E7_POO.csproj", "{652CFE54-807C-4830-978E-350F6F3847D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4_T2_E7_POO", "Ejercicio4_T2_E7_POO\Ejercicio4_T2_E7_POO.csproj", "{26180337-136A-4B14-B9E2-F5DD0F84EEFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio4_T2_E7_POO", "Ejercicio4_T2_E7_POO\Ejercicio4_T2_E7_POO.csproj", "{26180337-136A-4B14-B9E2-F5DD0F84EEFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{39D15102-F500-4B0A-A426-47189D254C57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{26180337-136A-4B14-B9E2-F5DD0F84EEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26180337-136A-4B14-B9E2-F5DD0F84EEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26180337-136A-4B14-B9E2-F5DD0F84EEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D15102-F500-4B0A-A426-47189D254C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D15102-F500-4B0A-A426-47189D254C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D15102-F500-4B0A-A426-47189D254C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D15102-F500-4B0A-A426-47189D254C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

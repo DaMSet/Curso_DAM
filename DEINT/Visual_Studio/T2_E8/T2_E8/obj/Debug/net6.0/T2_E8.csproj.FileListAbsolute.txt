@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\bin\Debug\net6.0\T2_E8.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\bin\Debug\net6.0\T2_E8.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\bin\Debug\net6.0\T2_E8.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\bin\Debug\net6.0\T2_E8.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\bin\Debug\net6.0\T2_E8.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\T2_E8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\T2_E8.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\T2_E8.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\T2_E8.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\T2_E8.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\refint\T2_E8.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\T2_E8.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\T2_E8.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T2_E8\T2_E8\obj\Debug\net6.0\ref\T2_E8.dll

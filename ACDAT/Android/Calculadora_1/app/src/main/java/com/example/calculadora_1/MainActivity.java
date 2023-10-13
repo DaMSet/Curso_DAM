@@ -9,10 +9,10 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     //Button boton1,boton2,boton3;
-    TextView Pantalla;
+    TextView Pantalla ;
     public static int contador = 0;
-    private View btn0,btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btnCOMA,btnMC,btnMmas,btnMmenos,btnMR,btnC,btnPORCENTAJE,btnDIVISION,btnX;
-
+    private View btn0,btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btnCOMA,btnMC,btnMmas,btnMmenos,btnMR,btnINTRO,btnC,btnPORCENTAJE,btnDIVISION,btnX;
+    static String texto = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,7 +77,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnX = findViewById(R.id.btnX);
         btnX.setOnClickListener(this);
 
+        btnINTRO = findViewById(R.id.btnINTRO);
+        btnINTRO.setOnClickListener(this);
 
+        Pantalla = findViewById(R.id.Pantalla);
 
 
     }
@@ -85,23 +88,76 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
 
-        Pantalla = findViewById(R.id.Pantalla);
+
         double tempNum = 0;
-        String texto = "";
 
-        if(R.id.btn0==view.getId())
-        {
-            texto += btn0.getTag();
 
-        }else if(R.id.btn1==view.getId())
+        if(view.getId() == R.id.btn0)
         {
-            contador--;
-        }else if(R.id.btn2==view.getId())
+
+            texto += "0";
+
+        }else if(view.getId() == R.id.btn1)
         {
-            contador = 0;
+
+            texto += "1";
+
+        }else if(view.getId() == R.id.btn2)
+        {
+
+            texto += "2";
+
+        }else if(view.getId() == R.id.btn3)
+        {
+
+            texto += "3";
+
+        }else if(view.getId() == R.id.btn4)
+        {
+
+            texto += "4";
+
+        }else if(view.getId() == R.id.btn5)
+        {
+
+            texto += "5";
+
+        }else if(view.getId() == R.id.btn6)
+        {
+
+            texto += "6";
+
+        }else if(view.getId() == R.id.btn7)
+        {
+
+            texto += "7";
+
+        }else if(view.getId() == R.id.btn8)
+        {
+
+            texto += "8";
+
+        }else if(view.getId() == R.id.btn9)
+        {
+
+            texto += "9";
+
         }
 
+
         Pantalla.setText(""+texto);
+
+        if(view.getId() == R.id.btnINTRO)
+        {
+
+            
+            //Pantalla.setText(""+texto);
+
+        }
+
+
+
+
 
         /*
         if(R.id.boton1==view.getId())
