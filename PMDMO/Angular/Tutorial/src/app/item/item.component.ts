@@ -10,9 +10,13 @@ import { Joke } from '../joke';
 
 export class ItemComponent {
 
+    editar : boolean = false;
+
     @Input('item')  datos!: Joke;
 
     @Output() jokeDeleted = new EventEmitter<Joke>();
+
+    @Output() jokeEdit = new EventEmitter<Joke>();
 
 
     borrarBroma()
@@ -20,6 +24,15 @@ export class ItemComponent {
         this.jokeDeleted.emit(this.datos);
     
     }
+
+
+    editarBroma()
+    {
+
+      this.jokeEdit.emit(this.datos)
+
+    }
+
 }
  
 
