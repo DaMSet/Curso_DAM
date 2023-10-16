@@ -37,7 +37,7 @@ namespace Ejercicio2
         }
 
 
-        public double precioFinal( ) 
+        public new double precioFinal( ) 
         {
             double precio = base.precioFinal(); 
 
