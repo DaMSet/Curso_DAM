@@ -22,6 +22,7 @@ export class JokeListComponent {
 
       ]
       
+      
     }
 
     //Creamos un metodo para poder Recibir una broma 
@@ -44,6 +45,9 @@ export class JokeListComponent {
       }
 
     }
+
+
+    
   
 
 }

@@ -12,7 +12,7 @@ export class ItemComponent {
 
     editar : boolean = false;
 
-    @Input('item')  datos!: Joke;
+    @Input('item')  datosBroma!: Joke;
 
     @Output() jokeDeleted = new EventEmitter<Joke>();
 
@@ -21,15 +21,25 @@ export class ItemComponent {
 
     borrarBroma()
     {
-        this.jokeDeleted.emit(this.datos);
+        this.jokeDeleted.emit(this.datosBroma);
     
     }
 
 
-    editarBroma()
+    editarBroma(editarBroma: string,editarRespuestaBroma: string)
     {
 
-      this.jokeEdit.emit(this.datos)
+      this.datosBroma.setBroma(editarBroma);
+      this.datosBroma.setRespuestaBroma(editarRespuestaBroma);
+
+      this.jokeEdit.emit(this.datosBroma);
+
+    }
+
+    editarItem()
+    {
+
+      this.editar = !this.editar;
 
     }
 

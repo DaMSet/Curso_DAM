@@ -3,12 +3,16 @@ export class Joke {
     private broma: string;
     private respuestaBroma :string;
     private oculto :boolean;
+    private id :number ;
+    static id_ : number = 0;
 
     constructor(broma :string,respuestaBroma :string){
 
         this.broma = broma;
         this.respuestaBroma = respuestaBroma;
         this.oculto = true;
+        Joke.id_++;
+        this.id = Joke.id_;
     }
 
     
