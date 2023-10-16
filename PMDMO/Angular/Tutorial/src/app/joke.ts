@@ -11,8 +11,8 @@ export class Joke {
         this.broma = broma;
         this.respuestaBroma = respuestaBroma;
         this.oculto = true;
-        Joke.id_++;
         this.id = Joke.id_;
+        Joke.id_++;
     }
 
     
@@ -46,6 +46,13 @@ export class Joke {
         this.oculto = oculto;
     }
 
+
+    public getId()
+    {
+
+        return this.id;
+
+    }
     
     ocultar() {
 

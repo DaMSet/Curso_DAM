@@ -18,6 +18,7 @@ export class ItemComponent {
 
     @Output() jokeEdit = new EventEmitter<Joke>();
 
+    @Output() jokeEdit2 = new EventEmitter<Joke>();
 
     borrarBroma()
     {
@@ -25,7 +26,7 @@ export class ItemComponent {
     
     }
 
-
+/*
     editarBroma(editarBroma: string,editarRespuestaBroma: string)
     {
 
@@ -35,6 +36,17 @@ export class ItemComponent {
       this.jokeEdit.emit(this.datosBroma);
 
     }
+*/
+
+    editarBroma(editarBroma: string,editarRespuestaBroma: string)
+    {
+
+
+      this.jokeEdit.emit(this.datosBroma);
+      this.jokeEdit2.emit(new Joke(editarBroma,editarRespuestaBroma));
+
+    }
+
 
     editarItem()
     {

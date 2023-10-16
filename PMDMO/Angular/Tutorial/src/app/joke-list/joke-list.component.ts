@@ -11,6 +11,8 @@ export class JokeListComponent {
 
     bromas :Joke[]; 
   
+    id!:number;
+
     constructor()
     {
       this.bromas =
@@ -46,8 +48,20 @@ export class JokeListComponent {
 
     }
 
+    editarBroma(broma :Joke)
+    {
+      
+      this.id = broma.getId();
 
-    
+    }
+
+    editarBromaCompleto(broma:Joke)
+    {
+
+      this.bromas.splice(this.id,1,broma);
+
+    }
+      
   
 
 }
