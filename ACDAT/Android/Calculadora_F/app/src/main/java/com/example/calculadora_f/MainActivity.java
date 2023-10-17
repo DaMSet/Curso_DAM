@@ -43,12 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // Manejar errores de evaluación
             textView.setText("Error: " + e.getMessage());
         }
-
-
 */
-
-
-
 
         /*
 
