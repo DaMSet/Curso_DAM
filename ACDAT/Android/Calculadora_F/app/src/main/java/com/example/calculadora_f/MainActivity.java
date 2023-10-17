@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(view.getId() == R.id.btnC)
         {
 
-            texto += "0";
+            texto = "";
             Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btnCOMA)

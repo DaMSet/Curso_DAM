@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?android:attr/colorMultiSelectHighlight"
+    android:background="#E1CF5B"
     android:backgroundTintMode="src_in"
     android:orientation="horizontal"
     tools:context=".MainActivity"
@@ -55,19 +55,34 @@
 -->
 
 
+    <!--
+    <TextView
+        android:id="@+id/Pantalla"
+        android:layout_width="349dp"
+        android:layout_height="116dp"
+        android:background="@drawable/calculator_display_background"
+        android:gravity="end"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="77dp" />
+    -->
+
     <TextView
         android:id="@+id/Pantalla"
         android:layout_width="349dp"
         android:layout_height="116dp"
         android:autoSizeTextType="none"
-        android:background="@android:drawable/alert_light_frame"
-        android:text="Hello World!"
-        android:textColor="#000000"
+        android:background="@android:drawable/dialog_frame"
+        android:gravity="end"
+        android:shadowColor="#FF0000"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.104" />
+        app:layout_constraintVertical_bias="0.099" />
 
     <TableLayout
         android:id="@+id/tableLayout2"
@@ -96,7 +111,7 @@
                 android:layout_height="64dp"
                 android:background="@android:drawable/alert_dark_frame"
 
-                android:backgroundTint="@color/verde"
+                android:backgroundTint="@android:color/holo_red_dark"
                 android:text="C"
                 app:iconTint="@color/black" />
 
@@ -106,7 +121,7 @@
                 android:layout_height="64dp"
 
                 android:background="@android:drawable/alert_dark_frame"
-                android:backgroundTint="@color/verde"
+                android:backgroundTint="@android:color/holo_orange_dark"
                 android:text="%"
                 app:iconTint="@color/black" />
 
@@ -116,7 +131,7 @@
                 android:layout_height="64dp"
 
                 android:background="@android:drawable/alert_dark_frame"
-                android:backgroundTint="@color/verde"
+                android:backgroundTint="@android:color/holo_orange_dark"
                 android:text="/"
                 app:iconTint="@color/black" />
 
@@ -276,7 +291,7 @@
             android:layout_height="64dp"
 
             android:background="@android:drawable/alert_dark_frame"
-            android:backgroundTint="@color/verde"
+            android:backgroundTint="@android:color/holo_orange_dark"
             android:text="X"
             app:iconTint="@color/black" />
 
@@ -286,7 +301,7 @@
             android:layout_height="64dp"
 
             android:background="@android:drawable/alert_dark_frame"
-            android:backgroundTint="@color/verde"
+            android:backgroundTint="@android:color/holo_orange_dark"
             android:text="-"
             app:iconTint="@color/black" />
 
@@ -296,7 +311,7 @@
             android:layout_height="64dp"
 
             android:background="@android:drawable/alert_dark_frame"
-            android:backgroundTint="@color/verde"
+            android:backgroundTint="@android:color/holo_orange_dark"
             android:text="+"
             app:iconTint="@color/black" />
 
@@ -307,7 +322,7 @@
 
             android:layout_span="2"
             android:background="@android:drawable/alert_dark_frame"
-            android:backgroundTint="@color/verde"
+            android:backgroundTint="@color/material_dynamic_primary60"
             android:text="="
             app:iconTint="@color/black" />
     </LinearLayout>
