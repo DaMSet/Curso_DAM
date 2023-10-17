@@ -6,10 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     //Button boton1,boton2,boton3;
     TextView Pantalla ;
+
+
     public static int contador = 0;
     private View btn0,btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btnCOMA,btnMC,btnMmas,btnMmenos,btnMR,btnINTRO,btnC,btnPORCENTAJE,btnDIVISION,btnX;
     static String texto = "";
@@ -159,6 +163,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
+
+
         /*
         if(R.id.boton1==view.getId())
         {
@@ -176,6 +182,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     }
+
+
+
 
 
 }
