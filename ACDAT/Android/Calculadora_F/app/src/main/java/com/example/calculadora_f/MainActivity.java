@@ -1,4 +1,4 @@
-package com.example.calculadora_1;
+package com.example.calculadora_f;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import net.objecthunter.exp4j.Expression;
+import net.objecthunter.exp4j.ExpressionBuilder;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -15,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     public static int contador = 0;
-    private View btn0,btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btnCOMA,btnMC,btnMmas,btnMmenos,btnMR,btnINTRO,btnC,btnPORCENTAJE,btnDIVISION,btnX;
+    private View btn0,btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btnCOMA,btnMAS,btnMENOS,btnINTRO,btnC,btnPORCENTAJE,btnDIVISION,btnX;
     static String texto = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // Manejar errores de evaluación
             textView.setText("Error: " + e.getMessage());
         }
+
+
 */
+
+
+
+
         /*
 
         boton1 = findViewById(R.id.boton1);
@@ -85,8 +93,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn9.setOnClickListener(this);
 
 
-        btnC = findViewById(R.id.btnMC);
+        btnC = findViewById(R.id.btnC);
         btnC.setOnClickListener(this);
+
+        btnMAS = findViewById(R.id.btnMAS);
+        btnMAS.setOnClickListener(this);
+
+        btnMENOS = findViewById(R.id.btnMENOS);
+        btnMENOS.setOnClickListener(this);
 
         btnCOMA = findViewById(R.id.btnCOMA);
         btnCOMA.setOnClickListener(this);
@@ -94,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPORCENTAJE = findViewById(R.id.btnPORCENTAJE);
         btnPORCENTAJE.setOnClickListener(this);
 
-        btnDIVISION = findViewById(R.id.btnMmenos);
+        btnDIVISION = findViewById(R.id.btnDIVISION);
         btnDIVISION.setOnClickListener(this);
 
         btnX = findViewById(R.id.btnX);
@@ -112,71 +126,136 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
 
 
-        double tempNum = 0;
+        //double tempNum = 0;
 
 
-        if(view.getId() == R.id.btn0)
+
+        if(view.getId() == R.id.btnINTRO)
+        {
+
+            try {
+
+                ExpressionBuilder constructor = new ExpressionBuilder(texto);
+                Expression exp = constructor.build();
+                double resultado = exp.evaluate();
+                Pantalla.setText(""+resultado);
+                texto = ""+resultado;
+
+
+            }catch(Exception e)
+            {
+                Pantalla.setText("Error");
+                texto = "";
+            }
+
+        }else if(view.getId() == R.id.btn0)
         {
 
             texto += "0";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn1)
         {
 
             texto += "1";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn2)
         {
 
             texto += "2";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn3)
         {
 
             texto += "3";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn4)
         {
 
             texto += "4";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn5)
         {
 
             texto += "5";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn6)
         {
 
             texto += "6";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn7)
         {
 
             texto += "7";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn8)
         {
 
             texto += "8";
+            Pantalla.setText(texto);
 
         }else if(view.getId() == R.id.btn9)
         {
 
             texto += "9";
+            Pantalla.setText(texto);
 
-        }
-
-
-        Pantalla.setText(""+texto);
-
-        if(view.getId() == R.id.btnINTRO)
+        }else if(view.getId() == R.id.btnC)
         {
 
-            
-            //Pantalla.setText(""+texto);
+            texto += "0";
+            Pantalla.setText(texto);
+
+        }else if(view.getId() == R.id.btnCOMA)
+        {
+
+            texto += ".";
+            Pantalla.setText(""+texto);
+
+        }else if(view.getId() == R.id.btnDIVISION)
+        {
+
+            texto += "/";
+            Pantalla.setText(""+texto);
+
+        }else if(view.getId() == R.id.btnX)
+        {
+
+            texto += "*";
+            Pantalla.setText(""+texto);
+
+        }else if(view.getId() == R.id.btnPORCENTAJE)
+        {
+
+            texto += "%";
+            Pantalla.setText(""+texto);
+
+        }else if(view.getId() == R.id.btnMAS)
+        {
+
+            texto += "+";
+            Pantalla.setText(""+texto);
+
+        }else if(view.getId() == R.id.btnMENOS)
+        {
+
+            texto += "-";
+            Pantalla.setText(""+texto);
 
         }
+
+
+      //  Pantalla.setText(""+texto);
+
+
 
 
 
@@ -201,9 +280,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     }
-
-
-
-
 
 }
