@@ -82,7 +82,7 @@ string formatotelefono = @"(\d\d\d)-(\d\d\d)-(\d\d\d\d)";
 
 string formateoIp = @"";
 
-string formateoMac = @"";
+string formateoMac = @"^\w{2}:\w{2}:\w{2}:\w{2}:\w{2}:\w{2}$"; // @"^(\w{2}[:-]){5}\w{2}$" // @"^([A-F 0-9]{2}[:-]){5}\w{2}$"
 
 string letra = "a";
 
