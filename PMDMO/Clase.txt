@@ -243,3 +243,48 @@ podemos hacer referencias a las etiquetas con #
 
 
 
+----------------------------------
+
+Componentes 
+
+1º Hooks
+2º Acceso a los componentes de la vista [DOOM y Hijos]
+   desde el TS (la clase)
+
+	Element  { @ViewChild(selected)  variable:tipo
+	Querylist{ @ViewChildren(selected)  variable:tipo
+
+3º Proyecto de contenido
+
+	<hijo> Contenido </hijo>
+	Hijo html
+	   |
+	   V
+	<ng-content selected = "#any">
+
+
+
+
+---Ejemplo
+
+ @ViewChild(JokeComponent) jokeViewChild: JokeComponent;
+ @ViewChildren(JokeComponent) jokeViewChildren: QueryList<JokeComponent>;
+ @ViewChild("header") headerEl: ElementRef;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
