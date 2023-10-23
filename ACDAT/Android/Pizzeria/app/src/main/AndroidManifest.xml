@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Pizzeria"
         tools:targetApi="31">
         <activity
+            android:name=".PaginaCrearPizzas"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaPizzasPredeterminadas"
+            android:exported="false" />
+        <activity
             android:name=".PaginaConfiguracion"
             android:exported="false" />
         <activity
