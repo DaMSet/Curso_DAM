@@ -1,5 +1,5 @@
 package com.example.pizzeria;
 
 public enum TipoMasa {
-    NORMAL,GRANDE,FINA,EXTRAFINA
+    NORMAL,PESADA,FINA,EXTRAFINA;
 }

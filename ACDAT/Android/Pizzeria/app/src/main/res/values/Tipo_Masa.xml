@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Masas">
+        <item>Masa 1</item>
+        <item>Masa 2</item>
+        <item>Masa 3</item>
+        <!-- Agrega más ingredientes si es necesario -->
+    </string-array>
+
+</resources>
