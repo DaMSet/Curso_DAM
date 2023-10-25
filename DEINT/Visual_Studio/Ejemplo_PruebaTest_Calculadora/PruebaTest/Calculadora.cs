@@ -27,6 +27,16 @@ namespace PruebaTest
         public static int dividir(int a, int b)
         {
             //TODO
+            try
+            {
+
+            }
+            catch
+            {
+
+            }
+            finally {
+            }
             throw new NotImplementedException();
         }
     }

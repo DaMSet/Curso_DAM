@@ -36,7 +36,8 @@ namespace Ejercicio2
 
         }
 
-
+       
+      
         public new double precioFinal( ) 
         {
             double precio = base.precioFinal(); 
@@ -45,8 +46,9 @@ namespace Ejercicio2
             {
                 precio += 50;
 
-            } 
-        
+            }
+
+           
             return precio;
 
         }

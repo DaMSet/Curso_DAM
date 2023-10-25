@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "David_Martinez_Seto_Examen/1.0.0": {
+        "runtime": {
+          "David_Martinez_Seto_Examen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "David_Martinez_Seto_Examen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

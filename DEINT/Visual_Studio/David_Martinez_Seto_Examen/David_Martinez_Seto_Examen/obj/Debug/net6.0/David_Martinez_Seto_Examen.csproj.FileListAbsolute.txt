@@ -1,0 +1,14 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\bin\Debug\net6.0\David_Martinez_Seto_Examen.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\bin\Debug\net6.0\David_Martinez_Seto_Examen.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\bin\Debug\net6.0\David_Martinez_Seto_Examen.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\bin\Debug\net6.0\David_Martinez_Seto_Examen.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\bin\Debug\net6.0\David_Martinez_Seto_Examen.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\David_Martinez_Seto_Examen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\David_Martinez_Seto_Examen.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\David_Martinez_Seto_Examen.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\David_Martinez_Seto_Examen.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\David_Martinez_Seto_Examen.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\refint\David_Martinez_Seto_Examen.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\David_Martinez_Seto_Examen.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\David_Martinez_Seto_Examen.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\David_Martinez_Seto_Examen\obj\Debug\net6.0\ref\David_Martinez_Seto_Examen.dll
