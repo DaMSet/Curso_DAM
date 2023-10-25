@@ -67,7 +67,7 @@
         android:id="@+id/txtIngredientes"
         android:layout_width="88dp"
         android:layout_height="19dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="248dp"
         android:text="Ingredientes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.207"
@@ -75,52 +75,52 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/ListaIngredientes1"
-        android:layout_width="144dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="256dp"
-        android:entries="@array/Ingredientes"
-        android:spinnerMode="dialog"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.569"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Spinner
         android:id="@+id/listaIngredientes4"
         android:layout_width="144dp"
         android:layout_height="30dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="28dp"
         android:entries="@array/Ingredientes"
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toEndOf="@+id/txtIngredientes"
         app:layout_constraintTop_toBottomOf="@+id/listaIngredientes3" />
-
-    <Spinner
-        android:id="@+id/listaIngredientes3"
-        android:layout_width="144dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="36dp"
-        android:entries="@array/Ingredientes"
-        android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/txtIngredientes"
-        app:layout_constraintTop_toBottomOf="@+id/listaIngredientes2" />
 
     <Spinner
         android:id="@+id/listaIngredientes2"
         android:layout_width="144dp"
         android:layout_height="30dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="28dp"
         android:entries="@array/Ingredientes"
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toEndOf="@+id/txtIngredientes"
         app:layout_constraintTop_toBottomOf="@id/ListaIngredientes1" />
+
+    <Spinner
+        android:id="@+id/listaIngredientes3"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:entries="@array/Ingredientes"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/txtIngredientes"
+        app:layout_constraintTop_toBottomOf="@+id/listaIngredientes2" />
+
+    <Spinner
+        android:id="@+id/ListaIngredientes1"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="248dp"
+        android:entries="@array/Ingredientes"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/ListaMasas"

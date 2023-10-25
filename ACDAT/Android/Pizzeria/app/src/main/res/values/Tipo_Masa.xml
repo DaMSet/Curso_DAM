@@ -2,10 +2,11 @@
 <resources>
 
     <string-array name="Masas">
-        <item>Masa 1</item>
-        <item>Masa 2</item>
-        <item>Masa 3</item>
-        <!-- Agrega más ingredientes si es necesario -->
+        <item>Masa NORMAL</item>
+        <item>Masa PESADA</item>
+        <item>Masa FINA</item>
+        <item>Masa EXTRAFINA</item>
+
     </string-array>
 
 </resources>
