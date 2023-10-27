@@ -244,6 +244,11 @@ podemos hacer referencias a las etiquetas con #
 
 
 ----------------------------------
+Diretivas 
+
+ng generate directive <name> [options]
+
+ng g d [name]
 
 Componentes 
 
