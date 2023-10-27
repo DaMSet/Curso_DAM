@@ -1,0 +1,16 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\bin\Debug\net6.0-windows\EjercicioFormulario.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\bin\Debug\net6.0-windows\EjercicioFormulario.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\bin\Debug\net6.0-windows\EjercicioFormulario.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\bin\Debug\net6.0-windows\EjercicioFormulario.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\bin\Debug\net6.0-windows\EjercicioFormulario.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.Form1.resources
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\refint\EjercicioFormulario.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\EjercicioFormulario.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\EjercicioFormulario\EjercicioFormulario\obj\Debug\net6.0-windows\ref\EjercicioFormulario.dll

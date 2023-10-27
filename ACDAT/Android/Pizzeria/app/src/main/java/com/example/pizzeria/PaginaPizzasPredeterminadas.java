@@ -32,6 +32,17 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
 
 
         }
+
     }
+
+
+    private void mostrarTipoPizzas()
+    {
+
+
+
+
+    }
+
 
 }
