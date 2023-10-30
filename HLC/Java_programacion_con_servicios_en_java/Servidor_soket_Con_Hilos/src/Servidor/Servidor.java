@@ -43,6 +43,7 @@ public class Servidor {
 
 				        	out.println(content);
 		        	     
+				        	
 				        	in.close();
 				        	out.close();
 				        	clientSocket.close();	

@@ -1,0 +1,16 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\bin\Debug\net6.0-windows\T3_EJ1_Formulario.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\bin\Debug\net6.0-windows\T3_EJ1_Formulario.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\bin\Debug\net6.0-windows\T3_EJ1_Formulario.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\bin\Debug\net6.0-windows\T3_EJ1_Formulario.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\bin\Debug\net6.0-windows\T3_EJ1_Formulario.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.Form1.resources
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\refint\T3_EJ1_Formulario.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\ref\T3_EJ1_Formulario.dll
