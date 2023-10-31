@@ -23,7 +23,7 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
         btnAtrasPaginaPizzasPredeterminadas = findViewById(R.id.btnAtrasPaginaPizzasPredeterminadas);
         btnAtrasPaginaPizzasPredeterminadas.setOnClickListener(this);
 
-        btnCarrito = findViewById(R.id.btnCarrito);
+        btnCarrito = findViewById(R.id.btnSiguiente);
         btnCarrito.setOnClickListener(this);
 
         prueba1 = findViewById(R.id.editTextText2);
@@ -47,7 +47,7 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
 
         }
 
-        if (view.getId() == R.id.btnCarrito) {
+        if (view.getId() == R.id.btnSiguiente) {
 
 
 

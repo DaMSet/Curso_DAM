@@ -5,13 +5,13 @@ import java.util.List;
 public class Pizza {
    private static int id_;
    private int id;
-   private int Tamaño;
+   private TamañoP Tamaño;
    private TipoMasa Masa;
    private List<String> listaDeIngredientes;
    private int Precio;
    private boolean Disponibilidad;
 
-   public Pizza(int id, int tamaño, TipoMasa masa, List<String> listaDeIngredientes,int precio, boolean disponibilidad) {
+   public Pizza(int id, TamañoP tamaño, TipoMasa masa, List<String> listaDeIngredientes,int precio, boolean disponibilidad) {
       this.id = id_+1;
       this.Tamaño = tamaño;
       this.Masa = masa;
@@ -20,11 +20,11 @@ public class Pizza {
       this.Disponibilidad = disponibilidad;
    }
 
-   public int getTamaño() {
+   public TamañoP getTamaño() {
       return Tamaño;
    }
 
-   public void setTamaño(int tamaño) {
+   public void setTamaño(TamañoP tamaño) {
       Tamaño = tamaño;
    }
 
