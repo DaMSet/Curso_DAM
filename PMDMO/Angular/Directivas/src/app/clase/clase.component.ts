@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./clase.component.css']
 })
 export class ClaseComponent {
+ishovering: any;
 
 }
