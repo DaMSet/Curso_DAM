@@ -7,6 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 
 //
 // COMPROBACION USUARIO/CONTRASEÑA
@@ -24,6 +29,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         inicioSesion = findViewById(R.id.btnInicioSesion);
         inicioSesion.setOnClickListener(this);
 
+
+            // Inicialización de Firebase
+            FirebaseOptions options = new FirebaseOptions.Builder()
+                    //.setApplicationId("tu_app_id")
+                    //.setApiKey("tu_api_key")
+                    .setDatabaseUrl("https://pizzeria-a247c-default-rtdb.firebaseio.com/")
+                    .build();
+            FirebaseApp.initializeApp(this, options);
+
+
+            DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+
+            String userId = "123456";
+            String nombre = "John Doe";
+
+            databaseReference.child("usuarios").child(userId).child("nombre").setValue(nombre);
+
+
+
     }
 
     public void onClick(View view) {
@@ -36,5 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
     }
+
+
 
 }

@@ -14,3 +14,4 @@ C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.pdb
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.genruntimeconfig.cache
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\ref\T3_EJ1_Formulario.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\T3_EJ1_Formulario\T3_EJ1_Formulario\obj\Debug\net6.0-windows\T3_EJ1_Formulario.Properties.Resources.resources

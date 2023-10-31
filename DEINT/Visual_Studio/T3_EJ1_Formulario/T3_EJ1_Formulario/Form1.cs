@@ -20,9 +20,7 @@ namespace T3_EJ1_Formulario
 
         private void txtNIF_MouseClick(object sender, MouseEventArgs e)
         {
-
             this.txtNIF.BackColor = Color.Red;
-
         }
 
         private void txtNombre_MouseClick(object sender, MouseEventArgs e)
@@ -49,6 +47,45 @@ namespace T3_EJ1_Formulario
             this.txtNombre.BackColor = Color.White;
         }
 
-        
+        private void pictureBox1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+            OpenFileDialog dlg = new OpenFileDialog();
+
+            dlg.Filter = "imagenes | *.jpg; *.gift; *.png";
+            dlg.Title = "Selecciona imagen";
+            dlg.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+
+                pictureBox1.Image = Image.FromFile(dlg.FileName);
+
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            Application.Exit();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.txtNIF.Clear();
+            this.txtApellido.Clear();
+            this.txtEmail.Clear();
+            this.txtNombre.Clear();
+        }
+
+
+
+
+
+
+        //errorNIF.SetError(txt, "Campo Obligatorio");
+
     }
 }
