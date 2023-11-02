@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //inicioSesion = findViewById(R.id.btnInicioSesion);
         inicioSesion.setOnClickListener(this);
 
-
+/*
         FirebaseDatabase database = FirebaseDatabase.getInstance("https://pizzeria-a247c-default-rtdb.firebaseio.com/");
         DatabaseReference myRef = database.getReference("message");
 
         myRef.setValue("Hello, World!");
-
+*/
 
     }
 
