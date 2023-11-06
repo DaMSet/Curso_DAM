@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaginaCrearPizzas">
+
+    <Button
+        android:id="@+id/btnCrearPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
+
+    <Button
+        android:id="@+id/btnAtrasCrearPizzas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
+
+    <TextView
+        android:id="@+id/txtIG"
+        android:layout_width="105dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Ingredientes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTamaño"
+        android:layout_width="86dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="96dp"
+        android:text="Tamaño"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="Tipo de Masa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtIngredientes"
+        android:layout_width="88dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="248dp"
+        android:text="Ingredientes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/listaIngredientes4"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:entries="@array/Ingredientes"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/txtIngredientes"
+        app:layout_constraintTop_toBottomOf="@+id/listaIngredientes3" />
+
+    <Spinner
+        android:id="@+id/listaIngredientes2"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:entries="@array/Ingredientes"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/txtIngredientes"
+        app:layout_constraintTop_toBottomOf="@id/ListaIngredientes1" />
+
+    <Spinner
+        android:id="@+id/listaIngredientes3"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:entries="@array/Ingredientes"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/txtIngredientes"
+        app:layout_constraintTop_toBottomOf="@+id/listaIngredientes2" />
+
+    <Spinner
+        android:id="@+id/ListaIngredientes1"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="248dp"
+        android:entries="@array/Ingredientes"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/ListaMasas"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="148dp"
+        android:entries="@array/Masas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toEndOf="@+id/txtMasa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/ListaTamaño"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="96dp"
+        android:entries="@array/Masas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toEndOf="@+id/txtTamaño"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

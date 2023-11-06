@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Ingredientes">
+        <item>Selecciona un ingrediente</item>
+        <item>Tomate</item>
+        <item>Queso</item>
+        <item>Bacon</item>
+        <item>Queso Parmesano</item>
+        <item>Mozzarela</item>
+
+    </string-array>
+
+</resources>
