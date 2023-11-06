@@ -8,7 +8,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
+import com.example.pizzeria_david.databinding.ActivityMainBinding;
 
 
 //
@@ -19,18 +19,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private View inicioSesion;
     //private TextView nombreUsuario,Contraseña;
 
-
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
 
 
-
+/*
         inicioSesion = findViewById(R.id.btnInicioSesion);
         inicioSesion.setOnClickListener(this);
+*/
 
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        inicioSesion = binding.btnInicioSesion;
+
+        inicioSesion.setOnClickListener(this);
 
 
     }

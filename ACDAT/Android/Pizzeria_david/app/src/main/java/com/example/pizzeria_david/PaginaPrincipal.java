@@ -5,25 +5,39 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.pizzeria_david.databinding.ActivityPaginaPrincipalBinding;
+
 public class PaginaPrincipal extends AppCompatActivity implements View.OnClickListener{
 
     private View btnAtras,btnWeb,btnPedido,btnConfiguracion;
+
+    private ActivityPaginaPrincipalBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagina_principal);
+        //setContentView(R.layout.activity_pagina_principal);
 
-        btnAtras = findViewById(R.id.btnAtras);
+
+        binding = ActivityPaginaPrincipalBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        btnAtras = binding.btnAtras;
+        //btnAtras = findViewById(R.id.btnAtras);
         btnAtras.setOnClickListener(this);
 
-        btnWeb = findViewById(R.id.btnWeb);
+        btnWeb = binding.btnWeb;
+        //btnWeb = findViewById(R.id.btnWeb);
         btnWeb.setOnClickListener(this);
 
-        btnPedido = findViewById(R.id.btnPedido);
+        btnPedido = binding.btnPedido;
+        //btnPedido = findViewById(R.id.btnPedido);
         btnPedido.setOnClickListener(this);
 
-        btnConfiguracion = findViewById(R.id.btnConfiguracion);
+        btnConfiguracion = binding.btnConfiguracion;
+       // btnConfiguracion = findViewById(R.id.btnConfiguracion);
         btnConfiguracion.setOnClickListener(this);
+
+
 
     }
 
@@ -60,7 +74,7 @@ public class PaginaPrincipal extends AppCompatActivity implements View.OnClickLi
 
         if (view.getId() == R.id.btnConfiguracion) {
 
-            Intent i = new Intent(PaginaPrincipal.this, MainActivity.class);
+            Intent i = new Intent(PaginaPrincipal.this, PaginaConfiguracion.class);
             startActivity(i);
             finish();
 
