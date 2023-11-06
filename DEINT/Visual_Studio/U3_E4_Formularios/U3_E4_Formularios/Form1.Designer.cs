@@ -43,7 +43,7 @@
             // 
             // btnEstudiante
             // 
-            btnEstudiante.Location = new Point(368, 129);
+            btnEstudiante.Location = new Point(447, 129);
             btnEstudiante.Name = "btnEstudiante";
             btnEstudiante.Size = new Size(165, 146);
             btnEstudiante.TabIndex = 1;

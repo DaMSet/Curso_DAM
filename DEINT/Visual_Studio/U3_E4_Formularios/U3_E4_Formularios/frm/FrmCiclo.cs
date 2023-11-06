@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using U3_E4_Formularios.DLL;
+using U3_E4_Formularios.Model;
 
 namespace U3_E4_Formularios.frm
 {
@@ -16,5 +18,21 @@ namespace U3_E4_Formularios.frm
         {
             InitializeComponent();
         }
+
+
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            CicloDLL cicloDLL = new CicloDLL();
+            cicloDLL.Agregar(textBox2.Text);
+        }
+
+        
     }
 }
