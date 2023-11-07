@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pcbImagen = new PictureBox();
+            pcbEstudiante = new PictureBox();
             btnExaminar = new Button();
             btnAgregar = new Button();
             btnModificar = new Button();
@@ -47,17 +47,17 @@
             dgvTabla = new DataGridView();
             cmbCiclo = new ComboBox();
             lblCiclo = new Label();
-            ((System.ComponentModel.ISupportInitialize)pcbImagen).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbEstudiante).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvTabla).BeginInit();
             SuspendLayout();
             // 
-            // pcbImagen
+            // pcbEstudiante
             // 
-            pcbImagen.Location = new Point(23, 25);
-            pcbImagen.Name = "pcbImagen";
-            pcbImagen.Size = new Size(130, 208);
-            pcbImagen.TabIndex = 0;
-            pcbImagen.TabStop = false;
+            pcbEstudiante.Location = new Point(23, 25);
+            pcbEstudiante.Name = "pcbEstudiante";
+            pcbEstudiante.Size = new Size(130, 208);
+            pcbEstudiante.TabIndex = 0;
+            pcbEstudiante.TabStop = false;
             // 
             // btnExaminar
             // 
@@ -67,6 +67,7 @@
             btnExaminar.TabIndex = 1;
             btnExaminar.Text = "Examinar";
             btnExaminar.UseVisualStyleBackColor = true;
+            btnExaminar.Click += btnExaminar_Click;
             // 
             // btnAgregar
             // 
@@ -233,10 +234,10 @@
             Controls.Add(btnModificar);
             Controls.Add(btnAgregar);
             Controls.Add(btnExaminar);
-            Controls.Add(pcbImagen);
+            Controls.Add(pcbEstudiante);
             Name = "FrmEstudiante";
             Text = "FrmEstudiante";
-            ((System.ComponentModel.ISupportInitialize)pcbImagen).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbEstudiante).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvTabla).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -244,7 +245,7 @@
 
         #endregion
 
-        private PictureBox pcbImagen;
+        private PictureBox pcbEstudiante;
         private Button btnExaminar;
         private Button btnAgregar;
         private Button btnModificar;

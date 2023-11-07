@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +23,13 @@ namespace U3_E4_Formularios.DLL
         {
         
             return conexion.EjecutarComandoSinRetornarDatos("Insert into Ciclo(nombre) values('" + nombreCiclo + "')");
+
+        }
+
+        public DataSet MostrarCiclos() 
+        {
+            SqlCommand sentencia = new SqlCommand("Select * from ciclo");
+            return conexion.EjecutarSentencia(sentencia);
 
         }
 

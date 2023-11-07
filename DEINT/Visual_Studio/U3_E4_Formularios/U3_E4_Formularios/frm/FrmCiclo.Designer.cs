@@ -32,12 +32,12 @@
             btnBorrar = new Button();
             btnModificar = new Button();
             btnAgregar = new Button();
-            dataGridView1 = new DataGridView();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            dgCiclo = new DataGridView();
+            txtID = new TextBox();
+            txtNombreCiclo = new TextBox();
             lblID = new Label();
             lblNombreCiclo = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgCiclo).BeginInit();
             SuspendLayout();
             // 
             // btnCancelar
@@ -48,6 +48,7 @@
             btnCancelar.TabIndex = 9;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btnBorrar
             // 
@@ -57,6 +58,7 @@
             btnBorrar.TabIndex = 8;
             btnBorrar.Text = "Borrar";
             btnBorrar.UseVisualStyleBackColor = true;
+            btnBorrar.Click += btnBorrar_Click;
             // 
             // btnModificar
             // 
@@ -66,6 +68,7 @@
             btnModificar.TabIndex = 7;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // btnAgregar
             // 
@@ -77,30 +80,30 @@
             btnAgregar.UseVisualStyleBackColor = true;
             btnAgregar.Click += btnAgregar_Click;
             // 
-            // dataGridView1
+            // dgCiclo
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(33, 162);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(710, 265);
-            dataGridView1.TabIndex = 10;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(33, 60);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 11;
-            textBox1.TextChanged += textBox1_TextChanged;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(261, 60);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(482, 23);
-            textBox2.TabIndex = 12;
+            dgCiclo.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgCiclo.Location = new Point(33, 162);
+            dgCiclo.Name = "dgCiclo";
+            dgCiclo.RowTemplate.Height = 25;
+            dgCiclo.Size = new Size(710, 265);
+            dgCiclo.TabIndex = 10;
             
+            // 
+            // txtID
+            // 
+            txtID.Location = new Point(33, 60);
+            txtID.Name = "txtID";
+            txtID.Size = new Size(100, 23);
+            txtID.TabIndex = 11;
+            txtID.TextChanged += textBox1_TextChanged;
+            // 
+            // txtNombreCiclo
+            // 
+            txtNombreCiclo.Location = new Point(261, 60);
+            txtNombreCiclo.Name = "txtNombreCiclo";
+            txtNombreCiclo.Size = new Size(482, 23);
+            txtNombreCiclo.TabIndex = 12;
             // 
             // lblID
             // 
@@ -127,16 +130,16 @@
             ClientSize = new Size(800, 450);
             Controls.Add(lblNombreCiclo);
             Controls.Add(lblID);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(dataGridView1);
+            Controls.Add(txtNombreCiclo);
+            Controls.Add(txtID);
+            Controls.Add(dgCiclo);
             Controls.Add(btnCancelar);
             Controls.Add(btnBorrar);
             Controls.Add(btnModificar);
             Controls.Add(btnAgregar);
             Name = "FrmCiclo";
             Text = "FrmCiclo";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgCiclo).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -147,9 +150,9 @@
         private Button btnBorrar;
         private Button btnModificar;
         private Button btnAgregar;
-        private DataGridView dataGridView1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private DataGridView dgCiclo;
+        private TextBox txtID;
+        private TextBox txtNombreCiclo;
         private Label lblID;
         private Label lblNombreCiclo;
     }
