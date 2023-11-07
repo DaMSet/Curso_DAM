@@ -11,18 +11,19 @@ namespace U3_E4_Formularios
         static void Main()
         {
 
-            //ApplicationConfiguration.Initialize();
-            //Application.Run(new Form1());
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1());
 
             /* Application.EnableVisualStyles();
              Application.SetCompatibleTextRenderingDefault(false);
 
              Application.Run(new FrmCiclo());*/
 
+            /*
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new FrmEstudiante());
+            Application.Run(new FrmEstudiante());*/
 
         }
     }

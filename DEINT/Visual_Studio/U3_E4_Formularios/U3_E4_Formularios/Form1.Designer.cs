@@ -34,21 +34,23 @@
             // 
             // btnCiclo
             // 
-            btnCiclo.Location = new Point(42, 129);
+            btnCiclo.Location = new Point(106, 129);
             btnCiclo.Name = "btnCiclo";
             btnCiclo.Size = new Size(165, 146);
             btnCiclo.TabIndex = 0;
             btnCiclo.Text = "Ciclo";
             btnCiclo.UseVisualStyleBackColor = true;
+            btnCiclo.Click += btnCiclo_Click;
             // 
             // btnEstudiante
             // 
-            btnEstudiante.Location = new Point(447, 129);
+            btnEstudiante.Location = new Point(484, 129);
             btnEstudiante.Name = "btnEstudiante";
             btnEstudiante.Size = new Size(165, 146);
             btnEstudiante.TabIndex = 1;
             btnEstudiante.Text = "Estudiante";
             btnEstudiante.UseVisualStyleBackColor = true;
+            btnEstudiante.Click += btnEstudiante_Click;
             // 
             // Form1
             // 

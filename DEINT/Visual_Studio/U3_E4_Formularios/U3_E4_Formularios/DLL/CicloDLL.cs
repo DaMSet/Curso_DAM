@@ -33,5 +33,14 @@ namespace U3_E4_Formularios.DLL
 
         }
 
+        public void Borrar(string text)
+        {
+            conexion.EjecutarComandoSinRetornarDatos("DELETE FROM Ciclo where Ciclo.id ='"+text+"'");
+        }
+
+        public void Editar(string id,string text) 
+        {
+            conexion.EjecutarComandoSinRetornarDatos("UPDATE Ciclo SET Ciclo.nombre ='"+text+"' where Ciclo.id = '"+id+"' ");
+        }
     }
 }

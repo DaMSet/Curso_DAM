@@ -44,11 +44,11 @@
             lblSApellido = new Label();
             txtCorreo = new TextBox();
             lblCorreo = new Label();
-            dgvTabla = new DataGridView();
+            dgEstudiante = new DataGridView();
             cmbCiclo = new ComboBox();
             lblCiclo = new Label();
             ((System.ComponentModel.ISupportInitialize)pcbEstudiante).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dgvTabla).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgEstudiante).BeginInit();
             SuspendLayout();
             // 
             // pcbEstudiante
@@ -56,6 +56,7 @@
             pcbEstudiante.Location = new Point(23, 25);
             pcbEstudiante.Name = "pcbEstudiante";
             pcbEstudiante.Size = new Size(130, 208);
+            pcbEstudiante.SizeMode = PictureBoxSizeMode.StretchImage;
             pcbEstudiante.TabIndex = 0;
             pcbEstudiante.TabStop = false;
             // 
@@ -77,6 +78,7 @@
             btnAgregar.TabIndex = 2;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnModificar
             // 
@@ -185,14 +187,14 @@
             lblCorreo.TabIndex = 14;
             lblCorreo.Text = "Correo";
             // 
-            // dgvTabla
+            // dgEstudiante
             // 
-            dgvTabla.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvTabla.Location = new Point(12, 314);
-            dgvTabla.Name = "dgvTabla";
-            dgvTabla.RowTemplate.Height = 25;
-            dgvTabla.Size = new Size(756, 124);
-            dgvTabla.TabIndex = 16;
+            dgEstudiante.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgEstudiante.Location = new Point(12, 314);
+            dgEstudiante.Name = "dgEstudiante";
+            dgEstudiante.RowTemplate.Height = 25;
+            dgEstudiante.Size = new Size(756, 124);
+            dgEstudiante.TabIndex = 16;
             // 
             // cmbCiclo
             // 
@@ -218,7 +220,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(lblCiclo);
             Controls.Add(cmbCiclo);
-            Controls.Add(dgvTabla);
+            Controls.Add(dgEstudiante);
             Controls.Add(txtCorreo);
             Controls.Add(lblCorreo);
             Controls.Add(txtSApellido);
@@ -238,7 +240,7 @@
             Name = "FrmEstudiante";
             Text = "FrmEstudiante";
             ((System.ComponentModel.ISupportInitialize)pcbEstudiante).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvTabla).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgEstudiante).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -261,7 +263,7 @@
         private Label lblSApellido;
         private TextBox txtCorreo;
         private Label lblCorreo;
-        private DataGridView dgvTabla;
+        private DataGridView dgEstudiante;
         private ComboBox cmbCiclo;
         private Label lblCiclo;
     }

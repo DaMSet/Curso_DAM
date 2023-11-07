@@ -37,17 +37,28 @@ namespace U3_E4_Formularios.frm
         {
             CicloDLL cicloDLL = new CicloDLL();
             cicloDLL.Agregar(txtNombreCiclo.Text);
+
+
+            dgCiclo.DataSource = Ciclodll.MostrarCiclos().Tables[0];
+
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
 
+            CicloDLL cicloDLL = new CicloDLL();
+            cicloDLL.Editar(txtID.Text,txtNombreCiclo.Text);
+
+            dgCiclo.DataSource = Ciclodll.MostrarCiclos().Tables[0];
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            txtID.ResetText();
-            txtNombreCiclo.ResetText();
+            CicloDLL cicloDLL = new CicloDLL();
+            cicloDLL.Borrar(txtID.Text);
+
+
+            dgCiclo.DataSource = Ciclodll.MostrarCiclos().Tables[0];
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

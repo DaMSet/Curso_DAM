@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace U3_E4_Formularios.Model
 {
-    class Estudiante
+    public class Estudiante
     {
 
         public int Id { get; set; }
