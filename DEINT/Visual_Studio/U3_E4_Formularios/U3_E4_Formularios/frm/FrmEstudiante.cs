@@ -31,6 +31,7 @@ namespace U3_E4_Formularios.frm
                 pcbEstudiante.Image.Save(memoryStream,System.Drawing.Imaging.ImageFormat.Png);
 
                 imgaenByte = memoryStream.ToArray();
+
             }
         }
     }
