@@ -32,7 +32,7 @@ namespace U3_E5_Ficheros
                 {
                     while (!stream.EndOfStream)
                     {
-                        s = stream.ReadLine();
+                        s += stream.ReadLine();
                     }
 
                     //btnPasarContenido.Text = s;

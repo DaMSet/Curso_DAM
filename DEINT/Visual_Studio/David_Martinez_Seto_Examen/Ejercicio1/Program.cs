@@ -12,6 +12,7 @@
             Serv.AgregarDocumentoPendiente("manu3");
 
             Serv.ArchivarDocumento();
+            Serv.ArchivarDocumento();
 
 
             List<documento> lista = Serv.MostrarDocumentosArchivados();

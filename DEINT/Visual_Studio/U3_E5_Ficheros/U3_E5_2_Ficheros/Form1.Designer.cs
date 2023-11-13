@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            listBox1 = new ListBox();
+            txtArchivo = new TextBox();
+            txtCadena = new TextBox();
+            ltFrases = new ListBox();
             SuspendLayout();
             // 
             // button1
@@ -42,38 +42,41 @@
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // textBox1
+            // txtArchivo
             // 
-            textBox1.Location = new Point(46, 44);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 1;
+            txtArchivo.BorderStyle = BorderStyle.None;
+            txtArchivo.Location = new Point(46, 44);
+            txtArchivo.Name = "txtArchivo";
+            txtArchivo.Size = new Size(100, 16);
+            txtArchivo.TabIndex = 1;
             // 
-            // textBox2
+            // txtCadena
             // 
-            textBox2.Location = new Point(357, 44);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(420, 23);
-            textBox2.TabIndex = 2;
+            txtCadena.Location = new Point(357, 44);
+            txtCadena.Name = "txtCadena";
+            txtCadena.Size = new Size(420, 23);
+            txtCadena.TabIndex = 2;
             // 
-            // listBox1
+            // ltFrases
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(357, 117);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(420, 244);
-            listBox1.TabIndex = 3;
+            ltFrases.FormattingEnabled = true;
+            ltFrases.ItemHeight = 15;
+            ltFrases.Location = new Point(357, 117);
+            ltFrases.Name = "ltFrases";
+            ltFrases.Size = new Size(420, 244);
+            ltFrases.TabIndex = 3;
+            ltFrases.SelectedIndexChanged += ltFrases_SelectedIndexChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(listBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(ltFrases);
+            Controls.Add(txtCadena);
+            Controls.Add(txtArchivo);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
@@ -84,8 +87,8 @@
         #endregion
 
         private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private ListBox listBox1;
+        private TextBox txtArchivo;
+        private TextBox txtCadena;
+        private ListBox ltFrases;
     }
 }

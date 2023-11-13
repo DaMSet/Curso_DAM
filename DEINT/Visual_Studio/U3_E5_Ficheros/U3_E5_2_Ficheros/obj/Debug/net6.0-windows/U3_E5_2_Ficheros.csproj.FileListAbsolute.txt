@@ -1,0 +1,16 @@
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\bin\Debug\net6.0-windows\U3_E5_2_Ficheros.exe
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\bin\Debug\net6.0-windows\U3_E5_2_Ficheros.deps.json
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\bin\Debug\net6.0-windows\U3_E5_2_Ficheros.runtimeconfig.json
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\bin\Debug\net6.0-windows\U3_E5_2_Ficheros.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\bin\Debug\net6.0-windows\U3_E5_2_Ficheros.pdb
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.Form1.resources
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.csproj.GenerateResource.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.AssemblyInfoInputs.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.AssemblyInfo.cs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.csproj.CoreCompileInputs.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\refint\U3_E5_2_Ficheros.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.pdb
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\U3_E5_2_Ficheros.genruntimeconfig.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_2_Ficheros\obj\Debug\net6.0-windows\ref\U3_E5_2_Ficheros.dll

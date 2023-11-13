@@ -12,3 +12,17 @@ C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Exa
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.pdb
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.genruntimeconfig.cache
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\ref\Ejercicio2.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\bin\Debug\net6.0\Ejercicio2.exe
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\bin\Debug\net6.0\Ejercicio2.deps.json
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\bin\Debug\net6.0\Ejercicio2.runtimeconfig.json
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\bin\Debug\net6.0\Ejercicio2.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\bin\Debug\net6.0\Ejercicio2.pdb
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.AssemblyInfoInputs.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.AssemblyInfo.cs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.csproj.CoreCompileInputs.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\refint\Ejercicio2.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.pdb
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\Ejercicio2.genruntimeconfig.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\David_Martinez_Seto_Examen\Ejercicio2\obj\Debug\net6.0\ref\Ejercicio2.dll

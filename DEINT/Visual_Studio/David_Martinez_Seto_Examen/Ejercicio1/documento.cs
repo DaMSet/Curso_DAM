@@ -28,6 +28,8 @@ namespace Ejercicio1
             this.Nombre = nombre;
             this.Fecha = DateTime.Today;
 
+            
+
         }
 
 
