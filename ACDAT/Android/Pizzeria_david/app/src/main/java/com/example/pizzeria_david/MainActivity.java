@@ -1,10 +1,13 @@
 package com.example.pizzeria_david;
 
 
-import android.app.Activity;
+
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,8 +19,8 @@ import com.example.pizzeria_david.databinding.ActivityMainBinding;
 //
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private View inicioSesion;
-    //private TextView nombreUsuario,Contraseña;
+    private View inicioSesion,pantalla;
+    private TextView nombreUsuario;
 
     private ActivityMainBinding binding;
 
@@ -26,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
 
-
+        
 /*
         inicioSesion = findViewById(R.id.btnInicioSesion);
         inicioSesion.setOnClickListener(this);
@@ -39,6 +42,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         inicioSesion.setOnClickListener(this);
 
+        nombreUsuario = binding.txtNombre;
+
+        pantalla = binding.mainActivity1;
+
+        cargarPreferencias();
+
 
     }
 
@@ -47,11 +56,62 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (view.getId() == R.id.btnInicioSesion) {
 
+            guardarPreferencias();
             Intent i = new Intent(MainActivity.this, PaginaPrincipal.class);
             startActivity(i);
             //finish();
 
         }
+    }
+
+
+    private void guardarPreferencias(){
+        //Creamos el archivo de referencias
+        SharedPreferences preferences = getSharedPreferences("CredencialesUsuario", Context.MODE_PRIVATE);
+
+        String usuario = nombreUsuario.getText().toString();
+
+        //Creamos el editor del shared references
+        SharedPreferences.Editor editor = preferences.edit();
+
+        //Añadimos el usuario local
+        editor.putString("user",usuario);
+
+        //Añadimos el fondo Predeterminado
+        String fondo = "pizza_claro.jpg";
+
+        editor.putString("background", fondo);
+
+
+        editor.commit();
+
+    }
+
+    private void cargarPreferencias(){
+
+        //Creamos el archivo de referencias
+        SharedPreferences preferences = getSharedPreferences("CredencialesUsuario", Context.MODE_PRIVATE);
+
+        String user = preferences.getString("user","Inserte usuario");
+
+        String fondo = preferences.getString("background","pizza_claro.jpg");
+
+        nombreUsuario.setText(user);
+
+        //Recojemos el fondo por defecto
+
+        if(fondo.equalsIgnoreCase("pizza_claro.jpg"))
+        {
+            pantalla.setBackgroundResource(R.drawable.pizza_claro);
+        }
+        else
+        {
+            pantalla.setBackgroundResource(R.drawable.pizza_oscuro);
+        }
+
+
+
+
     }
 
 

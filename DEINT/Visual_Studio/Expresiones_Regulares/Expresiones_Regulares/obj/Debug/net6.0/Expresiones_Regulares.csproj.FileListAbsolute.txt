@@ -1,0 +1,14 @@
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\Expresiones_Regulares.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\Expresiones_Regulares.AssemblyInfoInputs.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\Expresiones_Regulares.AssemblyInfo.cs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\Expresiones_Regulares.csproj.CoreCompileInputs.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\bin\Debug\net6.0\Expresiones_Regulares.exe
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\bin\Debug\net6.0\Expresiones_Regulares.deps.json
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\bin\Debug\net6.0\Expresiones_Regulares.runtimeconfig.json
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\bin\Debug\net6.0\Expresiones_Regulares.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\bin\Debug\net6.0\Expresiones_Regulares.pdb
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\Expresiones_Regulares.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\refint\Expresiones_Regulares.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\Expresiones_Regulares.pdb
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\Expresiones_Regulares.genruntimeconfig.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\Expresiones_Regulares\Expresiones_Regulares\obj\Debug\net6.0\ref\Expresiones_Regulares.dll
