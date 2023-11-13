@@ -3,28 +3,46 @@ package com.example.pizzeria_david;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 
+import com.example.pizzeria_david.databinding.ActivityPaginaPedidoBinding;
+import com.example.pizzeria_david.databinding.ActivityPaginaPrincipalBinding;
+
 
 public class PaginaPedido extends AppCompatActivity implements View.OnClickListener{
 
-    private View btnAtrasPedido,btnPizzasPredeterminadas,btnCrearPizzas;
+    private View btnAtrasPedido,btnPizzasPredeterminadas,btnCrearPizzas,pantalla;
+    private ActivityPaginaPedidoBinding binding;
+
+    private PreferenciasCompartidas sharedPreferencesManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagina_pedido);
+        //setContentView(R.layout.activity_pagina_pedido);
 
-        btnAtrasPedido = findViewById(R.id.btnAtrasPedido);
+
+        //INICIAMOS NUESTRA CLASE DE PREFERENCIAS
+        sharedPreferencesManager = PreferenciasCompartidas.obtenerInstancia(this);
+
+        binding = ActivityPaginaPedidoBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        btnAtrasPedido = binding.btnAtrasPedido;
         btnAtrasPedido.setOnClickListener(this);
 
-        btnPizzasPredeterminadas = findViewById(R.id.btnPizzasPredeterminadas);
+        btnPizzasPredeterminadas = binding.btnPizzasPredeterminadas;
         btnPizzasPredeterminadas.setOnClickListener(this);
 
-        btnCrearPizzas = findViewById(R.id.btnCrearPizzas);
+        btnCrearPizzas = binding.btnCrearPizzas;
         btnCrearPizzas.setOnClickListener(this);
+
+        pantalla = binding.paginapedido1;
+
+        cargarPreferencias();
 
     }
 
@@ -65,6 +83,25 @@ public class PaginaPedido extends AppCompatActivity implements View.OnClickListe
 
         }
 
+    }
+
+    private void cargarPreferencias(){
+
+
+        String fondo = sharedPreferencesManager.obtenerDato("background","pizza_claro.jpg");
+
+
+
+        //Recojemos el fondo por defecto
+
+        if(fondo.equalsIgnoreCase("pizza_claro.jpg"))
+        {
+            pantalla.setBackgroundResource(R.drawable.pizza_claro);
+        }
+        else
+        {
+            pantalla.setBackgroundResource(R.drawable.pizza_oscuro);
+        }
 
 
 

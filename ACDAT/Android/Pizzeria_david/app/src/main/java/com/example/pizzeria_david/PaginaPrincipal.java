@@ -19,6 +19,7 @@ public class PaginaPrincipal extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_pagina_principal);
 
+
         //INICIAMOS NUESTRA CLASE DE PREFERENCIAS
         sharedPreferencesManager = PreferenciasCompartidas.obtenerInstancia(this);
 
