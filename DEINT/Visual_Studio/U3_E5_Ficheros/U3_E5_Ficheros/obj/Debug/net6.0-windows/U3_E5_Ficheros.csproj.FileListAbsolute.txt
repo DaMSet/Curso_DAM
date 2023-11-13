@@ -1,0 +1,16 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.Form1.resources
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\bin\Debug\net6.0-windows\U3_E5_Ficheros.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\bin\Debug\net6.0-windows\U3_E5_Ficheros.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\bin\Debug\net6.0-windows\U3_E5_Ficheros.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\bin\Debug\net6.0-windows\U3_E5_Ficheros.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\bin\Debug\net6.0-windows\U3_E5_Ficheros.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\refint\U3_E5_Ficheros.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\U3_E5_Ficheros.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E5_Ficheros\U3_E5_Ficheros\obj\Debug\net6.0-windows\ref\U3_E5_Ficheros.dll
