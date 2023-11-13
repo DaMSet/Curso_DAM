@@ -278,9 +278,25 @@ Componentes
 
 
 
+-----------
+
+Servicio // provaiders (Singelton) //Solo instanciadas una vez
+
+que son ? 
+
+es la api de cualquier clase , para que sea usada por ti o por otros
+
+1º Utilidades globales  
+
+   Algoritmo que nos aporta utilidad
+
+2º Modelo de datos
+
+   Ofrezco una api o varias y habla con el backend 
 
 
-
+-------------------
+COMO CREAR UN SERVICIO
 
 
 
