@@ -9,14 +9,18 @@ import com.example.pizzeria_david.databinding.ActivityPaginaPrincipalBinding;
 
 public class PaginaPrincipal extends AppCompatActivity implements View.OnClickListener{
 
-    private View btnAtras,btnWeb,btnPedido,btnConfiguracion;
+    private View btnAtras,btnWeb,btnPedido,btnConfiguracion,paginaprincipal;
 
     private ActivityPaginaPrincipalBinding binding;
+
+    private PreferenciasCompartidas sharedPreferencesManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_pagina_principal);
 
+        //INICIAMOS NUESTRA CLASE DE PREFERENCIAS
+        sharedPreferencesManager = PreferenciasCompartidas.obtenerInstancia(this);
 
         binding = ActivityPaginaPrincipalBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -37,7 +41,9 @@ public class PaginaPrincipal extends AppCompatActivity implements View.OnClickLi
        // btnConfiguracion = findViewById(R.id.btnConfiguracion);
         btnConfiguracion.setOnClickListener(this);
 
+        paginaprincipal = binding.paginaprincipal1;
 
+        cargarPreferencias();
 
     }
 
@@ -82,5 +88,25 @@ public class PaginaPrincipal extends AppCompatActivity implements View.OnClickLi
 
     }
 
+    private void cargarPreferencias(){
+
+        String fondo = sharedPreferencesManager.obtenerDato("background","pizza_claro.jpg");
+
+
+        //Recojemos el fondo por defecto
+
+        if(fondo.equalsIgnoreCase("pizza_claro.jpg"))
+        {
+            paginaprincipal.setBackgroundResource(R.drawable.pizza_claro);
+        }
+        else
+        {
+            paginaprincipal.setBackgroundResource(R.drawable.pizza_oscuro);
+        }
+
+
+
+
+    }
 
 }
