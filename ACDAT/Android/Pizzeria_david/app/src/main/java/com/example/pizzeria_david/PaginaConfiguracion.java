@@ -19,6 +19,8 @@ public class PaginaConfiguracion extends AppCompatActivity implements View.OnCli
     private View btnAtrasConfig,swcUltimoPedido,spColores,paginaConfiguracion;
     private Switch swcColor;
     private ActivityPaginaConfiguracionBinding binding;
+
+    private PreferenciasCompartidas sharedPreferencesManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +45,10 @@ public class PaginaConfiguracion extends AppCompatActivity implements View.OnCli
         spColores.setVisibility(View.INVISIBLE);
 
         paginaConfiguracion = binding.paginaConfiguracion1;
+
+
+        //INICIAMOS NUESTRA CLASE DE PREFERENCIAS
+        sharedPreferencesManager = PreferenciasCompartidas.obtenerInstancia(this);
 
         cargarPreferencias();
 
@@ -94,13 +100,9 @@ public class PaginaConfiguracion extends AppCompatActivity implements View.OnCli
 
     private void guardarPreferencias(String tipoFondo){
 
-        //Creamos el archivo de referencias
-        SharedPreferences preferences = getSharedPreferences("CredencialesUsuario", Context.MODE_PRIVATE);
-
         String fondo = "";
 
-        //Creamos el editor del shared references
-        SharedPreferences.Editor editor = preferences.edit();
+
         
         //Añadimos el fondo Predeterminado
         if(tipoFondo.equalsIgnoreCase("Claro"))
@@ -112,21 +114,13 @@ public class PaginaConfiguracion extends AppCompatActivity implements View.OnCli
              fondo = "pizza_oscuro.jpg";
         }
 
-
-        editor.putString("background", fondo);
-
-
-        editor.commit();
+        sharedPreferencesManager.guardarDato("background",fondo);
 
     }
 
     private void cargarPreferencias(){
 
-        //Creamos el archivo de referencias
-        SharedPreferences preferences = getSharedPreferences("CredencialesUsuario", Context.MODE_PRIVATE);
-
-        String fondo = preferences.getString("background","pizza_claro.jpg");
-
+        String fondo = sharedPreferencesManager.obtenerDato("background","pizza_claro.jpg");
 
 
         //Recojemos el fondo por defecto

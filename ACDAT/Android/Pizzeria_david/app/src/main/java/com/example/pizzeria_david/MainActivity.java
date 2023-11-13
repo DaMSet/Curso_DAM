@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private View inicioSesion,pantalla;
     private TextView nombreUsuario;
+    private PreferenciasCompartidas sharedPreferencesManager;
+
 
     private ActivityMainBinding binding;
 
@@ -29,7 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
 
-        
+        //INICIAMOS NUESTRA CLASE DE PREFERENCIAS
+        sharedPreferencesManager = PreferenciasCompartidas.obtenerInstancia(this);
 /*
         inicioSesion = findViewById(R.id.btnInicioSesion);
         inicioSesion.setOnClickListener(this);
@@ -47,7 +50,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         pantalla = binding.mainActivity1;
 
         cargarPreferencias();
-
 
     }
 
@@ -67,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void guardarPreferencias(){
         //Creamos el archivo de referencias
+/*
         SharedPreferences preferences = getSharedPreferences("CredencialesUsuario", Context.MODE_PRIVATE);
 
         String usuario = nombreUsuario.getText().toString();
@@ -84,17 +87,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         editor.commit();
+*/
+
+        String usuario = nombreUsuario.getText().toString();
+        String fondo = "pizza_claro.jpg";
+
+        sharedPreferencesManager.guardarDato("user",usuario);
+        sharedPreferencesManager.guardarDato("background", fondo);
 
     }
+
 
     private void cargarPreferencias(){
 
         //Creamos el archivo de referencias
+/*
         SharedPreferences preferences = getSharedPreferences("CredencialesUsuario", Context.MODE_PRIVATE);
 
         String user = preferences.getString("user","Inserte usuario");
 
         String fondo = preferences.getString("background","pizza_claro.jpg");
+*/
+
+        String user = sharedPreferencesManager.obtenerDato("user","Usuario_Default");
+        String fondo = sharedPreferencesManager.obtenerDato("background","pizza_claro.jpg");
 
         nombreUsuario.setText(user);
 
