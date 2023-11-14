@@ -298,6 +298,17 @@ es la api de cualquier clase , para que sea usada por ti o por otros
 -------------------
 COMO CREAR UN SERVICIO
 
+-------------------
+OBSERVABLES
+
+Subject 
+estan en un flujo constante de datos.
+
+esta conectado a otro objeto llamado observable
+
+el sujeto manda los datos al obsevable y en el observer o subscriptor , ees el codigo externo que se suscribe a los datos o receptor
+
+se suscribe a el observableno al sujeto.
 
 
 

@@ -1,0 +1,8 @@
+david Matematicas: 9 Informatica: 10
+david1 Matematicas: 10 Informatica: 9
+david2 Matematicas: 1 Informatica: 2
+david3 Matematicas: 2 Informatica: 8
+david4 Matematicas: 3 Informatica: 8
+david5 Matematicas: 3 Informatica: 7
+david6 Matematicas: 4 Informatica: 6
+david7 Matematicas: 5 Informatica: 6
