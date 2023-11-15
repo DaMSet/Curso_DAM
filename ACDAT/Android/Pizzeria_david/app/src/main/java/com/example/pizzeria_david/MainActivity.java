@@ -92,8 +92,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String usuario = nombreUsuario.getText().toString();
         String fondo = "pizza_claro.jpg";
 
-        sharedPreferencesManager.guardarDato("user",usuario);
-        sharedPreferencesManager.guardarDato("background", fondo);
+        sharedPreferencesManager.guardarDatoString("user",usuario);
+        sharedPreferencesManager.guardarDatoString("background", fondo);
 
     }
 

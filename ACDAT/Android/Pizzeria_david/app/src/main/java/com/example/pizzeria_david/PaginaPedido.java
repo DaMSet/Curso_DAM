@@ -15,8 +15,10 @@ import com.example.pizzeria_david.databinding.ActivityPaginaPrincipalBinding;
 
 public class PaginaPedido extends AppCompatActivity implements View.OnClickListener{
 
-    private View btnAtrasPedido,btnPizzasPredeterminadas,btnCrearPizzas,pantalla;
+    private View btnAtrasPedido,btnPizzasPredeterminadas,btnCrearPizzas,bntUltimoPedido,pantalla;
     private ActivityPaginaPedidoBinding binding;
+
+    private boolean ultimoPedido;
 
     private PreferenciasCompartidas sharedPreferencesManager;
     @Override
@@ -40,9 +42,18 @@ public class PaginaPedido extends AppCompatActivity implements View.OnClickListe
         btnCrearPizzas = binding.btnCrearPizzas;
         btnCrearPizzas.setOnClickListener(this);
 
+        bntUltimoPedido = binding.btnUltimoPedido;
+        bntUltimoPedido.setOnClickListener(this);
+
+
         pantalla = binding.paginapedido1;
 
+
         cargarPreferencias();
+
+        if (ultimoPedido) {
+            bntUltimoPedido.setVisibility(View.VISIBLE);
+        }
 
     }
 
@@ -103,6 +114,7 @@ public class PaginaPedido extends AppCompatActivity implements View.OnClickListe
             pantalla.setBackgroundResource(R.drawable.pizza_oscuro);
         }
 
+        ultimoPedido = sharedPreferencesManager.obtenerDatoBoolean("UltimoPedido",false);
 
 
 

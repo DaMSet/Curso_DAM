@@ -3,8 +3,6 @@ package com.example.pizzeria_david;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import kotlin.contracts.Returns;
-
 public class PreferenciasCompartidas {
 
     private static PreferenciasCompartidas instancia;
@@ -24,18 +22,30 @@ public class PreferenciasCompartidas {
     }
 
     // Métodos para guardar y obtener datos de SharedPreferences
-    public void guardarDato(String clave, String valor) {
+    public void guardarDatoString(String clave, String valor) {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString(clave, valor);
         editor.apply();
     }
 
+
+
     public String obtenerDato(String clave, String valorPorDefecto) {
         return sharedPreferences.getString(clave, valorPorDefecto);
     }
 
+    public void guardarDatoBoolean(String clave, boolean valor) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putBoolean(clave, valor);
+        editor.apply();
+    }
 
-        //Para poder usarlo sera con esto
+    public boolean obtenerDatoBoolean(String clave, boolean valorPorDefecto) {
+        return sharedPreferences.getBoolean(clave, valorPorDefecto);
+    }
+
+
+    //Para poder usarlo sera con esto
         /*
             // Obtener la instancia del Singleton SharedPreferencesManager
             PreferenciasCompartidas sharedPreferencesManager = PreferenciasCompartidas.obtenerInstancia(this);

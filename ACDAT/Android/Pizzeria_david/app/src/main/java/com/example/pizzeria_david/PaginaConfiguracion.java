@@ -16,8 +16,8 @@ import com.example.pizzeria_david.databinding.ActivityPaginaConfiguracionBinding
 
 public class PaginaConfiguracion extends AppCompatActivity implements View.OnClickListener {
 
-    private View btnAtrasConfig,swcUltimoPedido,spColores,paginaConfiguracion;
-    private Switch swcColor;
+    private View btnAtrasConfig,spColores,paginaConfiguracion;
+    private Switch swcColor,swcUltimoPedido;
     private ActivityPaginaConfiguracionBinding binding;
 
     private PreferenciasCompartidas sharedPreferencesManager;
@@ -81,24 +81,40 @@ public class PaginaConfiguracion extends AppCompatActivity implements View.OnCli
             if (swcColor.createAccessibilityNodeInfo().isChecked())
             {
                 swcColor.setText("Claro");
-                guardarPreferencias(swcColor.getText().toString());
+                guardarPreferenciasFondo(swcColor.getText().toString());
                 cargarPreferencias();
             }
             else
             {
                 swcColor.setText("Oscuro");
-                guardarPreferencias(swcColor.getText().toString());
+                guardarPreferenciasFondo(swcColor.getText().toString());
                 cargarPreferencias();
             }
 
+        }
 
+        if (view.getId() == R.id.swcUltimoPedido)
+        {
+
+            if (swcUltimoPedido.createAccessibilityNodeInfo().isChecked())
+            {
+                swcUltimoPedido.setText("SI");
+                guardarPreferenciasUltimoPedido(true);
+                cargarPreferencias();
+            }
+            else
+            {
+                swcUltimoPedido.setText("NO");
+                guardarPreferenciasUltimoPedido(false);
+                cargarPreferencias();
+            }
 
         }
 
 
     }
 
-    private void guardarPreferencias(String tipoFondo){
+    private void guardarPreferenciasFondo(String tipoFondo){
 
         String fondo = "";
 
@@ -114,7 +130,13 @@ public class PaginaConfiguracion extends AppCompatActivity implements View.OnCli
              fondo = "pizza_oscuro.jpg";
         }
 
-        sharedPreferencesManager.guardarDato("background",fondo);
+        sharedPreferencesManager.guardarDatoString("background",fondo);
+
+    }
+
+    private void guardarPreferenciasUltimoPedido(boolean valor){
+
+            sharedPreferencesManager.guardarDatoBoolean("UltimoPedido",valor);
 
     }
 
@@ -122,16 +144,32 @@ public class PaginaConfiguracion extends AppCompatActivity implements View.OnCli
 
         String fondo = sharedPreferencesManager.obtenerDato("background","pizza_claro.jpg");
 
+        boolean UltimoPedido = sharedPreferencesManager.obtenerDatoBoolean("UltimoPedido",false);
 
         //Recojemos el fondo por defecto
 
         if(fondo.equalsIgnoreCase("pizza_claro.jpg"))
         {
             paginaConfiguracion.setBackgroundResource(R.drawable.pizza_claro);
+            swcColor.setText("claro");
+            swcColor.setChecked(true);
         }
         else
         {
             paginaConfiguracion.setBackgroundResource(R.drawable.pizza_oscuro);
+            swcColor.setText("oscuro");
+            swcColor.setChecked(false);
+        }
+
+        if(UltimoPedido)
+        {
+            swcUltimoPedido.setText("SI");
+            swcUltimoPedido.setChecked(true);
+        }
+        else
+        {
+            swcUltimoPedido.setText("NO");
+            swcUltimoPedido.setChecked(false);
         }
 
 
