@@ -1,0 +1,14 @@
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\bin\Debug\net6.0\U3_E6_Ficheros_2_5.exe
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\bin\Debug\net6.0\U3_E6_Ficheros_2_5.deps.json
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\bin\Debug\net6.0\U3_E6_Ficheros_2_5.runtimeconfig.json
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\bin\Debug\net6.0\U3_E6_Ficheros_2_5.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\bin\Debug\net6.0\U3_E6_Ficheros_2_5.pdb
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\U3_E6_Ficheros_2_5.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\U3_E6_Ficheros_2_5.AssemblyInfoInputs.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\U3_E6_Ficheros_2_5.AssemblyInfo.cs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\U3_E6_Ficheros_2_5.csproj.CoreCompileInputs.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\U3_E6_Ficheros_2_5.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\refint\U3_E6_Ficheros_2_5.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\U3_E6_Ficheros_2_5.pdb
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\U3_E6_Ficheros_2_5.genruntimeconfig.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\U3_E6_Ficheros2\U3_E6_Ficheros_2_5\obj\Debug\net6.0\ref\U3_E6_Ficheros_2_5.dll

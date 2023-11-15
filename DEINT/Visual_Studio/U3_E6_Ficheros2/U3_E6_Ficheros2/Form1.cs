@@ -37,18 +37,18 @@ namespace U3_E6_Ficheros2
                             label1.Text += "No se ha utilizado ningún archivo anteriormente.";
                         }
 
-                      
+
 
                     }
 
 
 
                 }
-                else if (archivos.Length == 0) 
+                else if (archivos.Length == 0)
                 {
                     label1.Text += "No hay archivos";
                 }
-        
+
 
             }
             else
@@ -62,6 +62,55 @@ namespace U3_E6_Ficheros2
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            Console.Write("Ingrese la ruta del directorio: ");
+            string directorioPadre = Console.ReadLine();
+
+
+
+            if (Directory.Exists(directorioPadre))
+            {
+                Console.Write("Ingrese el nombre del subdirectorio a crear: ");
+                string nombreSubdirectorio = Console.ReadLine();
+                string rutaSubdirectorio = Path.Combine(directorioPadre, nombreSubdirectorio);
+
+                // Verificamos si el subdirectorio ya existe
+                if (!Directory.Exists(rutaSubdirectorio))
+                {
+                    Directory.CreateDirectory(rutaSubdirectorio);
+
+                    Console.Write("Ingrese la extensión de los archivos a copiar (sin el punto): ");
+                    string extension = Console.ReadLine();
+
+                    // Obtenemos todos los archivos con la extensión proporcionada en el directorio padre
+                    string[] archivos = Directory.GetFiles(directorioPadre, $"*.{extension}");
+
+                    foreach (string archivo in archivos)
+                    {
+                        // Creamos la ruta de destino para la copia
+                        string destino = Path.Combine(rutaSubdirectorio, Path.GetFileName(archivo));
+
+                        // Copiamos el archivo al subdirectorio
+                        File.Copy(archivo, destino, true);
+                    }
+
+                    Console.WriteLine("Archivos copiados exitosamente.");
+                }
+                else
+                {
+                    Console.WriteLine("El subdirectorio ya existe. Intente con un nombre diferente.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("El directorio no existe. Verifique la ruta proporcionada.");
+            }
+        }
+
+    
     }
 }
 

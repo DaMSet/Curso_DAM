@@ -10,54 +10,47 @@ namespace U3_E6_Ficheros2_2
         private void Form1_Load(object sender, EventArgs e)
         {
 
-        }
-
-
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            string rutaDirectorio = textBox1.Text.ToString();
-            string tipo = textBox2.Text.ToString();
+            Console.Write("Ingrese la ruta del directorio: ");
+            string rutaDirectorio = Console.ReadLine();
 
             if (Directory.Exists(rutaDirectorio))
             {
                 string[] archivos = Directory.GetFiles(rutaDirectorio);
 
-                if (archivos.Length > 0)
+                if (archivos.Length == 0)
                 {
+                    Console.WriteLine("El directorio no contiene archivos.");
+                }
+                else
+                {
+                    Console.Write("Ingrese la extensión de archivo a filtrar (sin el punto): ");
+                    string extension = Console.ReadLine();
 
-                   
+                    Console.WriteLine($"Archivos con extensión '{extension}':");
 
-                        // Crear un cuadro de diálogo para seleccionar archivos
-                        OpenFileDialog openFileDialog = new OpenFileDialog();
-
-                        // Establecer filtros de extensión
-                        openFileDialog.Filter = $"Archivos de texto (*.{tipo})|*.{tipo}|Todos los archivos (*.*)|*.*";
-                        openFileDialog.FilterIndex = 1; // Índice del filtro por defecto
-                        openFileDialog.CheckFileExists = false;
-                        openFileDialog.CheckPathExists = true;
-                        openFileDialog.FileName = rutaDirectorio;
-
-                    // Mostrar el cuadro de diálogo y verificar si el usuario selecciona un archivo
-                    if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    foreach (string archivo in archivos)
                     {
-                        label1.Text += $"{openFileDialog.FileName}\n";
+                        if (Path.GetExtension(archivo).Equals($".{extension}", StringComparison.OrdinalIgnoreCase))
+                        {
+                            Console.WriteLine(Path.GetFileName(archivo));
+                        }
                     }
-
-
                 }
-                else if (archivos.Length == 0)
-                {
-                    label1.Text += "No hay archivos";
-                }
-
-
             }
             else
             {
-                label1.Text = "No existe ese directorio";
+                Console.WriteLine("El directorio no existe. Verifique la ruta proporcionada.");
             }
+
         }
+
+
+
+        
+
+                   
+
+        
     }
 }
 /*

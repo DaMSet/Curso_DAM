@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\U3_E6_Ficheros2.csproj": {}
+    "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\U3_E6_Ficheros2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\U3_E6_Ficheros2.csproj": {
+    "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\U3_E6_Ficheros2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\U3_E6_Ficheros2.csproj",
+        "projectUniqueName": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\U3_E6_Ficheros2.csproj",
         "projectName": "U3_E6_Ficheros2",
-        "projectPath": "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\U3_E6_Ficheros2.csproj",
-        "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\obj\\",
+        "projectPath": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\U3_E6_Ficheros2.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\U3_E6_Ficheros2\\U3_E6_Ficheros2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
