@@ -1,0 +1,21 @@
+Guión de la presentación (5 minutos de duración):
+
+Título de la Presentación
+
+**Slide 1: Introducción
+
+**Slide 2: Contexto y Origen (Reseña histórica del ERP, desde su concepción hasta la evolución actual. Destacar eventos clave y cambios significativos en su desarrollo)
+
+**Slide 3: Ventajas con respecto a otros ERPs.
+
+**Slide 4: Módulos Esenciales (Desglose de los módulos principales del ERP y cómo contribuyen a la integración y flujo de trabajo eficiente).
+
+**Slide 5: Vídeo de Demostración (Reproducción de un breve vídeo que muestra la interfaz y funcionalidades clave del ERP).
+
+**Slide 6: Personalización y Flexibilidad (Discusión sobre las capacidades de personalización del ERP permitiendo a las empresas ajustarse a sus requisitos específicos).
+
+**Slide 7: Desarrollo de Nuevos Módulos (Exploración de cómo el ERP facilita el desarrollo y la integración de nuevos módulos para satisfacer las demandas cambiantes del negocio).
+
+**Slide 8: Tecnología Subyacente (Información sobre la tecnología subyacente utilizada, destacando el lenguaje de programación utilizado para extensiones y personalizaciones).
+
+**Slide 9: Estudio de Caso: Implementación Exitosa (Presentación de un caso de estudio real que destaque cómo una empresa ha experimentado beneficios tangibles tras implementar el ERP).
