@@ -1,0 +1,17 @@
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\bin\Debug\net6.0-windows\U3_E7_BlockDeNotas.exe
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\bin\Debug\net6.0-windows\U3_E7_BlockDeNotas.deps.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\bin\Debug\net6.0-windows\U3_E7_BlockDeNotas.runtimeconfig.json
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\bin\Debug\net6.0-windows\U3_E7_BlockDeNotas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\bin\Debug\net6.0-windows\U3_E7_BlockDeNotas.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.Form1.resources
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.Properties.Resources.resources
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.csproj.GenerateResource.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.AssemblyInfoInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.AssemblyInfo.cs
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.csproj.CoreCompileInputs.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\refint\U3_E7_BlockDeNotas.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.pdb
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\U3_E7_BlockDeNotas.genruntimeconfig.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E7_BlockDeNotas\U3_E7_BlockDeNotas\obj\Debug\net6.0-windows\ref\U3_E7_BlockDeNotas.dll
