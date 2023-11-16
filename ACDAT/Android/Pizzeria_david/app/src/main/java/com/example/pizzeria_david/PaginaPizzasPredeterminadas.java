@@ -6,30 +6,46 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.pizzeria_david.databinding.ActivityPaginaPedidoBinding;
+import com.example.pizzeria_david.databinding.ActivityPaginaPizzasPredeterminadasBinding;
+
 public class PaginaPizzasPredeterminadas extends AppCompatActivity implements View.OnClickListener{
 
-    private View btnAtrasPaginaPizzasPredeterminadas,btnCarrito;
+    private View btnAtrasPaginaPizzasPredeterminadas,btnCarrito,pantallapaginapizzaspredeterminadas;
+
 
     private View prueba1;
     private View prueba2;
 
     private boolean bool = true;
+    private PreferenciasCompartidas sharedPreferencesManager;
 
+    private ActivityPaginaPizzasPredeterminadasBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagina_pizzas_predeterminadas);
+        //setContentView(R.layout.activity_pagina_pizzas_predeterminadas);
 
-        btnAtrasPaginaPizzasPredeterminadas = findViewById(R.id.btnAtrasPaginaPizzasPredeterminadas);
+        //INICIAMOS NUESTRA CLASE DE PREFERENCIAS
+        sharedPreferencesManager = PreferenciasCompartidas.obtenerInstancia(this);
+
+        binding = ActivityPaginaPizzasPredeterminadasBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        btnAtrasPaginaPizzasPredeterminadas = binding.btnAtrasPaginaPizzasPredeterminadas;
         btnAtrasPaginaPizzasPredeterminadas.setOnClickListener(this);
 
-        btnCarrito = findViewById(R.id.btnSiguiente);
+        btnCarrito = binding.btnSiguiente;
         btnCarrito.setOnClickListener(this);
 
-        prueba1 = findViewById(R.id.editTextText2);
-        prueba2 = findViewById(R.id.editTextText3);
+        prueba1 = binding.editTextText2;
+        prueba2 = binding.editTextText3;
 
         prueba1.setVisibility(View.GONE);
+
+
+        pantallapaginapizzaspredeterminadas = binding.paginapizzaspredeterminadas1;
+        cargarPreferencias();
 
     }
 
@@ -57,6 +73,9 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
 
         }
 
+
+
+
     }
 
 
@@ -68,5 +87,28 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
 
     }
 
+
+    private void cargarPreferencias(){
+
+
+        String fondo = sharedPreferencesManager.obtenerDato("background","pizza_claro.jpg");
+
+
+
+        //Recojemos el fondo por defecto
+
+        if(fondo.equalsIgnoreCase("pizza_claro.jpg"))
+        {
+            pantallapaginapizzaspredeterminadas.setBackgroundResource(R.drawable.pizza_claro);
+        }
+        else
+        {
+            pantallapaginapizzaspredeterminadas.setBackgroundResource(R.drawable.pizza_oscuro);
+        }
+
+
+
+
+    }
 
 }

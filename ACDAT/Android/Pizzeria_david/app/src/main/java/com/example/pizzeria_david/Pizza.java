@@ -11,7 +11,7 @@ public class Pizza {
    private int Precio;
    private boolean Disponibilidad;
 
-   public Pizza(int id, TamañoP tamaño, TipoMasa masa, List<String> listaDeIngredientes,int precio, boolean disponibilidad) {
+   public Pizza(TamañoP tamaño, TipoMasa masa, List<String> listaDeIngredientes,int precio, boolean disponibilidad) {
       this.id = id_+1;
       this.Tamaño = tamaño;
       this.Masa = masa;
@@ -19,6 +19,11 @@ public class Pizza {
       this.Precio = precio;
       this.Disponibilidad = disponibilidad;
    }
+
+   public static int getId_() {
+      return  id_;
+   }
+
 
    public TamañoP getTamaño() {
       return Tamaño;

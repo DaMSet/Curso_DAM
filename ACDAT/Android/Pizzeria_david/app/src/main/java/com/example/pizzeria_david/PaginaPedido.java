@@ -18,7 +18,7 @@ public class PaginaPedido extends AppCompatActivity implements View.OnClickListe
     private View btnAtrasPedido,btnPizzasPredeterminadas,btnCrearPizzas,bntUltimoPedido,pantalla;
     private ActivityPaginaPedidoBinding binding;
 
-    private boolean ultimoPedido;
+    private boolean ultimoPedido,pedidoRealizado;
 
     private PreferenciasCompartidas sharedPreferencesManager;
     @Override
@@ -115,7 +115,7 @@ public class PaginaPedido extends AppCompatActivity implements View.OnClickListe
         }
 
         ultimoPedido = sharedPreferencesManager.obtenerDatoBoolean("UltimoPedido",false);
-
+        pedidoRealizado = sharedPreferencesManager.obtenerDatoBoolean("PedidoRealizado",false);
 
 
     }

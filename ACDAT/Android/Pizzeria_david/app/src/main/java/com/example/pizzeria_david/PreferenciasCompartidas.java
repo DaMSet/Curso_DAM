@@ -51,10 +51,10 @@ public class PreferenciasCompartidas {
             PreferenciasCompartidas sharedPreferencesManager = PreferenciasCompartidas.obtenerInstancia(this);
 
             // Guardar un dato en PreferenciasCompartidas
-            sharedPreferencesManager.guardarDato("clave", "valor");
+            sharedPreferencesManager.guardarDatoString("clave", "valor");
 
             // Obtener un dato de PreferenciasCompartidas
-            String valor = sharedPreferencesManager.obtenerDato("clave", "valor_por_defecto");
+            String valor = sharedPreferencesManager.obtenerDatoString("clave", "valor_por_defecto");
         */
 
 }
