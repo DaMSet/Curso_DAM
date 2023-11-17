@@ -170,7 +170,7 @@ public class PaginaConfiguracion extends AppCompatActivity implements View.OnCli
         {
             swcUltimoPedido.setText("NO");
             swcUltimoPedido.setChecked(false);
-        }
+        } 
 
 
 
