@@ -83,6 +83,7 @@ Escalabilidad: Expo CRM se puede escalar fácilmente para satisfacer las necesid
 Personalización: Expo CRM es altamente personalizable, por lo que las empresas pueden adaptarlo a sus requisitos específicos.
 Facilidad de uso: Expo CRM tiene una interfaz fácil de usar que es fácil de usar, incluso para empresas sin experiencia previa en sistemas ERP.
 Integración con otros sistemas: Expo CRM se puede integrar con otros sistemas, como software contable y software de gestión de relaciones con clientes (CRM). Esto permite a las empresas optimizar sus operaciones y mejorar su eficiencia.
+
 Diapositiva 4: Módulos esenciales
 
 Expo CRM incluye varios módulos esenciales, incluyendo:
