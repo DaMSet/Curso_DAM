@@ -106,6 +106,7 @@
         tools:layout_editor_absoluteY="106dp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reciclerviewPizzas"
         android:layout_width="336dp"
         android:layout_height="310dp"
         app:layout_constraintBottom_toBottomOf="parent"

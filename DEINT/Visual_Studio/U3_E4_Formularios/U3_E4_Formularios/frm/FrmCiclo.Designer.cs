@@ -88,7 +88,7 @@
             dgCiclo.RowTemplate.Height = 25;
             dgCiclo.Size = new Size(710, 265);
             dgCiclo.TabIndex = 10;
-            
+            dgCiclo.CellContentClick += dgCiclo_CellContentClick;
             // 
             // txtID
             // 

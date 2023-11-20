@@ -11,12 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+public class MyAdaptador extends RecyclerView.Adapter<MyAdaptador.MyViewHolder> {
 
     private List<String> dataList;
 
     // Constructor que recibe la lista de datos
-    public MyAdapter(List<String> dataList) {
+    public MyAdaptador(List<String> dataList) {
         this.dataList = dataList;
     }
 
@@ -26,7 +26,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         // Infla el diseño del elemento de la lista
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
         // Crea una nueva instancia de MyViewHolder
+
         return new MyViewHolder(view);
+        //return null;
     }
 
     // Llena la vista con datos específicos en una posición dada

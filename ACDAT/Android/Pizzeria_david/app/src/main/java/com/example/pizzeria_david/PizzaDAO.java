@@ -1,15 +1,17 @@
 package com.example.pizzeria_david;
 
+import android.content.Context;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class PizzaDAO {
 
-    private List<Pizza> pizzas = new ArrayList<>();
+    private List<Pizza> pizzas ;
+    private static PizzaDAO instanciaPizzas = null;
 
-
-    public PizzaDAO()
+    private PizzaDAO()
     {
 
         pizzas.add(new Pizza(TamañoP.NORMAL,TipoMasa.NORMAL, new ArrayList<String>(Arrays.asList("tomate1", "queso1", "queso parmesano1")),15, true));
@@ -20,6 +22,14 @@ public class PizzaDAO {
 
     }
 
+    public static PizzaDAO obtenerInstancia()
+    {
+        if (instanciaPizzas == null) {
+
+            instanciaPizzas = new PizzaDAO();
+        }
+        return instanciaPizzas;
+    }
 
     public List<Pizza> obtenerTodasLasPizzas() {
         return new ArrayList<>(pizzas);

@@ -15,7 +15,7 @@ namespace U3_E4_Formularios.frm
     public partial class FrmCiclo : Form
     {
         CicloDLL Ciclodll;
-       
+
 
         public FrmCiclo()
         {
@@ -47,7 +47,7 @@ namespace U3_E4_Formularios.frm
         {
 
             CicloDLL cicloDLL = new CicloDLL();
-            cicloDLL.Editar(txtID.Text,txtNombreCiclo.Text);
+            cicloDLL.Editar(txtID.Text, txtNombreCiclo.Text);
 
             dgCiclo.DataSource = Ciclodll.MostrarCiclos().Tables[0];
         }
@@ -66,6 +66,9 @@ namespace U3_E4_Formularios.frm
             Close();
         }
 
-        
+        private void dgCiclo_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

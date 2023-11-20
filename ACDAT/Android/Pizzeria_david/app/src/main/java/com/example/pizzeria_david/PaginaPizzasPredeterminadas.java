@@ -1,6 +1,8 @@
 package com.example.pizzeria_david;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,6 +23,10 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
     private PreferenciasCompartidas sharedPreferencesManager;
 
     private ActivityPaginaPizzasPredeterminadasBinding binding;
+
+    private RecyclerView recyclerviewPizzas;
+    private MyAdaptador adaptador;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,9 +49,16 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
 
         prueba1.setVisibility(View.GONE);
 
+        recyclerviewPizzas = binding.reciclerviewPizzas;
+
+        recyclerviewPizzas.setLayoutManager(new LinearLayoutManager(this));
 
         pantallapaginapizzaspredeterminadas = binding.paginapizzaspredeterminadas1;
         cargarPreferencias();
+
+
+
+
 
     }
 
