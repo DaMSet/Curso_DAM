@@ -23,13 +23,7 @@ namespace U3_E8_Serializacion
 
             banco.añadirCliente(txtDNI.Text, txtNombre.Text, txtDireccion.Text, int.Parse(txtEdad.Text), int.Parse(txtTelefono.Text), int.Parse(txtNC.Text));
             
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Cliente>));
-
-            using (var stream = new FileStream("Clientes.xml",FileMode.Create)) 
-            {
-                xmlSerializer.Serialize(stream, banco.Clientes);
-            }
-
+        
         }
 
         
@@ -46,6 +40,8 @@ namespace U3_E8_Serializacion
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
+
+            dtgbanco.DataSource = banco.DevolverTablaClientes();
 
         }
     }
