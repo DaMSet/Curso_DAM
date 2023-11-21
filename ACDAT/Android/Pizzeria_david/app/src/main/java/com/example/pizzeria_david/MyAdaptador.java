@@ -61,3 +61,6 @@ public class MyAdaptador extends RecyclerView.Adapter<MyAdaptador.MyViewHolder> 
 
 
 }
+// mirar
+
+//https://www.youtube.com/watch?v=k3zoVAMuW5w

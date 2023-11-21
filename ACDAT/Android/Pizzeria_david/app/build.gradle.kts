@@ -10,7 +10,7 @@ android {
         applicationId = "com.example.pizzeria_david"
         minSdk = 34
         targetSdk = 34
-        versionCode = 1
+        versionCode = 34
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
