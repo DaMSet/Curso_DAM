@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace U3_E8_Serializacion
 {
-    internal class Cliente
+    public class Cliente
     {
 
         public string DNI { get; set; }
