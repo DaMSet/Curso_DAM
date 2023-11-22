@@ -16,12 +16,19 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 
 	private DAOVehiculoImpl() {
 		super();
-		this.falsaBD = new ArrayList<Vehiculo>();
-		falsaBD.add(new Vehiculo("Renault","Zoe","2345FDF"));
-		falsaBD.add(new Vehiculo("Renault","Fluence","0000FTL"));
-		falsaBD.add(new Vehiculo("Tesla","3","2422FHT"));
-		falsaBD.add(new Vehiculo("Tesla","X","1221FDF"));
+		//this.falsaBD = new ArrayList<Vehiculo>();
+		this.falsaBD = ConectorDB.obtenerCoches();
+		falsaBD.add(new Vehiculo(99,"Renault","Zoe","2345FDF"));
+		ConectorDB.agregarCoche(new Vehiculo(99,"Renault","Zoe","2345FDF"));
 		
+		falsaBD.add(new Vehiculo(98,"Renault","Fluence","0000FTL"));
+		ConectorDB.agregarCoche(new Vehiculo(98,"Renault","Fluence","0000FTL"));
+		
+		falsaBD.add(new Vehiculo(97,"Tesla","3","2422FHT"));
+		ConectorDB.agregarCoche(new Vehiculo(97,"Tesla","3","2422FHT"));
+		
+		falsaBD.add(new Vehiculo(96,"Tesla","X","1221FDF"));
+		ConectorDB.agregarCoche(new Vehiculo(96,"Tesla","X","1221FDF"));
 	}
 
 	@Override
