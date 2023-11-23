@@ -52,6 +52,7 @@ yargs.command({
     }
 })
 
+
 // Create read command
 yargs.command({
     command: 'read',

@@ -94,3 +94,29 @@ public class ControllerCRUD
 	
 
 }
+
+/*
+ CREATE TABLE `mysql`.`coches` (
+  `id` int(11) NOT NULL,
+  `marca` varchar(255) NOT NULL,
+  `modelo` varchar(255) NOT NULL,
+  `matricula` varchar(10) NOT NULL,
+  `id_propietario` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+ALTER TABLE `mysql`.`coches` ADD PRIMARY KEY (`id`), ADD KEY `fk_propietario` (`id_propietario`);
+ALTER TABLE `mysql`.`coches` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29 ;
+
+SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO';
+
+INSERT INTO `mysql`.`coches`(`id`, `marca`, `modelo`, `matricula`, `id_propietario`) SELECT `id`, `marca`, `modelo`, `matricula`, `id_propietario` FROM `db_vehiculos`.`coches`;
+CREATE TABLE `mysql`.`propietarios` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+ALTER TABLE `mysql`.`propietarios` ADD PRIMARY KEY (`id`);
+ALTER TABLE `mysql`.`propietarios` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO';
+
+INSERT INTO `mysql`.`propietarios`(`id`, `nombre`) SELECT `id`, `nombre` FROM `db_vehiculos`.`propietarios`;
+ * */
