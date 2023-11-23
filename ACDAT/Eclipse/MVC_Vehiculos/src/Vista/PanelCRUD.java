@@ -7,6 +7,9 @@ import javax.swing.LayoutStyle;
 import Controller.ControllerCRUD;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -57,7 +60,13 @@ private void btRegistrarActionPerformed(java.awt.event.ActionEvent evt) {
  
  
  
-}										
+}	
+
+@SuppressWarnings("unused")
+private void btnBorrarActionPerformed(java.awt.event.ActionEvent evt) 
+{
+	ControllerCRUD.borrarVehiculos(this,tablaVehiculos);
+}
  
  
  
@@ -248,6 +257,12 @@ private void inicializarPanel() {
  
 	 });
 	 setLayout(null);
+	 
+	 JButton btnBorrar = new JButton("Borrar");
+	 btnBorrar.addActionListener(new ActionListener() {
+	 	public void actionPerformed(ActionEvent e) {
+	 	}
+	 });
  
  
  
@@ -270,7 +285,9 @@ private void inicializarPanel() {
 	 							.addComponent(txtMarca)
 	 							.addComponent(txtMatricula, GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)))
 	 					.addPreferredGap(ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
-	 					.addComponent(btRegistrar)))
+	 					.addGroup(layout.createParallelGroup(Alignment.TRAILING, false)
+	 						.addComponent(btnBorrar, 0, 0, Short.MAX_VALUE)
+	 						.addComponent(btRegistrar, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
 	 			.addContainerGap(37, Short.MAX_VALUE))
 	 );
 	 layout.setVerticalGroup(
@@ -282,14 +299,19 @@ private void inicializarPanel() {
 	 					.addComponent(jLabel1)
 	 					.addComponent(txtMarca, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 	 				.addComponent(btRegistrar))
-	 			.addPreferredGap(ComponentPlacement.RELATED)
-	 			.addGroup(layout.createParallelGroup(Alignment.BASELINE)
-	 				.addComponent(jLabel2)
-	 				.addComponent(txtModelo, GroupLayout.PREFERRED_SIZE, 25, GroupLayout.PREFERRED_SIZE))
-	 			.addPreferredGap(ComponentPlacement.UNRELATED)
-	 			.addGroup(layout.createParallelGroup(Alignment.BASELINE)
-	 				.addComponent(jLabelMatricula)
-	 				.addComponent(txtMatricula, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+	 			.addGroup(layout.createParallelGroup(Alignment.LEADING)
+	 				.addGroup(layout.createSequentialGroup()
+	 					.addPreferredGap(ComponentPlacement.RELATED)
+	 					.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+	 						.addComponent(jLabel2)
+	 						.addComponent(txtModelo, GroupLayout.PREFERRED_SIZE, 25, GroupLayout.PREFERRED_SIZE))
+	 					.addPreferredGap(ComponentPlacement.UNRELATED)
+	 					.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+	 						.addComponent(jLabelMatricula)
+	 						.addComponent(txtMatricula, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+	 				.addGroup(layout.createSequentialGroup()
+	 					.addGap(28)
+	 					.addComponent(btnBorrar)))
 	 			.addGap(26)
 	 			.addComponent(jScrollPane1, GroupLayout.PREFERRED_SIZE, 181, GroupLayout.PREFERRED_SIZE)
 	 			.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -302,7 +324,4 @@ private void inicializarPanel() {
 	 
  
 }// </editor-fold>	
-
-
-
 }

@@ -77,6 +77,12 @@ public class ControllerCRUD
 		}
      return insertado;		
 	}
+
+
+	public static void borrarVehiculos(PanelCRUD panelCRUD, JTable tablaVehiculos) {
+		
+		
+	}
 	
 	
 	

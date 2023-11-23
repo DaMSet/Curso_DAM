@@ -18,23 +18,23 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 		super();
 		//this.falsaBD = new ArrayList<Vehiculo>();
 		this.falsaBD = ConectorDB.obtenerCoches();
-		falsaBD.add(new Vehiculo(99,"Renault","Zoe","2345FDF"));
-		ConectorDB.agregarCoche(new Vehiculo(99,"Renault","Zoe","2345FDF"));
+		falsaBD.add(new Vehiculo(0,"Renault","Zoe","2345FDF"));
+		ConectorDB.agregarCoche(new Vehiculo(0,"Renault","Zoe","2345FDF"));
 		
-		falsaBD.add(new Vehiculo(98,"Renault","Fluence","0000FTL"));
-		ConectorDB.agregarCoche(new Vehiculo(98,"Renault","Fluence","0000FTL"));
+		falsaBD.add(new Vehiculo(1,"Renault","Fluence","0000FTL"));
+		ConectorDB.agregarCoche(new Vehiculo(1,"Renault","Fluence","0000FTL"));
 		
-		falsaBD.add(new Vehiculo(97,"Tesla","3","2422FHT"));
-		ConectorDB.agregarCoche(new Vehiculo(97,"Tesla","3","2422FHT"));
+		falsaBD.add(new Vehiculo(2,"Tesla","3","2422FHT"));
+		ConectorDB.agregarCoche(new Vehiculo(2,"Tesla","3","2422FHT"));
 		
-		falsaBD.add(new Vehiculo(96,"Tesla","X","1221FDF"));
-		ConectorDB.agregarCoche(new Vehiculo(96,"Tesla","X","1221FDF"));
+		falsaBD.add(new Vehiculo(3,"Tesla","X","1221FDF"));
+		ConectorDB.agregarCoche(new Vehiculo(3,"Tesla","X","1221FDF"));
 	}
 
 	@Override
 	public int insertarVehiculo(Vehiculo vehiculo) {
 	 falsaBD.add(vehiculo);
-		
+	 ConectorDB.agregarCoche(vehiculo);
 		return 1;
 	}
 
@@ -42,7 +42,11 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 
 	@Override
 	public int eliminarVehiculo(String matricula) {
-		// TODO Auto-generated method stub
+		
+		Vehiculo vehiculoBorrar = falsaBD.get(0);
+		falsaBD.remove(vehiculoBorrar);
+		ConectorDB.borrarCoche(matricula);
+		
 		return 0;
 	}
 
@@ -54,8 +58,15 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 
 	@Override
 	public Vehiculo getVehiculo(String matricula) {
-		// TODO Auto-generated method stub
-		return null;
+		Vehiculo vehiculo = null;
+		
+		for (int i = 0; i < falsaBD.size(); i++) {
+			
+			if(falsaBD.get(i).getMatricula().equalsIgnoreCase(matricula)){vehiculo = falsaBD.get(i);}
+			
+		}
+		
+		return vehiculo;
 	}
 
 	@Override
