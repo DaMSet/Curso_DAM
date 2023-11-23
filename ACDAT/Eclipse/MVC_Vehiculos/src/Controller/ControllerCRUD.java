@@ -79,8 +79,14 @@ public class ControllerCRUD
 	}
 
 
-	public static void borrarVehiculos(PanelCRUD panelCRUD, JTable tablaVehiculos) {
+	public static void borrarVehiculos(String matricula, JTable tablaVehiculos) {
 		
+		
+		 
+		 if (DAOVehiculoImpl.getInstance().eliminarVehiculo(matricula)!=0)
+			{
+			cargarTabla( tablaVehiculos);
+			}
 		
 	}
 	

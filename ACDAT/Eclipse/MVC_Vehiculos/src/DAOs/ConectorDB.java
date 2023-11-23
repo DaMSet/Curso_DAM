@@ -68,7 +68,7 @@ public class ConectorDB {
 	        return coches;
 	    }
 	    
-	    public static void agregarCoche(Vehiculo coche) {
+	    /*public static void agregarCoche(Vehiculo coche) {
 	        Connection conexion = null;
 	        PreparedStatement statement = null;
 
@@ -98,7 +98,80 @@ public class ConectorDB {
 	                e.printStackTrace();
 	            }
 	        }
+	    }*/
+	    
+	    public static void agregarCoche(Vehiculo coche) {
+	        Connection conexion = null;
+	        PreparedStatement statement = null;
+
+	        try {
+	            conexion = obtenerConexion();
+
+	            // Verificar si ya existe un coche con la misma matrícula
+	            if (!existeCochePorMatricula(coche.getMatricula())) {
+	                String consulta = "INSERT INTO Coches (marca, modelo, matricula) VALUES (?, ?, ?)";
+	                statement = conexion.prepareStatement(consulta);
+	                statement.setString(1, coche.getMarca());
+	                statement.setString(2, coche.getModelo());
+	                statement.setString(3, coche.getMatricula());
+
+	                int filasAfectadas = statement.executeUpdate();
+	                if (filasAfectadas > 0) {
+	                    System.out.println("Coche agregado exitosamente.");
+	                } else {
+	                    System.out.println("No se pudo agregar el coche.");
+	                }
+	            } else {
+	                System.out.println("El coche con matrícula " + coche.getMatricula() + " ya existe en la base de datos.");
+	            }
+
+	        } catch (SQLException e) {
+	            e.printStackTrace();
+	        } finally {
+	            try {
+	                if (statement != null) statement.close();
+	                cerrarConexion(conexion);
+	            } catch (SQLException e) {
+	                e.printStackTrace();
+	            }
+	        }
 	    }
+
+	    // Método auxiliar para verificar la existencia de un coche por matrícula
+	    public static boolean existeCochePorMatricula(String matricula) {
+	        Connection conexion = null;
+	        PreparedStatement statement = null;
+	        ResultSet resultSet = null;
+
+	        try {
+	            conexion = obtenerConexion();
+
+	            String consulta = "SELECT COUNT(*) FROM Coches WHERE matricula = ?";
+	            statement = conexion.prepareStatement(consulta);
+	            statement.setString(1, matricula);
+
+	            resultSet = statement.executeQuery();
+
+	            if (resultSet.next()) {
+	                int count = resultSet.getInt(1);
+	                return count > 0;
+	            }
+
+	        } catch (SQLException e) {
+	            e.printStackTrace();
+	        } finally {
+	            try {
+	                if (resultSet != null) resultSet.close();
+	                if (statement != null) statement.close();
+	                cerrarConexion(conexion);
+	            } catch (SQLException e) {
+	                e.printStackTrace();
+	            }
+	        }
+
+	        return false;
+	    }
+
 	    
 	    public static void editarCoche() 
 	    {

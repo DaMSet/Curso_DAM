@@ -62,11 +62,7 @@ private void btRegistrarActionPerformed(java.awt.event.ActionEvent evt) {
  
 }	
 
-@SuppressWarnings("unused")
-private void btnBorrarActionPerformed(java.awt.event.ActionEvent evt) 
-{
-	ControllerCRUD.borrarVehiculos(this,tablaVehiculos);
-}
+
  
  
  
@@ -261,6 +257,8 @@ private void inicializarPanel() {
 	 JButton btnBorrar = new JButton("Borrar");
 	 btnBorrar.addActionListener(new ActionListener() {
 	 	public void actionPerformed(ActionEvent e) {
+	 		
+	 		ControllerCRUD.borrarVehiculos(txtMatricula.getText(), tablaVehiculos);
 	 	}
 	 });
  

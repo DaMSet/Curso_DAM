@@ -43,7 +43,9 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 	@Override
 	public int eliminarVehiculo(String matricula) {
 		
-		Vehiculo vehiculoBorrar = falsaBD.get(0);
+		Vehiculo vehiculoBorrar =getVehiculo(matricula);
+		
+		
 		falsaBD.remove(vehiculoBorrar);
 		ConectorDB.borrarCoche(matricula);
 		
