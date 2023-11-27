@@ -93,11 +93,12 @@ public class ControllerCRUD
 
 		 vehiculo.setMatricula(frmVehiculo.getTxtMatricula().getText());
 		 
-			if (DAOVehiculoImpl.getInstance().eliminarVehiculo(vehiculo)!=0)
+			if (DAOVehiculoImpl.getInstance().eliminarVehiculo(vehiculo)==0)
 			{
 			cargarTabla( tablaVehiculos);
 			}
 		
+			
 	}
 	
 	

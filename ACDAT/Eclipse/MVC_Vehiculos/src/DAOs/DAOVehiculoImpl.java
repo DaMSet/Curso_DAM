@@ -18,16 +18,16 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 		super();
 		//this.falsaBD = new ArrayList<Vehiculo>();
 		this.falsaBD = ConectorDB.obtenerCoches();
-		falsaBD.add(new Vehiculo(0,"Renault","Zoe","2345FDF"));
+		//falsaBD.add(new Vehiculo(0,"Renault","Zoe","2345FDF"));
 		//ConectorDB.agregarCoche(new Vehiculo(0,"Renault","Zoe","2345FDF"));
 		
-		falsaBD.add(new Vehiculo(1,"Renault","Fluence","0000FTL"));
+		//falsaBD.add(new Vehiculo(1,"Renault","Fluence","0000FTL"));
 		//ConectorDB.agregarCoche(new Vehiculo(1,"Renault","Fluence","0000FTL"));
 		
-		falsaBD.add(new Vehiculo(2,"Tesla","3","2422FHT"));
+		//falsaBD.add(new Vehiculo(2,"Tesla","3","2422FHT"));
 		//ConectorDB.agregarCoche(new Vehiculo(2,"Tesla","3","2422FHT"));
 		
-		falsaBD.add(new Vehiculo(3,"Tesla","X","1221FDF"));
+		//falsaBD.add(new Vehiculo(3,"Tesla","X","1221FDF"));
 		//ConectorDB.agregarCoche(new Vehiculo(3,"Tesla","X","1221FDF"));
 	}
 
@@ -48,6 +48,8 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 		
 		falsaBD.remove(vehiculoBorrar);
 		ConectorDB.borrarCoche(matricula);
+		
+		
 		
 		return 0;
 	}
