@@ -39,7 +39,7 @@ public class ConectorDB {
 	        try {
 	            conexion = obtenerConexion();
 
-	            String consulta = "SELECT * FROM Coches";
+	            String consulta = "SELECT * FROM vehiculos";
 	            statement = conexion.prepareStatement(consulta);
 	            resultSet = statement.executeQuery();
 
@@ -109,7 +109,7 @@ public class ConectorDB {
 
 	            // Verificar si ya existe un coche con la misma matrícula
 	            if (!existeCochePorMatricula(coche.getMatricula())) {
-	                String consulta = "INSERT INTO Coches (marca, modelo, matricula) VALUES (?, ?, ?)";
+	                String consulta = "INSERT INTO vehiculos (marca, modelo, matricula) VALUES (?, ?, ?)";
 	                statement = conexion.prepareStatement(consulta);
 	                statement.setString(1, coche.getMarca());
 	                statement.setString(2, coche.getModelo());
@@ -146,7 +146,7 @@ public class ConectorDB {
 	        try {
 	            conexion = obtenerConexion();
 
-	            String consulta = "SELECT COUNT(*) FROM Coches WHERE matricula = ?";
+	            String consulta = "SELECT COUNT(*) FROM vehiculos WHERE matricula = ?";
 	            statement = conexion.prepareStatement(consulta);
 	            statement.setString(1, matricula);
 
@@ -188,7 +188,7 @@ public class ConectorDB {
 	        try {
 	            conexion = obtenerConexion();
 
-	            String consulta = "DELETE FROM Coches WHERE matricula = ?";
+	            String consulta = "DELETE FROM vehiculos WHERE matricula = ?";
 	            statement = conexion.prepareStatement(consulta);
 	            statement.setString(1, matricula);
 
