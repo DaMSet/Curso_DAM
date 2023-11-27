@@ -37,6 +37,7 @@ public class PanelCRUD extends javax.swing.JPanel {
         add(txtMarca);
         add(txtMatricula);
         add(btRegistrar);
+        add(btBorrar);
         
     }
 
@@ -61,6 +62,19 @@ private void btRegistrarActionPerformed(java.awt.event.ActionEvent evt) {
  
  
 }	
+
+private void btBorrarActionPerformed(java.awt.event.ActionEvent evt) {										
+	 
+	
+
+	  //  DAOVehiculoImpl.getInstance().insertarVehiculo(new Vehiculo(txtMatricula.getText(), ))
+
+	    ControllerCRUD.borrarVehiculos(this, tablaVehiculos);
+
+	 
+	 
+	 
+	}	
 
 
  
@@ -101,6 +115,7 @@ public void setTxtModelo(javax.swing.JTextField txtModelo) {
 }
  
 private javax.swing.JButton btRegistrar;
+private javax.swing.JButton btBorrar;
  
 private javax.swing.JLabel jLabel1;
  
@@ -168,6 +183,15 @@ private void inicializarPanel() {
  
 	 btRegistrar = new javax.swing.JButton();
 	 btRegistrar.setBounds(336, 11, 77, 23);
+	 
+	 btBorrar = new javax.swing.JButton();
+	 btBorrar.addActionListener(new ActionListener() {
+	 	public void actionPerformed(java.awt.event.ActionEvent e) {
+	 		btBorrarActionPerformed(e);
+	 	}
+	 });
+	 btBorrar.setText("Borrar");
+	 btBorrar.setBounds(336, 62, 77, 23);
  
  
  
@@ -253,14 +277,6 @@ private void inicializarPanel() {
  
 	 });
 	 setLayout(null);
-	 
-	 JButton btnBorrar = new JButton("Borrar");
-	 btnBorrar.addActionListener(new ActionListener() {
-	 	public void actionPerformed(ActionEvent e) {
-	 		
-	 		ControllerCRUD.borrarVehiculos(txtMatricula.getText(), tablaVehiculos);
-	 	}
-	 });
  
  
  
@@ -282,11 +298,9 @@ private void inicializarPanel() {
 	 						.addGroup(layout.createParallelGroup(Alignment.LEADING, false)
 	 							.addComponent(txtMarca)
 	 							.addComponent(txtMatricula, GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)))
-	 					.addPreferredGap(ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
-	 					.addGroup(layout.createParallelGroup(Alignment.TRAILING, false)
-	 						.addComponent(btnBorrar, 0, 0, Short.MAX_VALUE)
-	 						.addComponent(btRegistrar, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-	 			.addContainerGap(37, Short.MAX_VALUE))
+	 					.addPreferredGap(ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
+	 					.addComponent(btRegistrar)))
+	 			.addGap(27))
 	 );
 	 layout.setVerticalGroup(
 	 	layout.createParallelGroup(Alignment.LEADING)
@@ -297,19 +311,14 @@ private void inicializarPanel() {
 	 					.addComponent(jLabel1)
 	 					.addComponent(txtMarca, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 	 				.addComponent(btRegistrar))
-	 			.addGroup(layout.createParallelGroup(Alignment.LEADING)
-	 				.addGroup(layout.createSequentialGroup()
-	 					.addPreferredGap(ComponentPlacement.RELATED)
-	 					.addGroup(layout.createParallelGroup(Alignment.BASELINE)
-	 						.addComponent(jLabel2)
-	 						.addComponent(txtModelo, GroupLayout.PREFERRED_SIZE, 25, GroupLayout.PREFERRED_SIZE))
-	 					.addPreferredGap(ComponentPlacement.UNRELATED)
-	 					.addGroup(layout.createParallelGroup(Alignment.BASELINE)
-	 						.addComponent(jLabelMatricula)
-	 						.addComponent(txtMatricula, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-	 				.addGroup(layout.createSequentialGroup()
-	 					.addGap(28)
-	 					.addComponent(btnBorrar)))
+	 			.addPreferredGap(ComponentPlacement.RELATED)
+	 			.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+	 				.addComponent(jLabel2)
+	 				.addComponent(txtModelo, GroupLayout.PREFERRED_SIZE, 25, GroupLayout.PREFERRED_SIZE))
+	 			.addPreferredGap(ComponentPlacement.UNRELATED)
+	 			.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+	 				.addComponent(jLabelMatricula)
+	 				.addComponent(txtMatricula, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 	 			.addGap(26)
 	 			.addComponent(jScrollPane1, GroupLayout.PREFERRED_SIZE, 181, GroupLayout.PREFERRED_SIZE)
 	 			.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))

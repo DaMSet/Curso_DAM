@@ -19,16 +19,16 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 		//this.falsaBD = new ArrayList<Vehiculo>();
 		this.falsaBD = ConectorDB.obtenerCoches();
 		falsaBD.add(new Vehiculo(0,"Renault","Zoe","2345FDF"));
-		ConectorDB.agregarCoche(new Vehiculo(0,"Renault","Zoe","2345FDF"));
+		//ConectorDB.agregarCoche(new Vehiculo(0,"Renault","Zoe","2345FDF"));
 		
 		falsaBD.add(new Vehiculo(1,"Renault","Fluence","0000FTL"));
-		ConectorDB.agregarCoche(new Vehiculo(1,"Renault","Fluence","0000FTL"));
+		//ConectorDB.agregarCoche(new Vehiculo(1,"Renault","Fluence","0000FTL"));
 		
 		falsaBD.add(new Vehiculo(2,"Tesla","3","2422FHT"));
-		ConectorDB.agregarCoche(new Vehiculo(2,"Tesla","3","2422FHT"));
+		//ConectorDB.agregarCoche(new Vehiculo(2,"Tesla","3","2422FHT"));
 		
 		falsaBD.add(new Vehiculo(3,"Tesla","X","1221FDF"));
-		ConectorDB.agregarCoche(new Vehiculo(3,"Tesla","X","1221FDF"));
+		//ConectorDB.agregarCoche(new Vehiculo(3,"Tesla","X","1221FDF"));
 	}
 
 	@Override
@@ -86,8 +86,14 @@ public class DAOVehiculoImpl implements IDAOVehiculo {
 
 	@Override
 	public int eliminarVehiculo(Vehiculo vehiculo) {
-		// TODO Auto-generated method stub
+		
+	
+		
+		falsaBD.remove(vehiculo);
+		ConectorDB.borrarCoche(vehiculo.getMatricula());
+		
 		return 0;
+		
 	}
 
 }
