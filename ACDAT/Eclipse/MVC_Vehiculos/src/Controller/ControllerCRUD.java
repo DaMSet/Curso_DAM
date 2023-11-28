@@ -20,7 +20,7 @@ public class ControllerCRUD
 {
 	
 	
-	public static void cargarTabla( JTable tablaVehiculos)
+	public static void cargarTabla(JTable tablaVehiculos)
 	{ //DefaultTableModel modeloDeDatosTabla = (DefaultTableModel) tablaVehiculos.getModel();
 		List<Vehiculo> lstVehiculos = DAOVehiculoImpl.getInstance().getVehiculos();
 		
@@ -54,6 +54,8 @@ public class ControllerCRUD
 		 modelo.addRow(registroLeido);
 
 	 }
+
+	 
 	 
 	 tablaVehiculos.setModel(modelo);
 	}
@@ -81,8 +83,9 @@ public class ControllerCRUD
 
 	
 
-	public static void borrarVehiculos(PanelCRUD frmVehiculo, JTable tablaVehiculos) {
+	public static boolean borrarVehiculos(PanelCRUD frmVehiculo, JTable tablaVehiculos) {
 		
+		boolean borrado=false;
 		Vehiculo vehiculo=new Vehiculo();
 		 
 		 
@@ -95,11 +98,15 @@ public class ControllerCRUD
 		 
 			if (DAOVehiculoImpl.getInstance().eliminarVehiculo(vehiculo)==0)
 			{
-			cargarTabla( tablaVehiculos);
+				borrado=true;
+									
 			}
-		
+			
+			return borrado;
 			
 	}
+	
+	
 	
 	
 	

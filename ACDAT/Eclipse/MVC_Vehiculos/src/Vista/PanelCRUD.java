@@ -58,10 +58,13 @@ private void btRegistrarActionPerformed(java.awt.event.ActionEvent evt) {
 
     ControllerCRUD.insertarVehiculo(this, tablaVehiculos);
 
+    
  
  
  
 }	
+
+
 
 private void btBorrarActionPerformed(java.awt.event.ActionEvent evt) {										
 	 
@@ -70,8 +73,8 @@ private void btBorrarActionPerformed(java.awt.event.ActionEvent evt) {
 	  //  DAOVehiculoImpl.getInstance().insertarVehiculo(new Vehiculo(txtMatricula.getText(), ))
 
 	    ControllerCRUD.borrarVehiculos(this, tablaVehiculos);
-
-	 
+	    
+	    ControllerCRUD.cargarTabla(tablaVehiculos);
 	 
 	 
 	}	

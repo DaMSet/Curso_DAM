@@ -98,5 +98,23 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 		
 		
 	}
+	
+	public void cambiarPanel(PanelCRUD panel) 
+	{
+		
+		panelActivo.setVisible(false);
+
+		this.getContentPane().remove(panelActivo);
+		
+		panelActivo = panel;
+		
+		this.getContentPane().add(panelActivo);
+		
+		panelActivo.setSize(this.getSize());
+		
+		panelActivo.setVisible(true);
+		panelActivo.updateUI();
+		
+	}
 
 }
