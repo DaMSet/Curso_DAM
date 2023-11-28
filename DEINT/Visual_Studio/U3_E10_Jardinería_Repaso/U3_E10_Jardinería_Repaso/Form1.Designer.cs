@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             btnAñadir = new Button();
-            btnBorrar = new Button();
+            btnBorrarGama = new Button();
             btnPedidosEntregados = new Button();
             btnEmpleadosJefe = new Button();
             btnClienteNoPaga = new Button();
@@ -40,27 +40,27 @@
             // 
             btnAñadir.Location = new Point(102, 81);
             btnAñadir.Name = "btnAñadir";
-            btnAñadir.Size = new Size(75, 23);
+            btnAñadir.Size = new Size(112, 23);
             btnAñadir.TabIndex = 0;
             btnAñadir.Text = "Añadir";
             btnAñadir.UseVisualStyleBackColor = true;
             btnAñadir.Click += btnAñadir_Click;
             // 
-            // btnBorrar
+            // btnBorrarGama
             // 
-            btnBorrar.Location = new Point(206, 81);
-            btnBorrar.Name = "btnBorrar";
-            btnBorrar.Size = new Size(75, 23);
-            btnBorrar.TabIndex = 1;
-            btnBorrar.Text = "Borrar";
-            btnBorrar.UseVisualStyleBackColor = true;
-            btnBorrar.Click += btnBorrar_Click;
+            btnBorrarGama.Location = new Point(261, 81);
+            btnBorrarGama.Name = "btnBorrarGama";
+            btnBorrarGama.Size = new Size(149, 23);
+            btnBorrarGama.TabIndex = 1;
+            btnBorrarGama.Text = "Borrar Gama";
+            btnBorrarGama.UseVisualStyleBackColor = true;
+            btnBorrarGama.Click += btnBorrar_Click;
             // 
             // btnPedidosEntregados
             // 
-            btnPedidosEntregados.Location = new Point(102, 119);
+            btnPedidosEntregados.Location = new Point(102, 120);
             btnPedidosEntregados.Name = "btnPedidosEntregados";
-            btnPedidosEntregados.Size = new Size(179, 23);
+            btnPedidosEntregados.Size = new Size(308, 23);
             btnPedidosEntregados.TabIndex = 2;
             btnPedidosEntregados.Text = "Consultar pedidos entregados";
             btnPedidosEntregados.UseVisualStyleBackColor = true;
@@ -70,7 +70,7 @@
             // 
             btnEmpleadosJefe.Location = new Point(102, 170);
             btnEmpleadosJefe.Name = "btnEmpleadosJefe";
-            btnEmpleadosJefe.Size = new Size(253, 23);
+            btnEmpleadosJefe.Size = new Size(308, 23);
             btnEmpleadosJefe.TabIndex = 3;
             btnEmpleadosJefe.Text = "Consultar empleados de un jefe determinado";
             btnEmpleadosJefe.UseVisualStyleBackColor = true;
@@ -80,7 +80,7 @@
             // 
             btnClienteNoPaga.Location = new Point(102, 215);
             btnClienteNoPaga.Name = "btnClienteNoPaga";
-            btnClienteNoPaga.Size = new Size(193, 23);
+            btnClienteNoPaga.Size = new Size(308, 23);
             btnClienteNoPaga.TabIndex = 4;
             btnClienteNoPaga.Text = "Consultar clientes que no pagan";
             btnClienteNoPaga.UseVisualStyleBackColor = true;
@@ -105,7 +105,7 @@
             Controls.Add(btnClienteNoPaga);
             Controls.Add(btnEmpleadosJefe);
             Controls.Add(btnPedidosEntregados);
-            Controls.Add(btnBorrar);
+            Controls.Add(btnBorrarGama);
             Controls.Add(btnAñadir);
             Name = "Form1";
             Text = "Form1";
@@ -115,7 +115,7 @@
         #endregion
 
         private Button btnAñadir;
-        private Button btnBorrar;
+        private Button btnBorrarGama;
         private Button btnPedidosEntregados;
         private Button btnEmpleadosJefe;
         private Button btnClienteNoPaga;

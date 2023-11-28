@@ -99,6 +99,8 @@ public class ControllerCRUD
 			if (DAOVehiculoImpl.getInstance().eliminarVehiculo(vehiculo)==0)
 			{
 				borrado=true;
+				
+			
 									
 			}
 			

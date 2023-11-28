@@ -6,19 +6,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace U3_E10_Jardinería_Repaso.Conexion
+namespace U3_E10_Jardinería_Repaso.DLL
 {
     internal class Conexion
     {
 
-        private string cadenaConexion = "Data Source = DAM2-14; Initial Catalog=db.Sistema; Integrated Security = True";
+        private string cadenaConexion = "Data Source = DAM2-14; Initial Catalog=db.Jardineria; Integrated Security = True";
 
         SqlConnection sqlConnection;
 
         public SqlConnection EstablecerConexion()
         {
-            this.sqlConnection = new SqlConnection(this.cadenaConexion);
-            return this.sqlConnection;
+            sqlConnection = new SqlConnection(cadenaConexion);
+            return sqlConnection;
         }
 
         public bool EjecutarComandoSinRetornarDatos(string strComando)
@@ -28,7 +28,7 @@ namespace U3_E10_Jardinería_Repaso.Conexion
             {
                 SqlCommand sqlCommand = new SqlCommand();
                 sqlCommand.CommandText = strComando;
-                sqlCommand.Connection = this.EstablecerConexion();
+                sqlCommand.Connection = EstablecerConexion();
                 sqlConnection.Open();
                 sqlCommand.ExecuteNonQuery();
                 sqlConnection.Close();
@@ -55,7 +55,7 @@ namespace U3_E10_Jardinería_Repaso.Conexion
 
                 SqlCommand sqlCommand = new SqlCommand();
                 sqlCommand = sqlComando;
-                sqlCommand.Connection = this.EstablecerConexion();
+                sqlCommand.Connection = EstablecerConexion();
                 adapter.SelectCommand = sqlCommand;
                 sqlConnection.Open();
                 adapter.Fill(ds);

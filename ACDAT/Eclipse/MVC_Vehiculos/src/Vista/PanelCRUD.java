@@ -75,6 +75,7 @@ private void btBorrarActionPerformed(java.awt.event.ActionEvent evt) {
 	    ControllerCRUD.borrarVehiculos(this, tablaVehiculos);
 	    
 	    ControllerCRUD.cargarTabla(tablaVehiculos);
+	    this.repaint();
 	 
 	 
 	}	

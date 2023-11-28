@@ -20,3 +20,11 @@ C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repa
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\obj\Debug\net6.0-windows\U3_E10_Jardinería_Repaso.EmpleadosJefe.resources
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\obj\Debug\net6.0-windows\U3_E10_Jardinería_Repaso.PedidosEntregados.resources
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\obj\Debug\net6.0-windows\U3_E10_Jardinería_Repaso.PrecioCaroBarato.resources
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\obj\Debug\net6.0-windows\U3_E10_Jardinería_Repaso.csproj.AssemblyReference.cache
+C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\U3_E10_Jardinería_Repaso\U3_E10_Jardinería_Repaso\obj\Debug\net6.0-windows\U3_E10_Jardinería_Repaso.csproj.CopyComplete
