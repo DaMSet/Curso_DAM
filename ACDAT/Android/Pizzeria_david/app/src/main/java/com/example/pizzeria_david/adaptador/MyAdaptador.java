@@ -1,4 +1,4 @@
-package com.example.pizzeria_david;
+package com.example.pizzeria_david.adaptador;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,8 +6,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.pizzeria_david.R;
 
 import java.util.List;
 

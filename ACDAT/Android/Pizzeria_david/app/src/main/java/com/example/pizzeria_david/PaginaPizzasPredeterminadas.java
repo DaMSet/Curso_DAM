@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.pizzeria_david.databinding.ActivityPaginaPedidoBinding;
+import com.example.pizzeria_david.adaptador.MyAdaptador;
 import com.example.pizzeria_david.databinding.ActivityPaginaPizzasPredeterminadasBinding;
 
 public class PaginaPizzasPredeterminadas extends AppCompatActivity implements View.OnClickListener{

@@ -30,6 +30,31 @@ namespace U3_E10_Jardinería_Repaso.DLL
 
         }
 
+        public DataSet ProductoBarato() 
+        {
+
+            SqlCommand sentencia = new SqlCommand("Select nombre,precio_venta from producto WHERE precio_venta = (SELECT MIN(precio_venta) FROM producto) ");
+            return conexion.EjecutarSentencia(sentencia);
+
+        }
+
+        public DataSet ProductoCaro()
+        {
+
+            SqlCommand sentencia = new SqlCommand("Select nombre,precio_venta from producto WHERE precio_venta = (SELECT MAX(precio_venta) FROM producto) ");
+            return conexion.EjecutarSentencia(sentencia);
+
+        }
+
+        public bool BorrarProductoPorGama(string gama) 
+        {
+
+            string consulta = "DELETE FROM producto WHERE gama = '" + gama + "'";
+
+            return conexion.EjecutarComandoSinRetornarDatos(consulta);
+
+        }
+
         public bool AgregarGama(string gama) 
         {
 
