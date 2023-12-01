@@ -1,0 +1,34 @@
+Serializacion de XML 
+
+
+// Serializar objeto a XML
+XmlSerializer serializer = new XmlSerializer(typeof(TipoDeObjeto));
+TextWriter writer = new StreamWriter("ruta\\archivo.xml");
+serializer.Serialize(writer, objeto);
+writer.Close();
+
+// Deserializar XML a objeto
+XmlSerializer serializer = new XmlSerializer(typeof(TipoDeObjeto));
+TextReader reader = new StreamReader("ruta\\archivo.xml");
+TipoDeObjeto objeto = (TipoDeObjeto)serializer.Deserialize(reader);
+reader.Close();
+
+
+Serializacion de JSON 
+
+
+// Serializar objeto a JSON
+JsonSerializerOptions opciones = new JsonSerializerOptions { WriteIndented = true };
+string jsonString = JsonSerializer.Serialize(objeto, opciones);
+
+// Escribir JSON en un archivo
+File.WriteAllText("ruta\\archivo.json", jsonString);
+
+
+// Deserializar JSON a objeto
+string jsonString = File.ReadAllText("ruta\\archivo.json");
+MiClase objetoDeserializado = JsonSerializer.Deserialize<MiClase>(jsonString);
+
+// Utilizar el objeto deserializado
+Console.WriteLine($"Propiedad1: {objetoDeserializado.Propiedad1}");
+Console.WriteLine($"Propiedad2: {objetoDeserializado.Propiedad2}");

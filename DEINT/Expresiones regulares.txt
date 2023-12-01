@@ -1,0 +1,59 @@
+using System;
+using System.Text.RegularExpressions;
+
+public class ExpresionesRegulares
+{
+    // Método para verificar si un texto coincide con un patrón dado
+    public static bool CoincidePatron(string texto, string patron)
+    {
+        Regex regex = new Regex(patron);
+        return regex.IsMatch(texto);
+    }
+
+    // Método para obtener todas las coincidencias en un texto con un patrón dado
+    public static string[] ObtenerCoincidencias(string texto, string patron)
+    {
+        Regex regex = new Regex(patron);
+        MatchCollection coincidencias = regex.Matches(texto);
+
+        string[] resultados = new string[coincidencias.Count];
+        for (int i = 0; i < coincidencias.Count; i++)
+        {
+            resultados[i] = coincidencias[i].Value;
+        }
+
+        return resultados;
+    }
+
+    // Método para reemplazar todas las coincidencias en un texto con un patrón dado
+    public static string ReemplazarCoincidencias(string texto, string patron, string reemplazo)
+    {
+        Regex regex = new Regex(patron);
+        string resultado = regex.Replace(texto, reemplazo);
+        return resultado;
+    }
+
+    // Método principal para probar la clase de expresiones regulares
+    public static void Main()
+    {
+        string textoPrueba = "La fecha de inicio es 2022-01-01 y la fecha de fin es 2022-12-31.";
+
+        // Ejemplo 1: Verificar si el texto contiene una fecha
+        string patronFecha = @"\b\d{4}-\d{2}-\d{2}\b";
+        bool contieneFecha = CoincidePatron(textoPrueba, patronFecha);
+        Console.WriteLine($"¿Contiene una fecha? {contieneFecha}");
+
+        // Ejemplo 2: Obtener todas las fechas en el texto
+        string[] fechasEncontradas = ObtenerCoincidencias(textoPrueba, patronFecha);
+        Console.WriteLine("Fechas encontradas:");
+        foreach (var fecha in fechasEncontradas)
+        {
+            Console.WriteLine(fecha);
+        }
+
+        // Ejemplo 3: Reemplazar las fechas en el texto
+        string textoSinFechas = ReemplazarCoincidencias(textoPrueba, patronFecha, "[FECHA]");
+        Console.WriteLine("Texto con fechas reemplazadas:");
+        Console.WriteLine(textoSinFechas);
+    }
+}
