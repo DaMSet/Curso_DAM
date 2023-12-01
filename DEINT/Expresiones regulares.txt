@@ -1,3 +1,14 @@
+/*confirmar correo
+Regex.IsMatch(correoElectronico, @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$")
+
+mostrar acierto con 
+ MessageBox.Show("Correo electrónico válido.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+y fallo con
+MessageBox.Show("Formato de correo electrónico no válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+      
+
+*/
+
 using System;
 using System.Text.RegularExpressions;
 
