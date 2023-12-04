@@ -1,7 +1,7 @@
-como sie inicia , 
-como se anidan los componentes en angulas
+como se inicia angular , 
+como se anidan los componentes en angular
 los imputs y outputs como se usan y como funcionan
-directivas de angular
+las directivas de angular
 
 {{}} comunicacion interna , para sacar cualquier variable  / interna  | @viewChild (acceso a la vista)
 [] input 		/externa
