@@ -30,7 +30,7 @@ namespace U3_E10_Jardinería_Repaso
         {
             ProductoDLL productoDLL = new ProductoDLL();
             productoDLL.AgregarGama(txtGama.Text);
-            productoDLL.AgregarProducto(txtCodigoProducto.Text,txtNombre.Text,txtGama.Text,txtDimensiones.Text,txtProveedor.Text,txtDescripcion.Text,int.Parse(txtStock.Text), double.Parse(txtPrecioVenta.Text), double.Parse(txtPrecioProveedor.Text));
+            productoDLL.AgregarProducto(txtCodigoProducto.Text, txtNombre.Text, txtGama.Text, txtDimensiones.Text, txtProveedor.Text, txtDescripcion.Text, int.Parse(txtStock.Text), double.Parse(txtPrecioVenta.Text), double.Parse(txtPrecioProveedor.Text));
 
         }
     }

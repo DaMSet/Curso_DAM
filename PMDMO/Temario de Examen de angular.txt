@@ -1,0 +1,74 @@
+como sie inicia , 
+como se anidan los componentes en angulas
+los imputs y outputs como se usan y como funcionan
+directivas de angular
+
+{{}} comunicacion interna , para sacar cualquier variable  / interna  | @viewChild (acceso a la vista)
+[] input 		/externa
+() output 		/externa
+#
+los imput y oputput van siempre entre padre e hijo
+
+Componentes, directivas , tuberias, formularios, servicios de inyeccion 
+
+
+--COMPONENTES 
+	Acceso a la vista
+	Proyeccion de contenido			
+	hooks
+
+--DIRECTIVAS 
+	Las ya generadas (*ngif *ngfor ...)
+	Las propias	
+
+--TUBERIAS
+	las generadas por defecto
+	las propias
+
+--FORMULARIOS
+	model-Driver /por varias pasos
+
+--SERVICIOS
+	inyeccion de servicios
+	observables		
+	
+--ENRUTADO /ROUTING
+	rutas
+	guard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
