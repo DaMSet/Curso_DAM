@@ -30,6 +30,8 @@ public class usoConexion {
             }
         }
 
+        
+        
         // Ejemplo de actualización
         String actualizacion = "UPDATE tu_tabla SET columna1 = 'nuevo_valor' WHERE columna2 = 'valor2'";
         boolean resultadoActualizacion = conexionBD.ejecutarActualizacion(actualizacion);
