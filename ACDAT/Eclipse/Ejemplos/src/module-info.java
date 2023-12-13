@@ -6,4 +6,5 @@
  *
  */
 module Ejemplos {
+	requires java.sql;
 }
