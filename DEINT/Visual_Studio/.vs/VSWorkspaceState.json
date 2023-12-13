@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Arrays_Strings",
+    "\\Arrays_Strings\\Arrays_Strings",
     "\\WinFormsApp1",
     "\\WinFormsApp1\\WinFormsApp1"
   ],
-  "SelectedNode": "\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+  "SelectedNode": "\\Arrays_Strings\\Arrays_Strings\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
