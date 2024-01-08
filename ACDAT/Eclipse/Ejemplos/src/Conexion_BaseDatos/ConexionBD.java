@@ -11,7 +11,6 @@ public class ConexionBD {
     private static final String URL = "jdbc:mysql://localhost:3306/tu_base_de_datos";
     private static final String USUARIO = "tu_usuario";
     private static final String CONTRASENA = "tu_contraseña";
-
     private Connection conexion;
     private static ConexionBD instancia;
 

@@ -47,6 +47,7 @@ public class EjemploComparable {
 
             Arrays.sort(productos2, new ComparadorPorNombre());
 
+            
             for (Producto producto : productos2) {
                 System.out.println(producto);
             }     
