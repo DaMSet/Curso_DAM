@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Layouts.StackLayoutDemo"
+             Title="StackLayout">
+
+    <VerticalStackLayout>
+
+        <Grid BackgroundColor="LightSlateGrey">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition />
+                <RowDefinition Height="30" />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".3*"></ColumnDefinition>
+                <ColumnDefinition Width=".4*"/>
+                <ColumnDefinition Width=".3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="TOTAL POR PERSONA" HorizontalOptions="Center" Grid.Row="1" Grid.Column="1" />
+            <Label Text="0.00€" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="2" Grid.Column="0" Grid.RowSpan="4" />
+            <Label Text="SUBTOTAL" Grid.Row="2" Grid.Column="2" />
+            <Label Text="0.00€" Grid.Row="3" Grid.Column="2" />
+            <Label Text="Propina" Grid.Row="4" Grid.Column="2" />
+            <Label Text="0.00€" Grid.Row="5" Grid.Column="2" />
+        </Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".3*"></ColumnDefinition>
+                <ColumnDefinition Width=".4*"/>
+                <ColumnDefinition Width=".3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="TOTAL POR PERSONA" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1" />
+            <Label Text="0.00€" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="1" Grid.Column="0" Grid.RowSpan="4" />
+            <Label Text="SUBTOTAL" Grid.Row="1" Grid.Column="2" />
+            <Label Text="0.00€" Grid.Row="2" Grid.Column="2" />
+            <Label Text="Propina" Grid.Row="3" Grid.Column="2" />
+            <Label Text="0.00€" Grid.Row="4" Grid.Column="2" />
+        </Grid>
+    </VerticalStackLayout>
+    
+</ContentPage>
