@@ -25,11 +25,11 @@ public class MyAdaptador extends RecyclerView.Adapter<MyAdaptador.MyViewHolder> 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         // Infla el diseño del elemento de la lista
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
+      //  View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
         // Crea una nueva instancia de MyViewHolder
 
-        return new MyViewHolder(view);
-        //return null;
+     //   return new MyViewHolder(view);
+        return null;
     }
 
     // Llena la vista con datos específicos en una posición dada
@@ -56,7 +56,8 @@ public class MyAdaptador extends RecyclerView.Adapter<MyAdaptador.MyViewHolder> 
         public MyViewHolder(View itemView) {
             super(itemView);
             // Inicializa la vista del TextView
-            textViewItem = itemView.findViewById(R.id.textViewItem);
+
+           // textViewItem = itemView.findViewById(R.id.textViewItem);
         }
     }
 

@@ -37,18 +37,32 @@ namespace Validaciones_Form
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (this.ValidateChildren())
+
+
+            String rutaArchivo = @"E:\Curso_2Dam\a.txt";
+
+            StreamReader sr = new StreamReader(rutaArchivo);
+
+            string linea = "";
+
+            while ((linea = sr.ReadLine()) != null  )
             {
 
-                MessageBox("ok");
+                //Console.WriteLine(sr.ReadToEnd());
 
+                textBox2.Text += linea;
             }
-            else 
-            {
 
-                MessageBox("");
+            MessageBox.Show("Funciona");
 
-            }
+
+           
+
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

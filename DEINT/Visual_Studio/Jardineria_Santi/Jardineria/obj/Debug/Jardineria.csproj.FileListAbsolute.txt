@@ -1,0 +1,62 @@
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.AssemblyReference.cache
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.Form1.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormAgregarProducto.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.Properties.Resources.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.GenerateResource.cache
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.CoreCompileInputs.cache
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\bin\Debug\Jardineria.exe.config
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\bin\Debug\Jardineria.exe
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\bin\Debug\Jardineria.pdb
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.exe
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.pdb
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormEliminarGama.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarPedidos.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\bin\Debug\Jardineria.exe.config
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\bin\Debug\Jardineria.exe
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\bin\Debug\Jardineria.pdb
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.AssemblyReference.cache
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.Form1.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormAgregarProducto.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarPedidos.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormEliminarGama.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.Properties.Resources.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.GenerateResource.cache
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.CoreCompileInputs.cache
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.exe
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.pdb
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarEmpleado.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarEmpleado.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarClientes.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\J\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarPrecios.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\bin\Debug\Jardineria.exe.config
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\bin\Debug\Jardineria.exe
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\bin\Debug\Jardineria.pdb
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.AssemblyReference.cache
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.Form1.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormAgregarProducto.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarClientes.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarEmpleado.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarPedidos.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarPrecios.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormEliminarGama.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.Properties.Resources.resources
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.GenerateResource.cache
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.CoreCompileInputs.cache
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.exe
+C:\Users\dam\Modulos\Desarrollo de Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.pdb
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\bin\Debug\Jardineria.exe.config
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\bin\Debug\Jardineria.exe
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\bin\Debug\Jardineria.pdb
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.AssemblyReference.cache
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.Form1.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormAgregarProducto.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarClientes.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarEmpleado.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarPedidos.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormConsultarPrecios.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.FormEliminarGama.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.Properties.Resources.resources
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.GenerateResource.cache
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.csproj.CoreCompileInputs.cache
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.exe
+D:\2DAM\Desarrollo-de-Interfaces\Tema 3\Actividad Jardineria\jardineria (Funciona)\Jardineria\Jardineria\obj\Debug\Jardineria.pdb

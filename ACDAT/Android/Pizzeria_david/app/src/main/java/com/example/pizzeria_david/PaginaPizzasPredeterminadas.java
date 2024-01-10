@@ -16,8 +16,7 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
     private View btnAtrasPaginaPizzasPredeterminadas,btnCarrito,pantallapaginapizzaspredeterminadas;
 
 
-    private View prueba1;
-    private View prueba2;
+
 
     private boolean bool = true;
     private PreferenciasCompartidas sharedPreferencesManager;
@@ -44,14 +43,10 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
         btnCarrito = binding.btnSiguiente;
         btnCarrito.setOnClickListener(this);
 
-        prueba1 = binding.editTextText2;
-        prueba2 = binding.editTextText3;
 
-        prueba1.setVisibility(View.GONE);
 
-        recyclerviewPizzas = binding.reciclerviewPizzas;
 
-        recyclerviewPizzas.setLayoutManager(new LinearLayoutManager(this));
+
 
         pantallapaginapizzaspredeterminadas = binding.paginapizzaspredeterminadas1;
         cargarPreferencias();
@@ -80,9 +75,6 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
 
 
 
-            mostrarTipoPizzas(bool);
-
-            bool = !bool;
 
         }
 
@@ -92,13 +84,6 @@ public class PaginaPizzasPredeterminadas extends AppCompatActivity implements Vi
     }
 
 
-    private void mostrarTipoPizzas(boolean b)
-    {
-
-        this.prueba1.setVisibility(b? View.VISIBLE:View.GONE);
-        this.prueba2.setVisibility(b? View.GONE:View.VISIBLE);
-
-    }
 
 
     private void cargarPreferencias(){
