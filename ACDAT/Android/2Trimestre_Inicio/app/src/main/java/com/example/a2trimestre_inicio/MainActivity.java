@@ -1,13 +1,19 @@
 package com.example.a2trimestre_inicio;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.pm.ActivityInfo;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.Surface;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -18,19 +24,26 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textView;
+    private Main miVista;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
 
-    StringBuilder builder = new StringBuilder();
 
-    public boolean onTouch(View v, MotionEvent event)
-    {
-        builder.setLength(0);
-        switch (event.getAction())
-        {
 
-        }
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        super.onCreate(savedInstanceState);
+        miVista = new Main(this);
+        setContentView(miVista);
+
+
+
     }
 
+}
+
+/*
     class RenderView extends View{
         Random rdn = new Random();
         Paint paint = new Paint();
@@ -68,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = new TextView(this);
         textView.setText("desliza el dedo");
-        textView.setOnTouchListener();
+        //textView.setOnTouchListener();
         frameLayout.addView(textView);
 
 
@@ -92,6 +105,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+   /* public void onCreate(Bundle saveInstanceState)
+    {
 
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(Window);
 
-}
+    }
+
+*/
+

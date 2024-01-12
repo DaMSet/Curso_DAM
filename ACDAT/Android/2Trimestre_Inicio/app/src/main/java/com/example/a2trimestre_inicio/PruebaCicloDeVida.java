@@ -19,7 +19,7 @@ public class PruebaCicloDeVida extends Activity {
     }
 
 
-    public void onCreate(Bundle )
+    //public void onCreate(Bundle );
 
 
 
