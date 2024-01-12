@@ -1,0 +1,15 @@
+Conjunto de aplicaciones inter relacionadas
+
+-- Aprender a modificar modulos ya creados
+-- Generar de 0 nuevas aplicaciones
+
+te permite de 2 manera 
+ 
+	con la interfaz , de manera mas sencilla pero limitada.
+
+	
+	Por medio de codigo, (Python).
+
+
+
+--
