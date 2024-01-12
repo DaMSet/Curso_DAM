@@ -33,8 +33,8 @@ public class Conexion {
     
     public static Connection enlace (){
         try {
-            //Class.forName("com.mysql.jdbc.Driver");
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");
+            //Class.forName("com.mysql.cj.jdbc.Driver");
             conn=DriverManager.getConnection(url,login,password);
             if (conn != null) {
             System.out.println("Conexión exitosa a la base de datos.");
