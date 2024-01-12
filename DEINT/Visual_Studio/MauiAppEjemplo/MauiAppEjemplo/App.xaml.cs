@@ -6,7 +6,12 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            //MainPage = new AppShell();
+
+            //MainPage = new NuevaContenPage();
+
+            MainPage = new BindingModos();
+
         }
     }
 }

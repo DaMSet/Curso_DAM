@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-10T08:53:42.417</Modified>
+      <Modified>2024-01-12T09:11:50.279</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-10T08:53:42.120</Modified>
+      <Modified>2024-01-12T09:09:21.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiAppEjemplo.runtimeconfig.json">
       <PackagePath>MauiAppEjemplo.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiAppEjemplo.dll">
       <PackagePath>MauiAppEjemplo.dll</PackagePath>
-      <Modified>2024-01-10T08:53:40.213</Modified>
+      <Modified>2024-01-12T09:11:49.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiAppEjemplo.exe</PackagePath>
-      <Modified>2024-01-10T08:53:40.245</Modified>
+      <Modified>2024-01-12T09:11:49.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiAppEjemplo.deps.json">
       <PackagePath>MauiAppEjemplo.deps.json</PackagePath>
-      <Modified>2024-01-10T08:53:41.745</Modified>
+      <Modified>2024-01-12T09:09:21.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

@@ -6,22 +6,34 @@ namespace MauiAppEjemplo
     {
         int count = 0;
 
+        private Person persona = new Person();
+
         public MainPage()
         {
             InitializeComponent();
+
+
+            persona.Name = "davis";
+            persona.Adress = "sitio1";
+            persona.Phone = 123;
+
+
+            //Hay que hacer esto si o si
+
+            BindingContext = persona;
+
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
-            var person = new Person
-            {
-                Name = "nombre",
-                Adress = "sitio",
-                Phone = 1,
 
-            };
+            persona.Name = "pepe";
+            persona.Phone = 66;
+            persona.Adress = "sitio2";
 
-            BindingContext =  person;
+            //Hay que hacer esto si o si
+
+            
 
         }
 
