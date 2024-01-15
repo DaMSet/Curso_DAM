@@ -48,6 +48,20 @@ public class Main extends SurfaceView implements SurfaceHolder.Callback {
     @Override
     public void surfaceDestroyed(@NonNull SurfaceHolder holder) {
 
+        boolean retry = true;
+        hiloPintar.setRunning(false);
+
+            while(retry){
+
+                try {
+                    hiloPintar.join();
+                    retry = false;
+
+                }catch (InterruptedException e){}
+
+            }
+
+
     }
     @Override
     public boolean onTouchEvent(MotionEvent motionEvent)
