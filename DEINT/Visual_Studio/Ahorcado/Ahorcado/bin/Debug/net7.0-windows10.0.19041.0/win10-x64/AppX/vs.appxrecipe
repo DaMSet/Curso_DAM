@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ahorcado\Ahorcado\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-12T10:13:00.053</Modified>
+      <Modified>2024-01-15T09:26:44.213</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ahorcado\Ahorcado\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ahorcado.dll">
       <PackagePath>Ahorcado.dll</PackagePath>
-      <Modified>2024-01-12T10:12:58.886</Modified>
+      <Modified>2024-01-15T09:26:43.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ahorcado\Ahorcado\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ahorcado.exe</PackagePath>
-      <Modified>2024-01-12T10:12:58.901</Modified>
+      <Modified>2024-01-15T09:26:43.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\Ahorcado\Ahorcado\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ahorcado.deps.json">
       <PackagePath>Ahorcado.deps.json</PackagePath>
