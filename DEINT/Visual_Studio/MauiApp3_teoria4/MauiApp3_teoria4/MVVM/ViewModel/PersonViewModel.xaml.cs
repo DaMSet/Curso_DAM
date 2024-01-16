@@ -2,7 +2,7 @@ using MauiApp3_teoria4.MVVM.Model;
 using System.Security.Cryptography.X509Certificates;
 
 namespace MauiApp3_teoria4.MVVM.ViewModel;
-{
+
 	public partial class PersonViewModel
 	{
 
@@ -15,7 +15,7 @@ namespace MauiApp3_teoria4.MVVM.ViewModel;
 			{
 			Name = "Test",
 			Age = 1,
-			Married = false,
+			Married = "yes",
 			BirthDate = DateTime.Now,
 			Weight = 1,
 			Lunchtime = DateTime.Now.TimeOfDay,
@@ -27,4 +27,3 @@ namespace MauiApp3_teoria4.MVVM.ViewModel;
 
 	}
 	
-}

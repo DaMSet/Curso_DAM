@@ -1,4 +1,5 @@
-﻿using MauiApp3_teoria4.MVVM.ViewModel;
+﻿using MauiApp3_teoria4.MVVM.View;
+using MauiApp3_teoria4.MVVM.ViewModel;
 
 namespace MauiApp3_teoria4
 {
@@ -8,7 +9,10 @@ namespace MauiApp3_teoria4
         {
             InitializeComponent();
 
-            MainPage = new PersonViewModel();
+            //MainPage = new PersonView();
+
+            MainPage = new PeopleView();
+
         }
     }
 }
