@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-16T11:22:16.146</Modified>
+      <Modified>2024-01-17T08:29:33.496</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-16T11:20:41.937</Modified>
+      <Modified>2024-01-17T08:29:33.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp3_teoria4.runtimeconfig.json">
       <PackagePath>MauiApp3_teoria4.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp3_teoria4.dll">
       <PackagePath>MauiApp3_teoria4.dll</PackagePath>
-      <Modified>2024-01-16T11:22:15.146</Modified>
+      <Modified>2024-01-17T08:29:30.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp3_teoria4.exe</PackagePath>
-      <Modified>2024-01-16T11:22:15.146</Modified>
+      <Modified>2024-01-17T08:29:30.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp3_teoria4.deps.json">
       <PackagePath>MauiApp3_teoria4.deps.json</PackagePath>
-      <Modified>2024-01-16T11:19:00.846</Modified>
+      <Modified>2024-01-17T08:29:32.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dam\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

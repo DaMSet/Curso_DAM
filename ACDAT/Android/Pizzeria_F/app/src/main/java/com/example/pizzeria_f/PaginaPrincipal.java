@@ -60,7 +60,7 @@ public class PaginaPrincipal extends AppCompatActivity implements View.OnClickLi
 
         if (view.getId() == R.id.btnConfiguracion) {
 
-            Intent i = new Intent(PaginaPrincipal.this, MainActivity.class);
+            Intent i = new Intent(PaginaPrincipal.this, PaginaConfiguracion.class);
             startActivity(i);
             finish();
 

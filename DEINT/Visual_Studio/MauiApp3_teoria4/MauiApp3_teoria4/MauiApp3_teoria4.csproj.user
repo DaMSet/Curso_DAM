@@ -19,10 +19,22 @@
     <MauiXaml Update="MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\ViewModel\ComandViewModel.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\ViewModel\FodyDemoViewModel.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="MVVM\ViewModel\PeopleViewModel.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="MVVM\ViewModel\PersonViewModel.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\View\ComandView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\View\FodyDemoView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="MVVM\View\PeopleView.xaml">
