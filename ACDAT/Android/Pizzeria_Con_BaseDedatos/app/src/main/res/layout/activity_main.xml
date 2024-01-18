@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnElegirPizza"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:onClick="onClick"
+        android:text="@string/btnElegirPizza"
+        android:textAllCaps="false"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textSize="30sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloPizzeria" />
+
+    <Button
+        android:id="@+id/btnConfigurar"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="@string/btnConfigurar"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textSize="30sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnElegirPizza" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="@string/btnSalir"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textSize="30sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWeb" />
+
+    <TextView
+        android:id="@+id/txtTituloPizzeria"
+        android:layout_width="345dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="37dp"
+        android:text="@string/txtTituloPizzeria"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="@string/txtWeb"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textSize="30sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConfigurar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
