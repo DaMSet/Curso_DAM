@@ -25507,11 +25507,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.iOS.Ref",
-            "version": "[16.4.7125, 16.4.7125]"
+            "version": "[16.4.7129, 16.4.7129]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64",
-            "version": "[16.4.7125, 16.4.7125]"
+            "version": "[16.4.7129, 16.4.7129]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.ios",
@@ -25616,11 +25616,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.MacCatalyst.Ref",
-            "version": "[16.4.7125, 16.4.7125]"
+            "version": "[16.4.7129, 16.4.7129]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
-            "version": "[16.4.7125, 16.4.7125]"
+            "version": "[16.4.7129, 16.4.7129]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.maccatalyst",

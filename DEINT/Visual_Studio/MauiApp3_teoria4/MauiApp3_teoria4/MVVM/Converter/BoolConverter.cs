@@ -9,7 +9,7 @@ namespace MauiApp3_teoria4.MVVM.Converter
 {
     internal class BoolConverter : IValueConverter
     {
-        public object Convert(object? value, Type targetType, object parameter, CultureInfo culture)
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             var answer = value.ToString();
 
@@ -21,7 +21,7 @@ namespace MauiApp3_teoria4.MVVM.Converter
 
         }
 
-        public object ConvertBack(object? value, Type targetType, object parameter, CultureInfo culture)
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             var boolean = (bool)value;
 

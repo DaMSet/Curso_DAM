@@ -13,9 +13,9 @@ namespace MauiApp3_teoria4
 
             //MainPage = new PeopleView();
 
-            MainPage = new ComandView();
+            //MainPage = new ComandView();
 
-            //MainPage = new FodyDemoView();
+            MainPage = new FodyDemoView();
 
         }
     }

@@ -6,7 +6,7 @@ public partial class FodyDemoView : ContentPage
 {
 	public FodyDemoView()
 	{
-        
+		InitializeComponent();
 
         BindingContext = new FodyDemoViewModel();
     }
