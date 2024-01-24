@@ -8,45 +8,47 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiAppEjemplo
-build_property.ProjectDir = C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\
+build_property.ProjectDir = E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/App.xaml]
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEjemplo.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/AppShell.xaml]
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEjemplo.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/BindingModos.xaml]
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/BindingModos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEjemplo.BindingModos.xaml
 build_metadata.AdditionalFiles.TargetPath = BindingModos.xaml
 build_metadata.AdditionalFiles.RelativePath = BindingModos.xaml
 
-[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/MainPage.xaml]
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEjemplo.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/NuevaContenPage.xaml]
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/NuevaContenPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEjemplo.NuevaContenPage.xaml
 build_metadata.AdditionalFiles.TargetPath = NuevaContenPage.xaml
 build_metadata.AdditionalFiles.RelativePath = NuevaContenPage.xaml
 
-[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/Resources/Styles/Colors.xaml]
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEjemplo.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/Resources/Styles/Styles.xaml]
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiAppEjemplo/MauiAppEjemplo/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppEjemplo.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -322,3 +322,6 @@ C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppE
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiAppEjemplo.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\refint\MauiAppEjemplo.dll
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiAppEjemplo\MauiAppEjemplo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiAppEjemplo.pdb

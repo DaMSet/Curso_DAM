@@ -11,14 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "f515ea65-9b7b-4fb1-930a-779a951c9a55")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "MauiAppEjemplo")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiAppEjemplo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9a29513f4f155417f75406420c31ccf9560b3cc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiAppEjemplo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiAppEjemplo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

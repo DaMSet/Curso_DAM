@@ -325,3 +325,15 @@ C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiAp
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp3_teoria4.csproj.Fody.CopyLocal.cache
 C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp3_teoria4.csproj.Fody.RuntimeCopyLocal.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp3_teoria4.csproj.AssemblyReference.cache
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp3_teoria4.GeneratedMSBuildEditorConfig.editorconfig
