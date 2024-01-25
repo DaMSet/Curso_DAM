@@ -1,4 +1,5 @@
 is_global = true
+build_property.PropertyChangedAnalyzerConfiguration = 
 build_property.TargetFramework = net7.0-windows10.0.19041.0
 build_property.TargetPlatformMinVersion = 10.0.17763.0
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -8,89 +9,89 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiApp3_teoria4
-build_property.ProjectDir = E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\
+build_property.ProjectDir = C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\MauiApp3_teoria4\MauiApp3_teoria4\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/App.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/AppShell.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MainPage.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/ComandViewModel.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/ComandViewModel.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MVVM.ViewModel.ComandViewModel.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\ComandViewModel.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\ComandViewModel.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/FodyDemoViewModel.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/FodyDemoViewModel.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MVVM.ViewModel.FodyDemoViewModel.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\FodyDemoViewModel.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\FodyDemoViewModel.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/PeopleViewModel.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/PeopleViewModel.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MVVM.ViewModel.PeopleViewModel.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\PeopleViewModel.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\PeopleViewModel.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/PersonViewModel.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/PersonViewModel.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MVVM.ViewModel.PersonViewModel.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\PersonViewModel.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\PersonViewModel.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/ComandView.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/ComandView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MVVM.View.ComandView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\ComandView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\ComandView.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/FodyDemoView.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/FodyDemoView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MVVM.View.FodyDemoView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\FodyDemoView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\FodyDemoView.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/PeopleView.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/PeopleView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MVVM.View.PeopleView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\PeopleView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\PeopleView.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/PersonView.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/PersonView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.MVVM.View.PersonView.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\PersonView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\PersonView.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/Resources/Styles/Colors.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/Resources/Styles/Styles.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/StyleClassDemo.xaml]
+[C:/Users/dam/Desktop/Curso/Curso_DAM/DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/StyleClassDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp3_teoria4.StyleClassDemo.xaml
 build_metadata.AdditionalFiles.TargetPath = StyleClassDemo.xaml

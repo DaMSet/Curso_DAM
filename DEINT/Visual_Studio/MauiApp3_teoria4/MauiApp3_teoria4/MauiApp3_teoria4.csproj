@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="MVVM\ViewModel\ComandViewModel.xaml.cs">
 	    <DependentUpon>ComandViewModel.xaml</DependentUpon>
 	  </Compile>

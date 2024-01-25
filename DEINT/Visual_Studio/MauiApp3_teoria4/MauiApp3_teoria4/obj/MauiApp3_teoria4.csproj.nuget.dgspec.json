@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\MauiApp3_teoria4.csproj": {}
+    "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\MauiApp3_teoria4.csproj": {}
   },
   "projects": {
-    "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\MauiApp3_teoria4.csproj": {
+    "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\MauiApp3_teoria4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\MauiApp3_teoria4.csproj",
+        "projectUniqueName": "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\MauiApp3_teoria4.csproj",
         "projectName": "MauiApp3_teoria4",
-        "projectPath": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\MauiApp3_teoria4.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\obj\\",
+        "projectPath": "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\MauiApp3_teoria4.csproj",
+        "packagesPath": "C:\\Users\\dam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dam\\Desktop\\Curso\\Curso_DAM\\DEINT\\Visual_Studio\\MauiApp3_teoria4\\MauiApp3_teoria4\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -29,6 +29,7 @@
           "net7.0-windows10.0.19041.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -91,6 +92,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -258,6 +263,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -358,6 +367,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
@@ -457,6 +470,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [
