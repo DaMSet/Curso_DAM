@@ -1,0 +1,23 @@
+package comparable_comparator;
+
+import java.util.Arrays;
+
+public class EjemploComparable {
+	
+    public static void main(String[] args) {
+    	
+        Persona[] personas = {
+                new Persona("Juan", 25),
+                new Persona("Maria", 30),
+                new Persona("Pedro", 20)
+        };
+
+        Arrays.sort(personas);
+
+        for (Persona persona : personas) {
+            System.out.println(persona);
+        }
+        
+    }
+}
+

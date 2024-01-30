@@ -1,0 +1,48 @@
+package lamdas;
+
+import java.util.Arrays;
+import java.util.function.BiFunction;
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.ToIntFunction;
+
+public class lamda {
+
+	public static void main(String[] args) {
+		
+		// Ejemplo de un arreglo de números enteros
+        int[] numeros = {1, 2, 3, 4, 5};
+
+        // Función anónima para calcular el promedio
+        Double promedio = ((Function<int[], Double>) arr -> {
+            if (arr.length == 0) {
+                return 0.0;
+            }
+            return Arrays.stream(arr).average().getAsDouble();
+        }).apply(numeros);
+
+        System.out.println("El promedio es: " + promedio);
+   
+        
+        //////
+        
+     // Ejemplo de un número entero para calcular el factorial
+        int numero = 5;
+
+        // Función anónima para calcular el factorial
+        Function<Integer, Long> factorial = n -> {
+            if (n == 0 || n == 1) {
+                return 1L;
+            }
+            return n * factorial.apply(n - 1);
+        };
+
+        long resultado = factorial.apply(numero);
+        System.out.println("El factorial de " + numero + " es: " + resultado);
+  
+        
+		
+	}
+
+}

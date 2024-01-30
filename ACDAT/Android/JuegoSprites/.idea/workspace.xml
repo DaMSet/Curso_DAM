@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29e64d4b-c752-4856-958b-d8e73e837f1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/MauiApp1/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/MauiApp1/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/MauiApp1/FileContentIndex/71d5c13c-738a-4b0c-94fb-663220b7a971.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/MauiApp1/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/MauiApp1/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/MauiApp1/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/MauiApp1/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/ProjectEvaluation/mauiapp1.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/ProjectEvaluation/mauiapp1.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/ProjectEvaluation/mauiapp1.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/.vs/ProjectEvaluation/mauiapp1.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/MauiApp1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/designtime/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/designtime/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/designtime/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/designtime/libraryprojectimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/5.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/5.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/5/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/5/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/6.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/6.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/6/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/6/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7/jl/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7/jl/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7/jl/META-INF/com/android/build/gradle/aar-metadata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7/jl/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7/jl/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/7/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/8.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/8.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/8/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/8/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/9.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/9.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/9/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-android/lp/9/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/MauiApp1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/MauiApp1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/MauiApp1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/MauiApp1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/MauiApp1.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/MauiApp1.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp1/MauiApp1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/MauiApp3_teoria4/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/MauiApp3_teoria4/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/MauiApp3_teoria4/FileContentIndex/a509f891-146c-4d07-ba07-a006f0c93ad2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/MauiApp3_teoria4/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/MauiApp3_teoria4/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/MauiApp3_teoria4/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/MauiApp3_teoria4/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/ProjectEvaluation/mauiapp3_teoria4.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/ProjectEvaluation/mauiapp3_teoria4.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/ProjectEvaluation/mauiapp3_teoria4.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/.vs/ProjectEvaluation/mauiapp3_teoria4.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/PersonView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/View/PersonView.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/FodyDemoViewModel.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MVVM/ViewModel/FodyDemoViewModel.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/MauiProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/MauiApp3_teoria4.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/MauiApp3_teoria4.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/MauiApp3_teoria4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/MauiApp3_teoria4.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/MauiApp3_teoria4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/MauiApp3_teoria4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/Microsoft.Extensions.Logging.Debug.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLargeTile.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLargeTile.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLargeTile.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLargeTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLargeTile.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-lightunplated_targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-lightunplated_targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-lightunplated_targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-lightunplated_targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-lightunplated_targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-unplated_targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-unplated_targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-unplated_targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-unplated_targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.altform-unplated_targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.targetsize-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.targetsize-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.targetsize-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.targetsize-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconLogo.targetsize-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconMediumTile.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconMediumTile.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconMediumTile.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconMediumTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconMediumTile.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconSmallTile.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconSmallTile.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconSmallTile.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconSmallTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconSmallTile.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconStoreLogo.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconStoreLogo.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconStoreLogo.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconStoreLogo.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconStoreLogo.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconWideTile.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconWideTile.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconWideTile.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconWideTile.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/appiconWideTile.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/dotnet_bot.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/dotnet_bot.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/dotnet_bot.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/dotnet_bot.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/dotnet_bot.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/resources.pri" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/resources.pri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/splashSplashScreen.scale-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/splashSplashScreen.scale-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/splashSplashScreen.scale-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/splashSplashScreen.scale-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/splashSplashScreen.scale-400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/vs.appxrecipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/AppX/vs.appxrecipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.build.appxrecipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.build.appxrecipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/Microsoft.Extensions.Logging.Debug.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/resources.pri" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/bin/Debug/net7.0-windows10.0.19041.0/win10-x64/resources.pri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-android/MauiApp3_teoria4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-android/MauiApp3_teoria4.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-android/MauiApp3_teoria4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-android/MauiApp3_teoria4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp3_teoria4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp3_teoria4.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp3_teoria4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-ios/iossimulator-x64/MauiApp3_teoria4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp3_teoria4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp3_teoria4.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp3_teoria4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/MauiApp3_teoria4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.Fody.CopyLocal.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.Fody.CopyLocal.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.Fody.RuntimeCopyLocal.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.csproj.Fody.RuntimeCopyLocal.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MauiApp3_teoria4.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MultipleQualifiersPerDimensionFound.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/MultipleQualifiersPerDimensionFound.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.cs.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/XamlTypeInfo.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/XamlTypeInfo.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/XamlTypeInfo.g.cs.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/filtered.layout.resfiles" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/filtered.layout.resfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/filtered.layout.resfiles.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/filtered.layout.resfiles.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/intermediatexaml/MauiApp3_teoria4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/intermediatexaml/MauiApp3_teoria4.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/intermediatexaml/MauiApp3_teoria4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/intermediatexaml/MauiApp3_teoria4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/qualifiers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/qualifiers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/qualifiers.txt.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/qualifiers.txt.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/ref/MauiApp3_teoria4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/ref/MauiApp3_teoria4.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/unfiltered.layout.resfiles" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/unfiltered.layout.resfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/unfiltered.layout.resfiles.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DEINT/Visual_Studio/MauiApp3_teoria4/MauiApp3_teoria4/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/unfiltered.layout.resfiles.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HLC/Uso del driver MongoDB para Node.js/6-Actualizacio╠ün (Update)/web-server" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HLC/Uso del driver MongoDB para Node.js/6-Actualizacio╠ün (Update)/web-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HLC/Uso del driver MongoDB para Node.js/7-Borrado de datos (Delete)/web-server" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HLC/Uso del driver MongoDB para Node.js/7-Borrado de datos (Delete)/web-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PMDMO/David_Martinez_Examen_Angular/David_Martinez_examen/examen" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PMDMO/David_Martinez_Examen_Angular/David_Martinez_examen/examen" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\dam\.android\avd\Pixel_6_API_34_nuevo.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2bcv0j9w4VQQzAqzUotFzb7l7Ze" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/dam/Desktop/Curso/Curso_DAM/ACDAT/Android/JuegoMoverObjeto"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dam\Desktop\Curso\Curso_DAM\ACDAT\Android\JuegoSprites\app\src\main\res\drawable" />
+      <recent name="C:\Users\dam\Desktop\ProyectoSpringBoot\Proyecto_SpringBoot\JuegoSprites\app\src\main\java\com\example\juegosprites" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.juegosprites" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="JuegoSprites.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29e64d4b-c752-4856-958b-d8e73e837f1b" name="Changes" comment="" />
+      <created>1706526961570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706526961570</updated>
+    </task>
+    <servers />
+  </component>
+</project>
