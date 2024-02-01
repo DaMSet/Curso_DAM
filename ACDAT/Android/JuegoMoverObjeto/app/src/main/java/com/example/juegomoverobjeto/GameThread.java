@@ -43,3 +43,7 @@ public class GameThread extends Thread {
         moverFiguras.postInvalidate();
     }
 }
+
+
+
+
