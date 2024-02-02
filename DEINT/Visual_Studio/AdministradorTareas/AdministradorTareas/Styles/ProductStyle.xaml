@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <DataTemplate x:Key="normal">
+
+        <Grid Margin="15,10,15,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".1*" />
+                <ColumnDefinition Width=".2*" />
+                <ColumnDefinition Width=".7*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Frame Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="3" BorderColor="White">
+                <Frame.Background>
+                    <LinearGradientBrush EndPoint="1,0">
+                        <GradientStop Offset="0" Color="#F99999" />
+                        <GradientStop Offset="1" Color="#DEE2E6" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <!-- Contenido del Frame aquí -->
+            </Frame>
+
+            <Label Grid.RowSpan="2" Grid.ColumnSpan="3" HeightRequest="100" Text="{Binding Completa}" />
+
+            <Label Grid.Column="2" FontSize="Large" Text="{Binding Nombre}" VerticalOptions="Center" />
+
+            <Label Grid.Row="1" Grid.Column="2" FontSize="Large" Text="{Binding IdTarea}" VerticalOptions="Center" />
+        </Grid>
+
+
+    </DataTemplate>
+
+  
+    <DataTemplate x:Key="tachado">
+
+        <Grid Margin="15,10,15,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".1*" />
+                <ColumnDefinition Width=".2*" />
+                <ColumnDefinition Width=".7*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Frame Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="3" BorderColor="White">
+                <Frame.Background>
+                    <LinearGradientBrush EndPoint="1,0">
+                        <GradientStop Offset="0" Color="#F99999" />
+                        <GradientStop Offset="1" Color="#DEE2E6" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <!-- Contenido del Frame aquí -->
+            </Frame>
+
+            <Label Grid.RowSpan="2" Grid.ColumnSpan="3" HeightRequest="100" Text="{Binding Completa}" />
+
+            <Label Grid.Column="2" FontSize="Large" TextDecorations="Strikethrough" Text="{Binding Nombre}" VerticalOptions="Center" />
+
+            <Label Grid.Row="1" Grid.Column="2" FontSize="Large" Text="{Binding IdTarea}" VerticalOptions="Center" />
+        </Grid>
+
+    </DataTemplate>
+
+    <DataTemplate x:Key="categoria">
+
+        <HorizontalStackLayout >
+
+            <CollectionView ItemsSource="{Binding Categorias}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="10" Margin="10" Padding="10" BackgroundColor="White">
+                            <StackLayout>
+                                <Label Text="{Binding Nombre}" FontSize="Medium" TextColor="Black"/>
+                                <ProgressBar Progress="{Binding Progreso}"   WidthRequest="200" HeightRequest="20" ProgressColor="Red" BackgroundColor="Gray"/>
+                                <Label Text="{Binding cantidadTareas}" FontSize="Small" TextColor="Black"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </HorizontalStackLayout>
+
+
+
+
+
+    </DataTemplate>
+
+    <DataTemplate x:Key="CategoriaTemplate">
+        <Frame CornerRadius="10" Margin="10" Padding="10" BackgroundColor="White">
+            <StackLayout>
+                <Label Text="{Binding Nombre}" FontSize="Medium" TextColor="Black"/>
+                <ProgressBar Progress="{Binding Progreso}" WidthRequest="200" HeightRequest="20" ProgressColor="Red" BackgroundColor="Gray"/>
+                <Label Text="{Binding cantidadTareas}" FontSize="Small" TextColor="Black"/>
+            </StackLayout>
+        </Frame>
+    </DataTemplate>
+
+</ResourceDictionary>

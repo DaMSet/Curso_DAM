@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionViewDem.MVVM.View.CollectionDemoView"
+             xmlns:DataTemplates="clr-namespace:CollectionViewDem.Selectors"
+             Title="CollectionDemoView">
+
+
+
+    <ContentPage.Resources>
+        <DataTemplates:ProductDataTemplateSelector x:Key="ProductTemplates"/>
+    </ContentPage.Resources>
+
+
+    <!-- <VerticalStackLayout> -->
+
+
+    <!--    <CollectionView ItemsSource = "{Binding Categorias}"  -->
+    <!--                ItemTemplate="{StaticResource categoria}"/> -->
+        
+    <!--    <CollectionView ItemsSource = "{Binding Tareas}"  -->
+    <!--                 ItemTemplate="{StaticResource ProductTemplates}"/> -->
+
+       
+    <!--</VerticalStackLayout> -->
+
+
+    <StackLayout>
+        <Label Text="Mis Tareas" FontSize="Title" TextColor="Black" BackgroundColor="Lavender" HorizontalOptions="CenterAndExpand" />
+
+        <Label Text="Mis Tareas" FontAttributes="Bold" FontSize="Large" TextColor="Black" HorizontalOptions="CenterAndExpand" />
+        <Label Text="CATEGORIAS" FontSize="Medium" TextColor="Gray" HorizontalOptions="CenterAndExpand" />
+
+        <HorizontalStackLayout>
+
+            <CollectionView FlowDirection="LeftToRight"
+                            ItemsLayout="HorizontalList" 
+                ItemsSource = "{Binding Categorias}"  
+                   ItemTemplate="{StaticResource CategoriaTemplate}"/>
+        </HorizontalStackLayout>
+
+
+        <CollectionView ItemsSource = "{Binding Tareas}" 
+                     ItemTemplate="{StaticResource ProductTemplates}"/>
+        
+        
+
+    </StackLayout>
+    
+
+
+
+
+
+
+
+</ContentPage>
