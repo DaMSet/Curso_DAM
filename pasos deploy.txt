@@ -1,0 +1,17 @@
+1 Base de deatos 
+en atlast 
+creamos un cluster , 
+creamos base de datos vacia, creamos usuario, obtenemos la url de la conexion para el codigo
+
+
+2º Backend 
+
+recurrimos a amzon web service atraves de heroku
+
+
+variables de entorno en node ( process.env.NOMBRE_VARIABLE_ENTORNO )
+
+
+
+
+
