@@ -1,1 +1,0 @@
-C:\Users\dam\Desktop\Curso\Curso_DAM\DEINT\Visual_Studio\P10ControlDeGastos\P10ControlDeGastos\P10ControlDeGastos.csproj;x64
