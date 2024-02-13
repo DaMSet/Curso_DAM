@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaBDMAUITODO", "PruebaBDMAUITODO\PruebaBDMAUITODO.csproj", "{88E6073D-324C-4E34-B4D4-52C9F6A14FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88E6073D-324C-4E34-B4D4-52C9F6A14FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E6073D-324C-4E34-B4D4-52C9F6A14FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E6073D-324C-4E34-B4D4-52C9F6A14FC3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{88E6073D-324C-4E34-B4D4-52C9F6A14FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E6073D-324C-4E34-B4D4-52C9F6A14FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E6073D-324C-4E34-B4D4-52C9F6A14FC3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F821FC46-5140-4834-BC38-7A390277C931}
+	EndGlobalSection
+EndGlobal

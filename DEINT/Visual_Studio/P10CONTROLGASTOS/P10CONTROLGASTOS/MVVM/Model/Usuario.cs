@@ -27,7 +27,7 @@ namespace P10CONTROLGASTOS.MVVM.Model
 
         //Relacion 1 a N
         [OneToMany(CascadeOperations = CascadeOperation.CascadeInsert | CascadeOperation.CascadeRead | CascadeOperation.CascadeDelete)]
-        public List<Transaccion> transaccion { get; set; }
+        public List<Transaccion> transacciones { get; set; }
 
     }
 }

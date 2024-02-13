@@ -1,11 +1,6 @@
-﻿using BDDemo2.MVVM.Model;
-using Bogus;
+﻿using P10CONTROLGASTOS;
+using P10CONTROLGASTOS.MVVM.Model;
 using PropertyChanged;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace BDDemo2.MVVM.ViewModel
@@ -13,13 +8,15 @@ namespace BDDemo2.MVVM.ViewModel
     [AddINotifyPropertyChangedInterface]
     public class CustomerViewModel
     {
-        public List<Customer> Customers { get; set; }
+        public List<Usuario> Usuarios { get; set; }
 
-        public Customer CurrentCustomer { get; set; }
+        public Usuario CurrentUsuario { get; set; }
 
         public ICommand AddOrUpdateCommand { get; set; }
 
         public ICommand DeleteCommand { get; set; }
+
+
 
         public CustomerViewModel()
         {

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P10CONTROLGASTOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1f142456e954b46bc16e1ecd963b2fb1222e418e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8a0847805bb4301efe42588cab2b85e1276edb47")]
 [assembly: System.Reflection.AssemblyProductAttribute("P10CONTROLGASTOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P10CONTROLGASTOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

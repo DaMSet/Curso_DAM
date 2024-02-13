@@ -15,7 +15,15 @@ namespace P10CONTROLGASTOS.MVVM.Model
     {
 
         [Column("NombreTransaccion"), Indexed, NotNull]
-        public string NNombreTransaccioname { get; set; }
+        public string NombreTransaccion { get; set; }
+
+        public int Cantidad { get; set; }
+
+        public DateTime Hora{ get; set; }
+
+
+        [ForeignKey(typeof(Usuario))]
+        public int UsuarioId { get; set; }
 
     }
 }
