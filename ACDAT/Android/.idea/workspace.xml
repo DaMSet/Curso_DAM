@@ -4,55 +4,170 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d10b91-a9d0-4392-a14c-cacef3799d84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HolaMundo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/androidTest/java/com/example/holamundo/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/java/com/example/holamundo/FirstFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/java/com/example/holamundo/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/java/com/example/holamundo/SecondFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values-land/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values-v23/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/app/src/test/java/com/example/holamundo/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HolaMundo/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="9a1f53a7-2a61-4f90-9139-093bbc05fab6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/androidTest/java/com/example/proyectojuego/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/java/com/example/proyectojuego/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/app/src/test/java/com/example/proyectojuego/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProyectoJuego/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/proyectojuego/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectojuego/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/proyectojuego/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/2T_1Eje_Maw_Co_Pi/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/2T_1Eje_Maw_Co_Pi/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/2T_1Eje_Maw_Co_Pi/FileContentIndex/708ebf86-323d-4e2c-a74e-b08bb6a5d329.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/2T_1Eje_Maw_Co_Pi/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/2T_1Eje_Maw_Co_Pi/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/2T_1Eje_Maw_Co_Pi/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/2T_1Eje_Maw_Co_Pi/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/ProjectEvaluation/2t_1eje_maw_co_pi.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/ProjectEvaluation/2t_1eje_maw_co_pi.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/ProjectEvaluation/2t_1eje_maw_co_pi.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/.vs/ProjectEvaluation/2t_1eje_maw_co_pi.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/2T_1Eje_Maw_Co_Pi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/2T_1Eje_Maw_Co_Pi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/2T_1Eje_Maw_Co_Pi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/2T_1Eje_Maw_Co_Pi.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/2T_1Eje_Maw_Co_Pi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/designtime/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/designtime/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/designtime/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/designtime/build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/designtime/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/designtime/libraryprojectimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/5.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/5.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/5/jl/proguard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/5/jl/proguard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/5/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/5/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6/jl/proguard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6/jl/proguard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6/jl/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6/jl/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6/jl/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/6/jl/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/META-INF/com/android/build/gradle/aar-metadata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/res/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/7/jl/res/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8/jl/proguard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8/jl/proguard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8/jl/res/values/attr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8/jl/res/values/attr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8/jl/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/8/jl/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/9.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/9.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/9/jl/proguard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/9/jl/proguard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/9/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-android/lp/9/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.nfloat.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-ios/iossimulator-x64/2T_1Eje_Maw_Co_Pi.nfloat.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.nfloat.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/2T_1Eje_Maw_Co_Pi.nfloat.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/2T_1Eje_Maw_Co_Pi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/2T_1Eje_Maw_Co_Pi/2T_1Eje_Maw_Co_Pi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/FileContentIndex/01c36ac4-48e6-49ca-9e31-216c00490e5a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/FileContentIndex/5f651914-eaec-4383-8f41-0f3a8de20042.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/FileContentIndex/85952743-21d3-4ade-bc2b-ec77100413dc.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/FileContentIndex/92716f10-6428-4e12-8696-8417598e0bee.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/FileContentIndex/e6718f72-7ed5-4f33-865c-baa87eb78e33.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/Clase/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/ProjectEvaluation/clase.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/ProjectEvaluation/clase.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/ProjectEvaluation/clase.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/.vs/ProjectEvaluation/clase.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Clase.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Clase.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Clase.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Clase.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.designer.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/Debug/net6.0-windows/Clase.designer.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DEINT/Visual_Studio/Clase/Clase/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +177,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="2W3qTzpmGvDmEBCsTIS1BvTJ3ok" />
+  <component name="ProjectId" id="2cKtQA3dHvkZUkw3yc2DxMiwnXC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,17 +188,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "android.gradle.sync.needed": "true",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "E:/Curso_2Dam/Curso_DAM/ACDAT/Android/ProyectoJuego"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26d10b91-a9d0-4392-a14c-cacef3799d84" name="Changes" comment="" />
-      <created>1695971626384</created>
+      <changelist id="9a1f53a7-2a61-4f90-9139-093bbc05fab6" name="Changes" comment="" />
+      <created>1707872083021</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1695971626384</updated>
+      <updated>1707872083021</updated>
     </task>
     <servers />
   </component>

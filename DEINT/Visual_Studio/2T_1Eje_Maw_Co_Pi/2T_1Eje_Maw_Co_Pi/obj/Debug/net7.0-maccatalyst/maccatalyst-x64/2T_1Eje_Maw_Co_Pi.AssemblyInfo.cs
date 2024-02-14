@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2T_1Eje_Maw_Co_Pi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1e9bc77ffbfd4a2dd831015aba9a2149d00ef7ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("2T_1Eje_Maw_Co_Pi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2T_1Eje_Maw_Co_Pi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

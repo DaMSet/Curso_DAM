@@ -14,7 +14,7 @@ namespace _2T_1Eje_Maw_Co_Pi
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.1.99.67")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.1.99.94")]
 	public partial class Resource
 	{
 		
