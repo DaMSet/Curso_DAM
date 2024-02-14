@@ -8,11 +8,14 @@ import androidx.core.content.ContextCompat;
 
 public class Jugador {
 
+    private static final double SPEED_PIXELS_PER_SECOND = 400.0;
+    private static final double MAX_SPEDD = SPEED_PIXELS_PER_SECOND/BucleDeJuego.MAXIMOS_UPS;
     private double posicionX;
     private double posicionY;
     private double radio;
     private Paint paint;
-
+    private double velocidadX;
+    private double velocidadY;
 
     public Jugador(Context context,double posicionX, double posicionY, double radio){
 
@@ -32,8 +35,13 @@ public class Jugador {
 
     }
 
-    public void actualizar() {
+    public void actualizar(Joystic joystic) {
 
+        velocidadX = joystic.getActuatorX() * MAX_SPEDD;
+        velocidadY = joystic.getActuatorY() * MAX_SPEDD;
+
+        posicionX += velocidadX;
+        posicionY += velocidadY;
 
     }
 

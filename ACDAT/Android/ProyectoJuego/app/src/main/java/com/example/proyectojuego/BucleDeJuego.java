@@ -6,7 +6,7 @@ import android.view.SurfaceHolder;
 import java.util.zip.Adler32;
 
 public class BucleDeJuego extends Thread {
-    private static final double MAXIMOS_UPS = 60.0;
+    public static final double MAXIMOS_UPS = 60.0;
     private static final double UPS_PERIODO = 1E+3/MAXIMOS_UPS;
     private Juego juego;
     private SurfaceHolder surfaceHolder;

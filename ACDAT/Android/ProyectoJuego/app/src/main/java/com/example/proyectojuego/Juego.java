@@ -19,6 +19,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
 
     private final Jugador jugador;
+    private final Joystic joystic;
     private BucleDeJuego bucleDeJuego;
 
 
@@ -34,8 +35,9 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
         bucleDeJuego = new BucleDeJuego(this,surfaceHolder);
 
-        //Iniciamos la clase jugador
+        //Iniciamos los objetos del juego
 
+        joystic = new Joystic(275,700,70,40);
         jugador = new Jugador(getContext(),500,500,30);
 
         setFocusable(true);
@@ -51,9 +53,24 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         switch (event.getAction())
         {
             case MotionEvent.ACTION_DOWN:
+                if(joystic.estaPresionado((double)event.getX(),(double)event.getY()))
+                {
+                    joystic.setEstaPresionado(true);
+                }
 
             case MotionEvent.ACTION_MOVE:
-                jugador.CambiarPosicion((double)event.getX(),(double)event.getY());
+
+                if(joystic.getEstaPresionado())
+                {
+                    joystic.setActuator((double)event.getX(),(double)event.getY());
+                }
+
+                return true;
+
+            case MotionEvent.ACTION_UP:
+
+                joystic.setEstaPresionado(false);
+                joystic.resetearActuator();
                 return true;
         }
 
@@ -81,6 +98,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         drawUPS(canvas);
         drawFPS(canvas);
 
+        joystic.draw(canvas);
         jugador.draw(canvas);
 
     }
@@ -106,7 +124,8 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
     public void actualizar() {
         //Actualizamos el estado del juego
-        jugador.actualizar();
+        joystic.actualizar();
+        jugador.actualizar(joystic);
 
     }
 }
