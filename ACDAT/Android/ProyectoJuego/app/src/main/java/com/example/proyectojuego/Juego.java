@@ -4,6 +4,7 @@ import android.content.Context;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
@@ -17,23 +18,46 @@ import androidx.core.content.ContextCompat;
 public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
 
+    private final Jugador jugador;
     private BucleDeJuego bucleDeJuego;
-    private Context context;
+
 
     public Juego(Context context) {
         super(context);
+
 
         //Obtenemos el surffaceHolder y el callback
 
         SurfaceHolder surfaceHolder = getHolder();
         surfaceHolder.addCallback(this);
 
-        this.context = context;
 
         bucleDeJuego = new BucleDeJuego(this,surfaceHolder);
 
+        //Iniciamos la clase jugador
+
+        jugador = new Jugador(getContext(),500,500,30);
+
         setFocusable(true);
 
+    }
+
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event){
+
+        //Manejamos los eventos al tocar la pantalla
+
+        switch (event.getAction())
+        {
+            case MotionEvent.ACTION_DOWN:
+
+            case MotionEvent.ACTION_MOVE:
+                jugador.CambiarPosicion((double)event.getX(),(double)event.getY());
+                return true;
+        }
+
+        return super.onTouchEvent(event);
     }
 
     @Override
@@ -57,12 +81,14 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         drawUPS(canvas);
         drawFPS(canvas);
 
+        jugador.draw(canvas);
+
     }
     public void drawUPS(Canvas canvas){
         String mediaUPS = Double.toString(bucleDeJuego.getMediaUPS());
 
         Paint paint = new Paint();
-        int color = ContextCompat.getColor(context,R.color.magenta);
+        int color = ContextCompat.getColor(getContext(),R.color.magenta);
         paint.setColor(color);
         paint.setTextSize(50);
         canvas.drawText("UPS:"+mediaUPS,100,100,paint);
@@ -72,13 +98,15 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         String mediaFPS = Double.toString(bucleDeJuego.getMediaFPS());
 
         Paint paint = new Paint();
-        int color = ContextCompat.getColor(context,R.color.magenta);
+        int color = ContextCompat.getColor(getContext(),R.color.magenta);
         paint.setColor(color);
         paint.setTextSize(50);
         canvas.drawText("FPS: "+mediaFPS,100,200,paint);
     }
 
     public void actualizar() {
+        //Actualizamos el estado del juego
+        jugador.actualizar();
 
     }
 }
