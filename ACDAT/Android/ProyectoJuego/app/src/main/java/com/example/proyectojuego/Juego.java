@@ -11,6 +11,9 @@ import android.view.SurfaceView;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
+import com.example.proyectojuego.objetos.Enemigo;
+import com.example.proyectojuego.objetos.Jugador;
+
 
 /*
 * Esta Clase maneja todos los objetos y es responsable de actualizar los objetos de la pantalla
@@ -20,6 +23,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
     private final Jugador jugador;
     private final Joystic joystic;
+    private final Enemigo enemigo;
     private BucleDeJuego bucleDeJuego;
 
 
@@ -38,7 +42,8 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         //Iniciamos los objetos del juego
 
         joystic = new Joystic(275,700,70,40);
-        jugador = new Jugador(getContext(),500,500,30);
+        jugador = new Jugador(getContext(),joystic,2*500,500,30);
+        enemigo = new Enemigo(getContext(),jugador,500,200,30);
 
         setFocusable(true);
 
@@ -100,6 +105,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
         joystic.draw(canvas);
         jugador.draw(canvas);
+        enemigo.draw(canvas);
 
     }
     public void drawUPS(Canvas canvas){
@@ -125,7 +131,8 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
     public void actualizar() {
         //Actualizamos el estado del juego
         joystic.actualizar();
-        jugador.actualizar(joystic);
+        jugador.actualizar();
+        enemigo.actualizar();
 
     }
 }
