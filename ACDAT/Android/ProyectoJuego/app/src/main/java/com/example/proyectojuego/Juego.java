@@ -11,8 +11,13 @@ import android.view.SurfaceView;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
+import com.example.proyectojuego.objetos.Circulo;
 import com.example.proyectojuego.objetos.Enemigo;
 import com.example.proyectojuego.objetos.Jugador;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 
 /*
@@ -23,9 +28,10 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
     private final Jugador jugador;
     private final Joystic joystic;
-    private final Enemigo enemigo;
+    //private final Enemigo enemigo;
     private BucleDeJuego bucleDeJuego;
 
+    private List<Enemigo> ListaDeEnemigos = new ArrayList<Enemigo>();
 
     public Juego(Context context) {
         super(context);
@@ -43,7 +49,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
         joystic = new Joystic(275,700,70,40);
         jugador = new Jugador(getContext(),joystic,2*500,500,30);
-        enemigo = new Enemigo(getContext(),jugador,500,200,30);
+        //enemigo = new Enemigo(getContext(),jugador,500,200,30);
 
         setFocusable(true);
 
@@ -105,7 +111,12 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
         joystic.draw(canvas);
         jugador.draw(canvas);
-        enemigo.draw(canvas);
+        //enemigo.draw(canvas);
+
+        for (Enemigo enemigo: ListaDeEnemigos)
+        {
+            enemigo.draw(canvas);
+        }
 
     }
     public void drawUPS(Canvas canvas){
@@ -132,7 +143,36 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         //Actualizamos el estado del juego
         joystic.actualizar();
         jugador.actualizar();
-        enemigo.actualizar();
+        //enemigo.actualizar();
+
+        //Spawnea enemigos si es momento para que salgan
+        if(Enemigo.ListoParaSpawnear()){
+            ListaDeEnemigos.add(new Enemigo(getContext(),jugador));
+        }
+
+        //Actualizar el estado de cada enemigo
+
+        for (Enemigo enemigo : ListaDeEnemigos){
+            enemigo.actualizar();
+        }
+
+
+        //chequeamos atraves de la lista de enemigos para comprobar las colisiones entre cada enemigo con el jugador
+
+        Iterator<Enemigo> iteradorListaEnemigos = ListaDeEnemigos.iterator();
+
+        while (iteradorListaEnemigos.hasNext())
+        {
+            if(Circulo.estaChocando(iteradorListaEnemigos.next(),jugador))
+            {
+                //Si choca con el jugador lo borramos
+
+                iteradorListaEnemigos.remove();
+
+            }
+
+        }
+
 
     }
 }

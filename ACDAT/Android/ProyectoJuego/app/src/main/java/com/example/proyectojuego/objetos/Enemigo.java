@@ -11,11 +11,46 @@ public class Enemigo extends Circulo {
 
     private static final double SPEED_PIXELS_PER_SECOND = Jugador.SPEED_PIXELS_PER_SECOND*0.60;
     private static final double MAX_SPEED = SPEED_PIXELS_PER_SECOND/ BucleDeJuego.MAXIMOS_UPS;
+    private static final double SPAWNS_POR_MINUTO = 20;
+    private static final double SPAWNS_POR_SEGUNDO = SPAWNS_POR_MINUTO/60.0;
+    private static final double ACTUALIZACIONES_POR_SPAWN = BucleDeJuego.MAXIMOS_UPS/SPAWNS_POR_SEGUNDO;
+    private static double actualizacionHastaElSiguienteSpawn = ACTUALIZACIONES_POR_SPAWN;
     private final Jugador jugador;
 
     public Enemigo(Context context, Jugador jugador, double posicionX, double posicionY, double radio) {
         super(context, ContextCompat.getColor(context, R.color.enemigo),posicionX,posicionY,radio);
         this.jugador = jugador;
+    }
+
+    public Enemigo(Context context, Jugador jugador) {
+        super(
+                context,
+                ContextCompat.getColor(context, R.color.enemigo),
+                Math.random()*1000,
+                Math.random()*1000,
+                30
+        );
+        this.jugador = jugador;
+
+
+
+    }
+
+    /*
+        Este metodo mira si un enemigo debe spawnear de acuerdo a un numero por minuto
+    */
+    public static boolean ListoParaSpawnear() {
+
+        if(actualizacionHastaElSiguienteSpawn <= 0)
+        {
+            actualizacionHastaElSiguienteSpawn += ACTUALIZACIONES_POR_SPAWN;
+            return true;
+        }else
+            {
+                actualizacionHastaElSiguienteSpawn--;
+                return false;
+            }
+
     }
 
     @Override

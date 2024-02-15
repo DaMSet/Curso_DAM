@@ -21,6 +21,23 @@ public abstract class Circulo extends ObjetosDelJuego {
         paint.setColor(color);
     }
 
+    //Este metodo mira si los dos objetos se estan tocando
+    public static boolean estaChocando(Circulo obj1, Circulo obj2) {
+
+        double distancia = getDistanciaEntreObjetos(obj1,obj2);
+        double distanciaParaChocar =  obj1.getRadio() +obj2.getRadio();
+
+        if(distancia < distanciaParaChocar){return true;}
+        else {
+            return false;
+        }
+
+    }
+
+    protected double getRadio(){
+        return radio;
+    };
+
     public void draw(Canvas canvas) {
 
         canvas.drawCircle((float)posicionX,(float) posicionY,(float)radio,paint);
