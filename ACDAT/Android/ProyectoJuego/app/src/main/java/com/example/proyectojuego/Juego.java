@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
 import com.example.proyectojuego.objetos.Circulo;
+import com.example.proyectojuego.objetos.Bala;
 import com.example.proyectojuego.objetos.Enemigo;
 import com.example.proyectojuego.objetos.Jugador;
 
@@ -32,6 +33,9 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
     private BucleDeJuego bucleDeJuego;
 
     private List<Enemigo> ListaDeEnemigos = new ArrayList<Enemigo>();
+    private List<Bala> listaDeBalas = new ArrayList<Bala>();
+    private int joysticPointerID = 0;
+    private int NumeroDeBalasEnElCargador = 0;
 
     public Juego(Context context) {
         super(context);
@@ -61,12 +65,25 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
         //Manejamos los eventos al tocar la pantalla
 
-        switch (event.getAction())
+        switch (event.getActionMasked())
         {
             case MotionEvent.ACTION_DOWN:
-                if(joystic.estaPresionado((double)event.getX(),(double)event.getY()))
+            case MotionEvent.ACTION_POINTER_DOWN:
+                if(joystic.getEstaPresionado()){
+                    //SI EL JOYSTIC ESTA PRESIONADO ANTES DE ESTE EVENTO ENTONCES PREPARAMOS EL DIPARO
+
+                    NumeroDeBalasEnElCargador++;
+
+                }
+                else if(joystic.estaPresionado((double)event.getX(),(double)event.getY()))
                 {
+                    //Si el joystic esta presionado guardamos su id para poder comprovar que sea el joystic el que es utilizado
+                    joysticPointerID = event.getPointerId(event.getActionIndex());
                     joystic.setEstaPresionado(true);
+                }
+                else{
+                    //SI EL JOYSTIC NO ESTA PRESIONADO TAMBIEN PREPARAMOS EL DIPARO
+                    NumeroDeBalasEnElCargador++;
                 }
 
             case MotionEvent.ACTION_MOVE:
@@ -79,9 +96,16 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
                 return true;
 
             case MotionEvent.ACTION_UP:
+            case MotionEvent.ACTION_POINTER_UP:
 
-                joystic.setEstaPresionado(false);
-                joystic.resetearActuator();
+                if(joysticPointerID == event.getPointerId(event.getActionIndex())){
+
+                    joystic.setEstaPresionado(false);
+                    joystic.resetearActuator();
+
+                }
+
+
                 return true;
         }
 
@@ -113,10 +137,18 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         jugador.draw(canvas);
         //enemigo.draw(canvas);
 
+        //Mostramos a los enemigos
         for (Enemigo enemigo: ListaDeEnemigos)
         {
             enemigo.draw(canvas);
         }
+
+        //Mostramos las balas
+        for (Bala bala: listaDeBalas)
+        {
+            bala.draw(canvas);
+        }
+
 
     }
     public void drawUPS(Canvas canvas){
@@ -156,18 +188,54 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
             enemigo.actualizar();
         }
 
+        //
 
-        //chequeamos atraves de la lista de enemigos para comprobar las colisiones entre cada enemigo con el jugador
+        while(NumeroDeBalasEnElCargador > 0){
+            listaDeBalas.add(new Bala(getContext(),jugador));
+            NumeroDeBalasEnElCargador--;
+        }
+
+        //Actualizar el estado de cada bala
+
+        for (Bala bala : listaDeBalas){
+            bala.actualizar();
+        }
+
+
+
+
+
+        //chequeamos atraves de la lista de enemigos para comprobar las colisiones entre cada enemigo con el jugador y las balas tambien
 
         Iterator<Enemigo> iteradorListaEnemigos = ListaDeEnemigos.iterator();
 
         while (iteradorListaEnemigos.hasNext())
         {
-            if(Circulo.estaChocando(iteradorListaEnemigos.next(),jugador))
+            Circulo enemigo = iteradorListaEnemigos.next();
+
+            if(Circulo.estaChocando(enemigo,jugador))
             {
                 //Si choca con el jugador lo borramos
 
                 iteradorListaEnemigos.remove();
+                continue;
+
+            }
+
+            Iterator<Bala> iteradorListaDeBalas = listaDeBalas.iterator();
+
+            while(iteradorListaDeBalas.hasNext()){
+
+                Circulo bala = iteradorListaDeBalas.next();
+                //Con esto queremos borrar tanto la bala como el enemigo
+
+                if(Circulo.estaChocando(bala,enemigo)){
+                    iteradorListaDeBalas.remove();
+                    iteradorListaEnemigos.remove();
+                    break;
+
+                    //Si un enemigo es eliminado por una bala sumaremos puntos a un proximo contador
+                }
 
             }
 

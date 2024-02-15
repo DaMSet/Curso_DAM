@@ -81,10 +81,15 @@ public class Joystic {
     }
 
     public boolean estaPresionado(double posicionTocadaX, double posicionTocadaY) {
-        joystickCenterToTouchDistance = Math.sqrt(
-                Math.pow(circuloExternoX - posicionTocadaX,2)+
-                Math.pow(circuloExternoY - posicionTocadaY,2)
+        joystickCenterToTouchDistance = MetodosUtiles.getDistanciaEntrePuntos(
+                circuloExternoX,
+                circuloExternoY,
+                posicionTocadaX,
+                posicionTocadaY
         );
+
+
+
 
         return joystickCenterToTouchDistance < radioCirculoExterno;
     }
@@ -100,7 +105,8 @@ public class Joystic {
 
         double deltaX =  posicionTocadaX - circuloExternoX;
         double deltaY =  posicionTocadaY - circuloExternoY;
-        Double deltaDistance = Math.sqrt(Math.pow(deltaX,2)+Math.pow(deltaY,2));
+        Double deltaDistance = MetodosUtiles.getDistanciaEntrePuntos(0,0,deltaX,deltaY);
+
 
         if(deltaDistance < radioCirculoExterno)
         {

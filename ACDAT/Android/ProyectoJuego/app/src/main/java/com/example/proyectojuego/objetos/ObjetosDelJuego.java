@@ -8,8 +8,10 @@ Es la clase abstracta principal de la que heredaran los objetos del juego
 public abstract class ObjetosDelJuego {
     protected double posicionX;
     protected double posicionY;
-    protected double velocidadX;
-    protected double velocidadY;
+    protected double velocidadX = 0;
+    protected double velocidadY = 0;
+    protected double direccionX = 1;
+    protected double direccionY = 0;
 
     public ObjetosDelJuego(double posicionX, double posicionY) {
         this.posicionX = posicionX;
@@ -37,4 +39,11 @@ public abstract class ObjetosDelJuego {
         );
     }
 
+    protected double getDireccionX() {
+        return direccionX;
+    }
+
+    protected double getDireccionY() {
+        return direccionY;
+    }
 }
