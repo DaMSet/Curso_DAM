@@ -7,6 +7,7 @@
     <AbsoluteLayout>
 
         <Grid AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
             <Grid.RowDefinitions>
                 <RowDefinition Height=".4*"></RowDefinition>
                 <RowDefinition Height=".3*"></RowDefinition>
