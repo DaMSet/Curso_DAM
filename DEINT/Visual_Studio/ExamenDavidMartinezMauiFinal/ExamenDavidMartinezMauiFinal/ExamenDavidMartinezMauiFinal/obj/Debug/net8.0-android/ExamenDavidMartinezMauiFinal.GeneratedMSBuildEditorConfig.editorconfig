@@ -1,0 +1,60 @@
+is_global = true
+build_property.PropertyChangedAnalyzerConfiguration = 
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ExamenDavidMartinezMauiFinal
+build_property.ProjectDir = E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamenDavidMartinezMauiFinal.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamenDavidMartinezMauiFinal.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamenDavidMartinezMauiFinal.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/MVVM/View/ControlGastosView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamenDavidMartinezMauiFinal.MVVM.View.ControlGastosView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\ControlGastosView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\ControlGastosView.xaml
+
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/MVVM/View/TransaccionesView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamenDavidMartinezMauiFinal.MVVM.View.TransaccionesView.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\TransaccionesView.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\TransaccionesView.xaml
+
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamenDavidMartinezMauiFinal.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/Curso_2Dam/Curso_DAM/DEINT/Visual_Studio/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/ExamenDavidMartinezMauiFinal/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamenDavidMartinezMauiFinal.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

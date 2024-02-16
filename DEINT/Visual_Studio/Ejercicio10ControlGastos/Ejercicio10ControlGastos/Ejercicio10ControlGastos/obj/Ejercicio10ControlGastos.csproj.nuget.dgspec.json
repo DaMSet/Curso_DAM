@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2DAM\\Desarrollo-de-Interfaces\\Tema 4\\Ejercicio10\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos.csproj": {}
+    "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos.csproj": {}
   },
   "projects": {
-    "D:\\2DAM\\Desarrollo-de-Interfaces\\Tema 4\\Ejercicio10\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos.csproj": {
+    "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2DAM\\Desarrollo-de-Interfaces\\Tema 4\\Ejercicio10\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos.csproj",
+        "projectUniqueName": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos.csproj",
         "projectName": "Ejercicio10ControlGastos",
-        "projectPath": "D:\\2DAM\\Desarrollo-de-Interfaces\\Tema 4\\Ejercicio10\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos.csproj",
-        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "D:\\2DAM\\Desarrollo-de-Interfaces\\Tema 4\\Ejercicio10\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\obj\\",
+        "projectPath": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "E:\\Curso_2Dam\\Curso_DAM\\DEINT\\Visual_Studio\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\Ejercicio10ControlGastos\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "D:\\Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -29,7 +29,6 @@
           "net8.0-windows10.0.19041.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
