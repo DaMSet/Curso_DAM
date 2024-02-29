@@ -19,6 +19,7 @@ public class BucleDeJuego extends Thread {
     public BucleDeJuego(Juego juego, SurfaceHolder surfaceHolder) {
         this.juego = juego;
         this.surfaceHolder = surfaceHolder;
+
     }
 
     public  double getMediaUPS() {

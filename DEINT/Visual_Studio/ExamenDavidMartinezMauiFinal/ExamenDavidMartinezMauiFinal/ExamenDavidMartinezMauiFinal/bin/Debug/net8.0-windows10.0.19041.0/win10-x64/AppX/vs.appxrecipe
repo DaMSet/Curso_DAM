@@ -30,7 +30,7 @@
     <AppXManifest Include="E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-16T00:44:52.721</Modified>
+      <Modified>2024-02-16T06:48:36.226</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ExamenDavidMartinezMauiFinal.dll">
       <PackagePath>ExamenDavidMartinezMauiFinal.dll</PackagePath>
-      <Modified>2024-02-16T00:44:51.329</Modified>
+      <Modified>2024-02-16T06:48:35.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ExamenDavidMartinezMauiFinal.exe</PackagePath>
-      <Modified>2024-02-16T00:44:51.339</Modified>
+      <Modified>2024-02-16T06:48:35.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Curso_2Dam\Curso_DAM\DEINT\Visual_Studio\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\ExamenDavidMartinezMauiFinal\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

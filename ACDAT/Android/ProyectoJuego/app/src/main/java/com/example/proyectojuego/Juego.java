@@ -1,9 +1,14 @@
 package com.example.proyectojuego;
 
+
 import android.content.Context;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.media.MediaPlayer;
+import android.provider.MediaStore;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -11,10 +16,15 @@ import android.view.SurfaceView;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
+import com.example.proyectojuego.grafico.Animator;
+import com.example.proyectojuego.grafico.SpriteSheet;
 import com.example.proyectojuego.objetos.Circulo;
 import com.example.proyectojuego.objetos.Bala;
 import com.example.proyectojuego.objetos.Enemigo;
 import com.example.proyectojuego.objetos.Jugador;
+import com.example.proyectojuego.paneles.Joystic;
+import com.example.proyectojuego.paneles.JuegoTerminado;
+import com.example.proyectojuego.paneles.Puntos;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -36,9 +46,18 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
     private List<Bala> listaDeBalas = new ArrayList<Bala>();
     private int joysticPointerID = 0;
     private int NumeroDeBalasEnElCargador = 0;
+    private JuegoTerminado gameOver;
+    private Puntos puntosDelJuego;
+
+    private Bitmap fondo1;
+
+    private MediaPlayer mediaPlayer;
+    private MediaPlayer sonidoDisparo;
+
 
     public Juego(Context context) {
         super(context);
+
 
 
         //Obtenemos el surffaceHolder y el callback
@@ -49,11 +68,29 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
         bucleDeJuego = new BucleDeJuego(this,surfaceHolder);
 
-        //Iniciamos los objetos del juego
+        //Iniciamos los paneles del juego
+
+        gameOver = new JuegoTerminado(getContext());
+        puntosDelJuego = new Puntos(getContext());
 
         joystic = new Joystic(275,700,70,40);
-        jugador = new Jugador(getContext(),joystic,2*500,500,30);
+
+        //Iniciamos los objetos del juego
+
+
+        SpriteSheet spriteSheet = new SpriteSheet(context);
+
+        Animator animator = new Animator(spriteSheet.getArrayJugadorSprite());
+
+        jugador = new Jugador(getContext(),joystic,2*500,500,30,animator/*spriteSheet.getJugadorSprite()*/);
         //enemigo = new Enemigo(getContext(),jugador,500,200,30);
+
+
+        mediaPlayer = MediaPlayer.create(context,R.raw.musica_fondo);
+        mediaPlayer.setLooping(true);
+
+        sonidoDisparo = MediaPlayer.create(context,R.raw.pium);
+
 
         setFocusable(true);
 
@@ -73,6 +110,8 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
                     //SI EL JOYSTIC ESTA PRESIONADO ANTES DE ESTE EVENTO ENTONCES PREPARAMOS EL DIPARO
 
                     NumeroDeBalasEnElCargador++;
+
+
 
                 }
                 else if(joystic.estaPresionado((double)event.getX(),(double)event.getY()))
@@ -114,7 +153,16 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
 
     @Override
     public void surfaceCreated(@NonNull SurfaceHolder holder) {
+
         bucleDeJuego.inicioBucle();
+
+        // Cargamos la imagen de fondo
+        fondo1 = BitmapFactory.decodeResource(getResources(), R.drawable.fondo);
+
+        //pònemos la musica
+
+        mediaPlayer.start();
+
     }
 
     @Override
@@ -125,15 +173,25 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
     @Override
     public void surfaceDestroyed(@NonNull SurfaceHolder holder) {
 
+        mediaPlayer.stop();
+        mediaPlayer.release();
+
     }
 
     @Override
     public void draw(Canvas canvas){
         super.draw(canvas);
+
+        // Dibujamos la imagen de fondo
+        canvas.drawBitmap(fondo1, 0, 0, null);
+
         drawUPS(canvas);
         drawFPS(canvas);
 
-        joystic.draw(canvas);
+
+
+        //Aqui dibujaremos los objetos del juego
+
         jugador.draw(canvas);
         //enemigo.draw(canvas);
 
@@ -149,6 +207,17 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
             bala.draw(canvas);
         }
 
+        //Aqui estan los paneles del juego
+        joystic.draw(canvas);
+
+        //Mostramos los puntos
+        puntosDelJuego.draw(canvas);
+
+        //Sera el fin del juego si el jugador pierde toda la vida
+        if(jugador.getPuntosDeVida() <= 0){
+            gameOver.draw(canvas);
+        }
+
 
     }
     public void drawUPS(Canvas canvas){
@@ -159,6 +228,8 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         paint.setColor(color);
         paint.setTextSize(50);
         canvas.drawText("UPS:"+mediaUPS,100,100,paint);
+
+
      }
 
     public void drawFPS(Canvas canvas){
@@ -172,10 +243,20 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
     }
 
     public void actualizar() {
+
+
+
+        //Si el jugador esta muerto, dejaremos de actualizar el juego
+
+        if(jugador.getPuntosDeVida() <= 0){
+            return;
+        }
+
         //Actualizamos el estado del juego
         joystic.actualizar();
         jugador.actualizar();
         //enemigo.actualizar();
+
 
         //Spawnea enemigos si es momento para que salgan
         if(Enemigo.ListoParaSpawnear()){
@@ -193,6 +274,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         while(NumeroDeBalasEnElCargador > 0){
             listaDeBalas.add(new Bala(getContext(),jugador));
             NumeroDeBalasEnElCargador--;
+            sonidoDisparo.start();
         }
 
         //Actualizar el estado de cada bala
@@ -218,6 +300,11 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
                 //Si choca con el jugador lo borramos
 
                 iteradorListaEnemigos.remove();
+
+                //Y quitamos vida a el jugador
+
+                jugador.setPuntosDeVida(jugador.getPuntosDeVida() - 1);
+
                 continue;
 
             }
@@ -232,9 +319,14 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
                 if(Circulo.estaChocando(bala,enemigo)){
                     iteradorListaDeBalas.remove();
                     iteradorListaEnemigos.remove();
-                    break;
 
                     //Si un enemigo es eliminado por una bala sumaremos puntos a un proximo contador
+
+                    puntosDelJuego.sumarpunto();
+
+                    break;
+
+
                 }
 
             }

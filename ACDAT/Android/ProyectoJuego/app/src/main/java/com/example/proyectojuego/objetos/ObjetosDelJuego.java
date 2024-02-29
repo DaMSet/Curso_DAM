@@ -24,11 +24,11 @@ public abstract class ObjetosDelJuego {
 
     public abstract void actualizar();
 
-    protected double getPosicionX() {
+    public double getPosicionX() {
         return posicionX;
     }
 
-    protected double getPosicionY() {
+    public double getPosicionY() {
         return posicionY;
     }
 

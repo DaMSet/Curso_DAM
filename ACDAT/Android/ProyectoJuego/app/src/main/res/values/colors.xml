@@ -6,4 +6,7 @@
     <color name="jugador">#FD0031</color>
     <color name="enemigo">#FFEA00</color>
     <color name="bala">#74FF00</color>
+    <color name="barraDeVida">#74FF00</color>bordebarraDeVida
+    <color name="bordebarraDeVida">#343533</color>
+    <color name="juegoTerminado">#982501</color>
 </resources>

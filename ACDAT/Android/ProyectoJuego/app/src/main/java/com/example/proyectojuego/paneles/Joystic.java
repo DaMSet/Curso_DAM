@@ -1,8 +1,10 @@
-package com.example.proyectojuego;
+package com.example.proyectojuego.paneles;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+
+import com.example.proyectojuego.MetodosUtiles;
 
 public class Joystic {
 
