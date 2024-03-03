@@ -48,7 +48,6 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
     private int NumeroDeBalasEnElCargador = 0;
     private JuegoTerminado gameOver;
     private Puntos puntosDelJuego;
-
     private Bitmap fondo1;
 
     private MediaPlayer mediaPlayer;
@@ -110,8 +109,6 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
                     //SI EL JOYSTIC ESTA PRESIONADO ANTES DE ESTE EVENTO ENTONCES PREPARAMOS EL DIPARO
 
                     NumeroDeBalasEnElCargador++;
-
-
 
                 }
                 else if(joystic.estaPresionado((double)event.getX(),(double)event.getY()))
@@ -255,6 +252,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         //Actualizamos el estado del juego
         joystic.actualizar();
         jugador.actualizar();
+
         //enemigo.actualizar();
 
 
@@ -274,6 +272,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback {
         while(NumeroDeBalasEnElCargador > 0){
             listaDeBalas.add(new Bala(getContext(),jugador));
             NumeroDeBalasEnElCargador--;
+
             sonidoDisparo.start();
         }
 

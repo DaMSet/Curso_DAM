@@ -8,6 +8,7 @@ import android.graphics.Paint;
 Clase abstracta que utilizamos para guardar datos y metodos
 que tendran los circulos en el juego
 */
+
 public abstract class Circulo extends ObjetosDelJuego {
     protected double radio;
     protected Paint paint;

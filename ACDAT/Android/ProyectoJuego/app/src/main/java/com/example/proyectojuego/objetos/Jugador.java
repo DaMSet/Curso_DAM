@@ -28,7 +28,6 @@ public class Jugador extends Circulo {
     private int puntosDeVida;
     //private Sprite sprite;
     private Animator animator;
-
     private EstadoJugador estadoJugador;
 
 

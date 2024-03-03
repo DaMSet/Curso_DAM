@@ -7,7 +7,7 @@ import java.util.zip.Adler32;
 
 public class BucleDeJuego extends Thread {
     public static final double MAXIMOS_UPS = 60.0;
-    private static final double UPS_PERIODO = 1E+3/MAXIMOS_UPS;
+    private static final double UPS_PERIODO = 1E+3/MAXIMOS_UPS; // Representa la cantidad de veces que se actualiza la lógica del juego en un segundo.
     private Juego juego;
     private SurfaceHolder surfaceHolder;
     private boolean estaFuncionando = false;

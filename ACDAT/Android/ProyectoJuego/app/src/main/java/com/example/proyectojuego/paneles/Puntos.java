@@ -8,6 +8,7 @@ import androidx.core.content.ContextCompat;
 
 import com.example.proyectojuego.R;
 
+//Este es el panel de los puntos obtenidos
 public class Puntos {
     private Context context;
     private int punto = 0;

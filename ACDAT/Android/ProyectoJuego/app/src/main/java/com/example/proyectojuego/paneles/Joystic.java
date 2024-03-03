@@ -48,7 +48,7 @@ public class Joystic {
     }
     public void draw(Canvas canvas) {
 
-        //Dibujamos el circulo exterior
+        //Dibujamos los circulos
 
 
         //Circulo externo

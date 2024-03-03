@@ -11,7 +11,7 @@ public class Enemigo extends Circulo {
 
     private static final double SPEED_PIXELS_PER_SECOND = Jugador.SPEED_PIXELS_PER_SECOND*0.60;
     private static final double MAX_SPEED = SPEED_PIXELS_PER_SECOND/ BucleDeJuego.MAXIMOS_UPS;
-    private static final double SPAWNS_POR_MINUTO = 20;
+    private static final double SPAWNS_POR_MINUTO = 25;
     private static final double SPAWNS_POR_SEGUNDO = SPAWNS_POR_MINUTO/60.0;
     private static final double ACTUALIZACIONES_POR_SPAWN = BucleDeJuego.MAXIMOS_UPS/SPAWNS_POR_SEGUNDO;
     private static double actualizacionHastaElSiguienteSpawn = ACTUALIZACIONES_POR_SPAWN;
