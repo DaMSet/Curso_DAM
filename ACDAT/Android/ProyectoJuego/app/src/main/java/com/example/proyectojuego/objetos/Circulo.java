@@ -27,11 +27,11 @@ public abstract class Circulo extends ObjetosDelJuego {
 
         double distancia = getDistanciaEntreObjetos(obj1,obj2);
         double distanciaParaChocar =  obj1.getRadio() +obj2.getRadio();
+            return false;
+        }
 
         if(distancia < distanciaParaChocar){return true;}
         else {
-            return false;
-        }
 
     }
 
@@ -44,6 +44,11 @@ public abstract class Circulo extends ObjetosDelJuego {
         canvas.drawCircle((float)posicionX,(float) posicionY,(float)radio,paint);
 
     }
+
+
+    private void getEspacios(Canvas canvas){
+        canvas.drawCircle((float)posicionX,(float) posicionY,(float)radio,paint);
+    };
 
 
 }

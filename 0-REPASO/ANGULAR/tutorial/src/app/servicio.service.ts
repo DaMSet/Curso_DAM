@@ -16,8 +16,10 @@ export class ServicioService {
     this.juegos.push(new Juego("mario4","nintendo",29))
     this.juegos.push(new Juego("mario5","nintendo",33))
 
+    this.juegos.push(new Juego("pepe","Soni",111))
   }
 
+  
 
   public getjuegos(){
     return this.juegos;
